@@ -6,7 +6,9 @@
     "A trailing * is a prefix match: 'allocat*' = allocate/allocated/allocation.",
     "Words of 6+ letters also match misspellings (same first letter, similarity >= 0.88):",
     "'artifical inteligence', 'goverment', 'minster', 'memorandam' all match.",
-    "Short words (ai, mou, cm, rfp) are exact only - fuzzy matching them causes false hits."
+    "Short words (ai, mou, cm, rfp) are exact only - fuzzy matching them causes false hits.",
+    "mask_phrases are removed from the text before government/central matching, so a bare 'state' or 'Centre' can be a keyword without 'state-of-the-art' or 'data centre' triggering it.",
+    "gov_terms includes state leaders/bodies (names change after elections - keep this list current)."
   ],
   "ai_terms": [
     "ai",
@@ -156,7 +158,55 @@
     "guidance tamil nadu",
     "tsic",
     "telangana ai mission",
-    "maha it"
+    "maha it",
+    "administration",
+    "authorities",
+    "authority",
+    "legislature",
+    "legislative assembly",
+    "the state",
+    "state",
+    "panchayat",
+    "zilla parishad",
+    "gram panchayat",
+    "state cabinet",
+    "governor",
+    "ias officer",
+    "bureaucrat*",
+    "revanth",
+    "revanth reddy",
+    "sridhar babu",
+    "ktr",
+    "kt rama rao",
+    "siddaramaiah",
+    "shivakumar",
+    "priyank kharge",
+    "stalin",
+    "udhayanidhi",
+    "thiaga rajan",
+    "trb rajaa",
+    "fadnavis",
+    "eknath shinde",
+    "ajit pawar",
+    "ashish shelar",
+    "bhupendra patel",
+    "harsh sanghavi",
+    "rekha gupta",
+    "dgp",
+    "collectorate",
+    "nims",
+    "gcc policy",
+    "it minister",
+    "ites",
+    "government hospital",
+    "govt hospital",
+    "state-run",
+    "public sector undertaking",
+    "psu",
+    "tmreis",
+    "azharuddin",
+    "ai innovation hub",
+    "aikam"
   ],
   "deal_terms": [
     "funding",
@@ -178,7 +228,11 @@
     "investing",
     "investment",
     "investments",
-    "invested"
+    "invested",
+    "join hands",
+    "joins hands",
+    "team up",
+    "teams up"
   ],
   "exclude_title": [
     "sensex",
@@ -212,10 +266,10 @@
   ],
   "categories": {
     "_order": [
-      "budget_funding",
       "regulation_ethics",
       "procurement",
       "partnership",
+      "budget_funding",
       "policy_mission",
       "institution",
       "governance_deployment",
@@ -235,8 +289,6 @@
       "subsid*",
       "incentive*",
       "funding",
-      "crore",
-      "lakh crore",
       "capital expenditure",
       "capex",
       "invest",
@@ -244,7 +296,13 @@
       "investing",
       "investment",
       "investments",
-      "invested"
+      "invested",
+      "data center*",
+      "data centre*",
+      "hyperscale*",
+      "lay stone",
+      "foundation stone",
+      "expansion"
     ],
     "regulation_ethics": [
       "guideline*",
@@ -271,7 +329,13 @@
       "safeguard*",
       "legislation",
       "bill",
-      "ordinance"
+      "ordinance",
+      "rules",
+      "rulebook",
+      "test bed",
+      "testbed",
+      "sandbox",
+      "light touch"
     ],
     "procurement": [
       "tender*",
@@ -307,7 +371,17 @@
       "inks",
       "inked",
       "joint venture",
-      "alliance"
+      "alliance",
+      "deal",
+      "deals",
+      "strikes deal",
+      "strike deal",
+      "ties up",
+      "partners with",
+      "team up",
+      "teams up",
+      "join",
+      "joins"
     ],
     "policy_mission": [
       "policy",
@@ -372,7 +446,23 @@
       "forecast*",
       "monitor*",
       "digitis*",
-      "automat*"
+      "automat*",
+      "upgrad*",
+      "integrat*",
+      "equip*",
+      "install*",
+      "operational",
+      "go live",
+      "goes live",
+      "train*",
+      "educat*",
+      "curriculum",
+      "integrate ai",
+      "ai tools",
+      "helpline*",
+      "turns to ai",
+      "turn to ai",
+      "initiative*"
     ],
     "statement_intent": [
       "praise*",
@@ -481,5 +571,21 @@
       "gst",
       "stamp*"
     ]
-  }
+  },
+  "mask_phrases": [
+    "state of the art",
+    "state level startup",
+    "state of affairs",
+    "state of mind",
+    "united states",
+    "nation state",
+    "solid state",
+    "steady state",
+    "ai centre",
+    "ai centres",
+    "data centre",
+    "data centres",
+    "centre stage",
+    "centre forward"
+  ]
 }

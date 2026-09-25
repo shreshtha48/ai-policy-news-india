@@ -82,7 +82,13 @@
         "T-Works",
         "Revanth Reddy",
         "Sridhar Babu",
-        "ITE&C Telangana"
+        "ITE&C Telangana",
+        "Future City",
+        "Bharat Future City",
+        "Fourth City",
+        "TMREIS",
+        "Aikam",
+        "Telangana AI Innovation Hub"
       ],
       "metros": {
         "Hyderabad": [
@@ -97,7 +103,12 @@
         "Warangal",
         "Karimnagar",
         "Nizamabad",
-        "Khammam"
+        "Khammam",
+        "Ameenpur",
+        "Sangareddy",
+        "Medchal",
+        "Rangareddy",
+        "Shamshabad"
       ]
     },
     "IN-DL": {
@@ -229,8 +240,6 @@
       "Union govt",
       "Union Minister",
       "Union Cabinet",
-      "Centre",
-      "Centre's",
       "central government",
       "Central govt",
       "MeitY",
@@ -245,7 +254,16 @@
       "Lok Sabha",
       "Rajya Sabha",
       "Government of India",
-      "GoI"
+      "GoI",
+      "the Centre",
+      "Centre's",
+      "Centre to",
+      "Centre has",
+      "Centre will",
+      "Centre plans",
+      "Centre launches",
+      "Centre approves",
+      "Centre and states"
     ]
   },
   "not_focus_but_known": {

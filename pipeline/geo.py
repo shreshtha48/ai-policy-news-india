@@ -9,8 +9,11 @@ Rules (see README "How states are assigned"):
   * Bare "Delhi"/"New Delhi" is weak: it is usually a dateline or the Union
     government. It only counts as IN-DL when there is no Union-govt signal.
   * Union-govt signals with no state hit                  -> IN-CENTRAL.
-  * Several states hit -> the one mentioned most; ties go to the earliest
-    mention; the caller's `hint` (feed section / query state) breaks ties too.
+  * Several states hit -> the one mentioned most; the caller's `hint`
+    (feed section / query state) breaks ties, then the earliest mention.
+  * No state in the text -> the hint, but ONLY for state-specific outlet
+    feeds (The Hindu Telangana section). Search-query hints are never used
+    as a fallback (a "Delhi" query returns Union-govt stories).
   * Only non-focus states hit (e.g. Noida -> UP)           -> that code, and
     the pipeline drops it as out of scope.
 """
@@ -27,7 +30,8 @@ CONFIG = Path(__file__).resolve().parents[1] / "config" / "states.json"
 # Phrases that contain a signal word but mean something else.
 _MASK = [
     r"centre of excellence", r"centres of excellence", r"centre for", r"data centres?",
-    r"tech centre", r"innovation centre", r"call centres?", r"command centre",
+    r"tech centre", r"innovation centre", r"call centres?", r"command centre", r"ai centres?",
+    r"centre stage", r"skill(ing)? centres?", r"research centres?", r"state of the art",
 ]
 _DATELINE = re.compile(r"^\s*(new delhi|delhi|mumbai|chennai|bengaluru|hyderabad)\s*[,:\-–]\s*", re.I)
 
@@ -93,7 +97,12 @@ class Geo:
         r = self.resolve(v)
         return r.state_code
 
-    def resolve(self, text: str, hint: str | None = None) -> GeoResult:
+    def resolve(self, text: str, hint: str | None = None, hint_is_fallback: bool = False) -> GeoResult:
+        """`hint` = the state of the query/feed that found the article.
+        It always breaks ties between states named in the text. It is used as a
+        FALLBACK (no state in the text) only when `hint_is_fallback` is set,
+        i.e. for a state-specific outlet feed - never for search queries, where
+        e.g. a "Delhi" query returns Union-govt stories that are not Delhi's."""
         text = _norm(text or "")
         masked = text
         for m in _MASK:
@@ -131,7 +140,7 @@ class Geo:
             return GeoResult(sorted(others)[0], None, "text_non_focus", False)
         if central:
             return GeoResult(self.central_code, None, "central_signal", True)
-        if hint:
+        if hint and hint_is_fallback:
             return GeoResult(hint, None, "source_hint", hint in self.focus or hint == self.central_code)
         return GeoResult(None, None, "none", False)
 

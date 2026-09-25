@@ -9,12 +9,13 @@ An article is "AI policy activity" when ALL of these hold:
   2. it is not obviously off-topic  (exclude_title: markets, gadgets, films,
                                      Air India / "AI-171" flight numbers ...)
   3. a government is involved       (gov_terms: govt, CM, minister, department,
-                                     MoU, tender, budget, scheme ...), OR the
-                                     state is the subject of the headline
-                                     ("Karnataka explores voice AI"), OR a
-                                     focus state is named together with a
-                                     deal/money word (invest, MoU, contract,
-                                     crore, data centre)
+                                     MoU, tender, budget, scheme, state leaders
+                                     and bodies ...), OR the state is the
+                                     subject of the headline ("Karnataka
+                                     explores voice AI"), OR a focus state /
+                                     metro is named together with a deal word
+                                     or a concrete action in the headline
+                                     ("Hyderabad to get AI centre of excellence")
 Nothing is rejected for lacking a concrete action: a CM praising an AI
 project or saying the state "plans" something signals the state's stance, so
 it is kept as category `statement_intent` (the fallback category).
@@ -25,7 +26,8 @@ from __future__ import annotations
 import re
 from dataclasses import dataclass, field
 
-from .keywords import get_lexicon, normalise
+from .geo import get_geo
+from .keywords import get_lexicon, masked, normalise
 
 # Pattern-shaped exclusions that keywords can't express.
 EXCLUDE_RE = re.compile(r"\bAI[\s-]?\d{2,4}\b|\bshares?\b.*\b(rise|rises|fall|falls|jump|jumps|surge|surges|slip|slips)\b",
@@ -47,6 +49,7 @@ class Verdict:
     category: str = ""
     sector: str = ""
     matched: dict = field(default_factory=dict)   # which keywords fired (audit trail)
+    cat_source: str = ""                          # title | excerpt | fallback
 
 
 def judge(title: str, excerpt: str = "") -> Verdict:
@@ -59,18 +62,35 @@ def judge(title: str, excerpt: str = "") -> Verdict:
     excl = L.exclude.find(t_toks)
     if excl or EXCLUDE_RE.search(title):
         return Verdict(False, "excluded_topic", matched={"ai": ai, "exclude": excl or ["pattern"]})
-    gov = L.gov.find(x_toks)
+    gov = L.gov.find(masked(" ".join(x_toks), L.masks).split())
     deal = L.deal.find(x_toks)
     subject = bool(STATE_SUBJECT.search(title.strip()))
-    if not (gov or subject or (deal and FOCUS_STATE_RE.search(text))):
+    g = get_geo().resolve(text)
+    state_named = bool(g.in_focus and g.state_code and g.state_code != get_geo().central_code)
+    headline_action = category_of(title)[1] == "title"
+    if not (gov or subject or (state_named and (deal or headline_action))):
         return Verdict(False, "no_gov_signal", matched={"ai": ai})
     # Category: headline decides (it states the action); excerpt is fallback;
     # statement_intent is the catch-all for stance/intent pieces.
-    cat = _first(L.category_order[:-1], L.categories, t_toks) or \
-          _first(L.category_order[:-1], L.categories, normalise(excerpt).split()) or "statement_intent"
+    cat, src = category_of(title, excerpt)
     sector = _first(L.sector_order, L.sectors, x_toks) or ""
     return Verdict(True, "", cat, sector,
-                   matched={"ai": ai, "gov": gov or (["state_as_subject"] if subject else deal)})
+                   matched={"ai": ai, "gov": gov or (["state_as_subject"] if subject else
+                                                     deal or ["state_named+action"])}, cat_source=src)
+
+
+def category_of(title: str, excerpt: str = "") -> tuple[str, str]:
+    """(category, where it came from). The headline states the action, so it
+    decides first; the excerpt is a fallback; statement_intent is the catch-all."""
+    L = get_lexicon()
+    order = [c for c in L.category_order if c != "statement_intent"]
+    cat = _first(order, L.categories, normalise(title).split())
+    if cat:
+        return cat, "title"
+    cat = _first(order, L.categories, normalise(excerpt).split())
+    if cat:
+        return cat, "excerpt"
+    return "statement_intent", "fallback"
 
 
 def _first(order, sets, toks) -> str:
@@ -93,8 +113,9 @@ ACTOR_PATTERNS = [
     (r"\bMeitY\b", "MeitY"), (r"\bIndiaAI\b", "IndiaAI Mission"), (r"\bNASSCOM\b", "NASSCOM"),
     (r"\bIIT[\s-]?(Madras|Bombay|Delhi|Hyderabad|Gandhinagar|Kanpur|Kharagpur)\b", None),
     (r"\bIIIT[\s-]?(Hyderabad|Bangalore|Bengaluru|Delhi)\b", None), (r"\bIISc\b", "IISc"),
+    (r"\bTata Consultancy Services\b|\bHyperVault\b", "TCS"),
     (r"\b(Google|Microsoft|Nvidia|NVIDIA|OpenAI|Anthropic|Meta|Amazon|AWS|IBM|Intel|Infosys|TCS|Wipro|HCL\w*"
-     r"|Sarvam|ElevenLabs|Qualcomm|Adobe|Salesforce|Tata \w+|Reliance|Jio|L&T|Accenture|Cisco|Oracle|AMD|Micron)\b", None),
+     r"|Sarvam|ElevenLabs|Qualcomm|Adobe|Salesforce|Reliance|Jio|L&T|Accenture|Cisco|Oracle|AMD|Micron|Fortune|CtrlS|Airtel|Yotta|Sify|Adani|Philips|Unilever|Deakin|HAL|NIMS)\b", None),
     (r"\b[A-Z][a-z]+ University\b", None),
 ]
 ACTOR_RES = [(re.compile(p), label) for p, label in ACTOR_PATTERNS]
@@ -112,6 +133,20 @@ def actors_of(text: str) -> list[str]:
     return found[:5]
 
 
+PARTNER_LABELS = {"IISc", "NASSCOM", "TCS"}
+
+
+def partners_of(text: str) -> set[str]:
+    """Named outside parties (companies, universities, IITs) - used by dedupe:
+    two headlines naming DIFFERENT partners are never the same event."""
+    out = set()
+    for pat, label in ACTOR_RES:
+        if label is None or label in PARTNER_LABELS:
+            for m in pat.finditer(text):
+                out.add((label or m.group(0)).lower())
+    return out
+
+
 def amount_crore(text: str) -> float | None:
     best = None
     for num, unit in AMOUNT.findall(text):
@@ -123,3 +158,20 @@ def amount_crore(text: str) -> float | None:
             v *= 100000
         best = v if best is None else max(best, v)
     return best
+
+
+def near_miss(title: str, reason: str = "not_ai") -> bool:
+    """A rejected headline worth reading in full (review step 2). It must name
+    a focus state (not the Union govt), and:
+      * rejected as not_ai        -> the headline names a concrete action
+        (MoU, deploys, tender, CoE...) - the body may say it's AI;
+      * rejected for gov/semantic -> it already mentions AI - the body may
+        show the government is involved."""
+    L = get_lexicon()
+    g = get_geo().resolve(title)
+    if not (g.in_focus and g.state_code and g.state_code != get_geo().central_code):
+        return False
+    toks = normalise(title).split()
+    if reason == "not_ai":
+        return category_of(title)[1] == "title"
+    return bool(L.ai.find(toks))

@@ -146,6 +146,7 @@ class Lexicon:
         self.exclude = KeywordSet("exclude_title", c["exclude_title"])
         self.category_order = c["categories"]["_order"]
         self.categories = {k: KeywordSet(k, c["categories"][k]) for k in self.category_order}
+        self.masks = [normalise(m) for m in c.get("mask_phrases", [])]
         self.sector_order = c["sectors"]["_order"]
         self.sectors = {k: KeywordSet(k, c["sectors"][k]) for k in self.sector_order}
 
@@ -153,3 +154,11 @@ class Lexicon:
 @lru_cache(maxsize=1)
 def get_lexicon() -> Lexicon:
     return Lexicon()
+
+
+def masked(norm_text: str, masks: list[str]) -> str:
+    """Remove mask phrases (already normalised) from normalised text."""
+    t = f" {norm_text} "
+    for m in masks:
+        t = t.replace(f" {m} ", " ")
+    return t.strip()
