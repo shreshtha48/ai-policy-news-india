@@ -45,7 +45,11 @@ class TestClassify(unittest.TestCase):
         self.assertEqual(judge("Gujarat budget earmarks Rs 250 crore for AI").category, "budget_funding")
         self.assertEqual(judge("Maharashtra issues guidelines on deepfakes").category, "regulation_ethics")
         self.assertEqual(judge("Karnataka explores voice AI for skilling").category, "governance_deployment")
-        self.assertEqual(judge("Delhi CM urges AI innovation at convocation").reason, "no_concrete_action")
+        # stance / intent is kept, not rejected
+        self.assertEqual(judge("Delhi CM urges AI innovation at convocation").category, "statement_intent")
+        self.assertEqual(judge("Telangana CM praises Google Gemini infrastructure").category, "statement_intent")
+        self.assertEqual(judge("Maharashtra floats tender for AI-based traffic system").category, "procurement")
+        self.assertEqual(judge("Google to invest Rs 10,000 crore in AI data centre in Hyderabad").category, "budget_funding")
         self.assertEqual(judge("Infosys shares jump on AI deal").reason, "excluded_topic")
         self.assertEqual(judge("Air India AI-171 probe ordered by state government").reason, "excluded_topic")
         self.assertEqual(judge("Startup raises funding for AI chips").reason, "no_gov_signal")
@@ -54,6 +58,33 @@ class TestClassify(unittest.TestCase):
     def test_amount(self):
         self.assertEqual(amount_crore("Rs 1.5 lakh crore"), 150000)
         self.assertEqual(amount_crore("₹2,500 crore"), 2500)
+
+
+class TestKeywords(unittest.TestCase):
+    def test_case_dots_and_typos(self):
+        from pipeline.classify import judge
+        v = judge("Gujarat goverment signs M.o.U with IIT Gandhinagar for artifical inteligence lab")
+        self.assertTrue(v.keep)
+        self.assertEqual(v.category, "partnership")
+        self.assertIn("artificial intelligence", v.matched["ai"])
+        self.assertTrue(judge("state minster reviews ai-powered crop app").keep)
+
+    def test_fuzzy_does_not_confuse_real_words(self):
+        from pipeline.keywords import Keyword, _tok_eq
+        def eq(tok, kw):
+            k = Keyword(kw)
+            return _tok_eq(tok, k.tokens[0], k.prefix)
+        for tok, kw in [("goverment", "government"), ("minster", "minister"), ("allcoation", "allocat*"),
+                        ("collabration", "collaborat*"), ("surveilance", "surveillance")]:
+            self.assertTrue(eq(tok, kw), (tok, kw))
+        for tok, kw in [("policy", "police"), ("contrast", "contract*"), ("deplore", "deploy*"),
+                        ("startup", "startuptn"), ("session", "mission")]:
+            self.assertFalse(eq(tok, kw), (tok, kw))
+
+    def test_investor_is_not_investment(self):
+        from pipeline.classify import judge
+        self.assertNotEqual(judge("Karnataka explores voice AI for skilling and investor assistance").category,
+                            "budget_funding")
 
 
 class TestDates(unittest.TestCase):

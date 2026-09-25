@@ -11,6 +11,7 @@ from . import classify
 from .dates import to_ist_date
 from .dedupe import canonical_url, cluster, norm_title
 from .geo import get_geo
+from .keywords import get_lexicon
 from .models import RawArticle
 
 log = logging.getLogger(__name__)
@@ -90,11 +91,12 @@ def build(raw: list[RawArticle], since: str = SINCE):
         kept.append({"raw": a, "date": d, "precision": prec, "state_code": g.state_code,
                      "city": g.city or "", "state_basis": g.basis, "category": v.category,
                      "sector": v.sector, "title": a.title, "text": text,
+                     "matched": "; ".join(f"{k}:{'|'.join(ws)}" for k, ws in v.matched.items()),
                      "canon": canonical_url(a.url), "domain": a.source_domain})
 
     groups = cluster(kept)
     events, articles = [], []
-    cat_order = [c for c, _ in classify.CATEGORY_RULES]
+    cat_order = get_lexicon().category_order
     for g in groups:
         members = [kept[i] for i in g]
         members.sort(key=lambda m: (m["date"] or "9999", _tier(m["domain"]), KIND_RANK.get(m["raw"].source_kind, 3)))
@@ -109,7 +111,7 @@ def build(raw: list[RawArticle], since: str = SINCE):
         cities = Counter(m["city"] for m in members if m["city"])
         all_text = " ".join(m["text"] for m in members)
         excerpt = next((m["raw"].excerpt for m in [primary] + members if m["raw"].excerpt), "")
-        amount = classify.amount_crore(all_text) if category in ("budget_funding", "partnership") else None
+        amount = classify.amount_crore(all_text) if category in ("budget_funding", "partnership", "procurement") else None
         eid = _hid("EVT", primary["state_code"], members[0]["canon"], n=8)
         outlets = {(m["domain"] or m["raw"].source_name.lower()) for m in members}
         events.append({
@@ -142,6 +144,7 @@ def build(raw: list[RawArticle], since: str = SINCE):
                 "fetched_via": m["raw"].source_kind,
                 "is_primary": "true" if m is primary else "false",
                 "state_basis": m["state_basis"],
+                "matched_terms": m["matched"],
             })
     events.sort(key=lambda e: (e["first_reported_date"], e["source_count"]), reverse=True)
     articles.sort(key=lambda a: (a["event_id"], a["published_date"]))

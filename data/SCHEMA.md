@@ -4,6 +4,9 @@ The dashboard reads CSVs only. The mock files in `data/mock/` use **exactly** th
 same columns the real pipeline will write to `data/processed/`, so switching
 from mock to real is a path change.
 
+> Real output: `data/processed/events.csv`, `articles.csv` (same columns) plus
+> `rejected.csv` (dropped items with a reason).
+>
 > MOCK DATA IS FICTIONAL. Sources are "Mock ..." and URLs point to example.com.
 > Regenerate with `python scripts/make_mock_data.py` (deterministic).
 
@@ -26,11 +29,11 @@ with `source_count = 9`.
 
 | Column | Type | Rules |
 |---|---|---|
-| `event_id` | string | `EVT-0001`. Stable primary key |
+| `event_id` | string | `EVT-0001` in mock, `EVT-<8 hex>` in real data. Treat as opaque string key |
 | `state_code` | enum | ISO 3166-2: `IN-TN IN-KA IN-TG IN-DL IN-GJ IN-MH`, plus `IN-CENTRAL` for Union govt. Always use the code, never free text |
 | `state_name` | string | Display name, derived from code |
 | `city` | string, nullable | **Only** for metros (Chennai, Bengaluru, Hyderabad, Delhi, Mumbai, Pune, Ahmedabad). Empty otherwise |
-| `category` | enum | `policy_mission institution partnership governance_deployment budget_funding regulation_ethics` |
+| `category` | enum | `policy_mission institution partnership procurement governance_deployment budget_funding regulation_ethics statement_intent` (labels in `reference/categories.csv`). `statement_intent` = a leader signalling plans/stance without a concrete action yet; consider styling it lighter |
 | `sector` | enum, nullable | `health agriculture policing education urban revenue`. Mainly for `governance_deployment` |
 | `title` | string | Canonical headline (from primary source) |
 | `summary` | string | One line |
@@ -39,7 +42,7 @@ with `source_count = 9`.
 | `first_reported_date` | ISO date, always set | Earliest article date. **Use this for timelines** because it's never empty |
 | `primary_source_name` | string | Outlet of the chosen primary article |
 | `primary_source_url` | URL | Link to show on the card/table |
-| `source_count` | int >= 1 | Number of distinct articles merged into this event, a proxy for significance |
+| `source_count` | int >= 1 | Number of distinct outlets covering this event, a proxy for significance |
 | `actors` | string, `; `-separated | Govt bodies/partners involved |
 | `amount_inr_crore` | number, nullable | Only for money announcements (mostly `budget_funding`) |
 
@@ -55,6 +58,8 @@ with `source_count = 9`.
 | `published_date` | ISO date | |
 | `fetched_via` | enum | `google_news_rss gdelt gnews` |
 | `is_primary` | bool | `true` for the one article chosen as the event's primary |
+| `state_basis` | enum | How the state was decided: `text`, `text_multi_state`, `central_signal`, `source_hint` (audit only) |
+| `matched_terms` | string | Keywords that fired, e.g. `ai:ai|gemini; gov:cm` (audit only) |
 
 ## Dashboard notes
 

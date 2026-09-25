@@ -1,7 +1,9 @@
 category,label,description,example
-policy_mission,Policy / Mission,State announces or notifies an AI policy/mission/strategy,Karnataka AI policy notified
-institution,Institution / CoE,State sets up task force / centre of excellence / AI body,Telangana AI task force formed
-partnership,Partnership / MoU,State signs MoU with company / university for AI,Gujarat MoU with university for AI lab
-governance_deployment,Governance Deployment,State deploys AI in a public service (see sector),AI triage in Tamil Nadu govt hospitals
-budget_funding,Budget / Funding,State budget line or fund earmarked for AI,Rs 100 crore for AI in state budget
-regulation_ethics,Regulation / Ethics,Rules/guidelines/ethics frameworks on AI use,Deepfake advisory for state departments
+policy_mission,Policy / Mission,State announces or notifies an AI policy/mission/strategy/roadmap,Karnataka AI policy notified
+institution,Institution / CoE,State sets up task force / centre of excellence / AI body or city,Telangana AI task force formed
+partnership,Partnership / MoU,State signs MoU / LoI / pact with company / university for AI,Gujarat MoU with IIT for AI lab
+procurement,Procurement / Contract,State floats tender / RFP / awards contract for AI systems,Maharashtra tender for AI traffic system
+governance_deployment,Governance Deployment,State deploys or pilots AI in a public service (see sector),AI triage in Tamil Nadu govt hospitals
+budget_funding,Budget / Funding / Investment,State budget line / fund / grant / incentive / investment announcement for AI,Rs 100 crore for AI in state budget
+regulation_ethics,Regulation / Ethics,Rules / guidelines / advisories / ethics on AI use,Deepfake advisory for state departments
+statement_intent,Statement / Intent,Leader signals stance or plans (praise / plans / urges) without a concrete action yet,CM praises Gemini infra; says state wants similar hub

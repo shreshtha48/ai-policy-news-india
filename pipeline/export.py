@@ -9,7 +9,7 @@ EVENT_COLS = ["event_id", "state_code", "state_name", "city", "category", "secto
               "event_date", "date_precision", "first_reported_date", "primary_source_name",
               "primary_source_url", "source_count", "actors", "amount_inr_crore"]
 ARTICLE_COLS = ["article_id", "event_id", "state_code", "title", "source_name", "source_url",
-                "published_date", "fetched_via", "is_primary", "state_basis"]
+                "published_date", "fetched_via", "is_primary", "state_basis", "matched_terms"]
 REJECT_COLS = ["reason", "state_code", "title", "source_name", "source_url", "published_date", "fetched_via"]
 
 

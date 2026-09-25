@@ -1,78 +1,84 @@
 """Where we draw the line: relevance + category + sector + actors + amount.
 
-An article is "AI policy activity" only if ALL of these hold:
-  1. it is about AI           (AI_TERMS)
-  2. a government is acting   (GOV_TERMS, a state body, or the state is the
-                               grammatical subject of the headline:
-                               "Karnataka explores voice AI ...")
-  3. it is not an obvious off-topic item (EXCLUDE: markets, gadgets, Air India
-     flight numbers, entertainment ...)
-  4. it maps to a category    (otherwise: an AI speech/opinion with no concrete
-                               action -> rejected as 'no_concrete_action')
-Rules are deliberately transparent regexes: every rejection carries a reason
-and is written to rejected.csv so the line can be audited and tuned.
+All keyword lists live in config/keywords.json and are matched
+case-insensitively with typo tolerance (pipeline/keywords.py).
+
+An article is "AI policy activity" when ALL of these hold:
+  1. it is about AI                 (ai_terms: AI, GenAI, LLM, chatbot, Gemini,
+                                     deepfake, data centre, GPU ...)
+  2. it is not obviously off-topic  (exclude_title: markets, gadgets, films,
+                                     Air India / "AI-171" flight numbers ...)
+  3. a government is involved       (gov_terms: govt, CM, minister, department,
+                                     MoU, tender, budget, scheme ...), OR the
+                                     state is the subject of the headline
+                                     ("Karnataka explores voice AI"), OR a
+                                     focus state is named together with a
+                                     deal/money word (invest, MoU, contract,
+                                     crore, data centre)
+Nothing is rejected for lacking a concrete action: a CM praising an AI
+project or saying the state "plans" something signals the state's stance, so
+it is kept as category `statement_intent` (the fallback category).
+Every rejection carries a reason and goes to rejected.csv.
 """
 from __future__ import annotations
 
 import re
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 
-AI_TERMS = re.compile(
-    r"\bartificial[\s-]intelligence\b|\bGen\s?AI\b|\bgenerative AI\b|\bmachine learning\b"
-    r"|\bdeep ?fakes?\b|\bLLMs?\b|\blarge language model|\bAI\b|\bA\.I\.", re.I)
-AI_CASE_SENSITIVE = re.compile(r"\bAI\b")      # "ai" lowercase in slugs/words shouldn't count
-AI_WORDY = re.compile(r"artificial[\s-]intelligence|gen\s?ai|generative ai|machine learning"
-                      r"|deep ?fakes?|\bllms?\b|large language model", re.I)
+from .keywords import get_lexicon, normalise
 
-GOV_TERMS = re.compile(
-    r"\bgovernment\b|\bgovt\b|\bminister\b|\bministry\b|\bCM\b|\bchief minister\b|\bcabinet\b"
-    r"|\bdepartment\b|\bdept\b|\bpolicy\b|\bmission\b|\bMoUs?\b|\bpact\b|\btask ?force\b"
-    r"|\bbudget\b|\bpolice\b|\bcollector\b|\bdistrict administration\b|\bmunicipal\b"
-    r"|\bcivic body\b|\bassembly\b|\bsecretariat\b|\be-?governance\b|\bpublic services?\b"
-    r"|\bcitizen services?\b|\bstate-run\b|\bofficials?\b|\bmantralaya\b|\bscheme\b"
-    r"|\bguidelines\b|\badvisory\b|\bregulat\w*|\bstate\b|\bUnion\b|\bCentre\b|\bMeitY\b|\bIndiaAI\b"
-    r"|\bT-Hub\b|\bKITS\b|\bStartupTN\b|\bTNeGA\b|\bi-?Hub Gujarat\b|\bMahaIT\b|\bBBMP\b|\bGHMC\b"
-    r"|\bBMC\b|\bNDMC\b|\bMCD\b|\bGIFT City\b", re.I)
+# Pattern-shaped exclusions that keywords can't express.
+EXCLUDE_RE = re.compile(r"\bAI[\s-]?\d{2,4}\b|\bshares?\b.*\b(rise|rises|fall|falls|jump|jumps|surge|surges|slip|slips)\b",
+                        re.I)
 STATE_SUBJECT = re.compile(
     r"^(tamil nadu|tn|karnataka|telangana|delhi|gujarat|maharashtra)(\s+(govt|government|cabinet|cm))?"
     r"\s+(to|will|plans?|launches?|unveils?|signs?|sets?|explores?|rolls?|announces?|approves?|"
     r"introduces?|partners?|ties|inks?|deploys?|adopts?|begins?|starts?|gets?|opens?|issues?|allocates?|"
-    r"earmarks?|notifies|releases?|forms?|creates?|seeks?|eyes|bets|pushes|mulls|readies)\b", re.I)
+    r"earmarks?|notifies|releases?|forms?|creates?|seeks?|eyes|bets|pushes|mulls|readies|invites?|woos?|"
+    r"floats?|awards?|aims?|wants?)\b", re.I)
+FOCUS_STATE_RE = re.compile(r"\b(tamil nadu|karnataka|telangana|delhi|gujarat|maharashtra|chennai|bengaluru|"
+                            r"bangalore|hyderabad|mumbai|pune|ahmedabad|gandhinagar)\b", re.I)
 
-EXCLUDE = re.compile(
-    r"\bshares?\b.*\b(rise|fall|jump|surge|slip)|\bSensex\b|\bNifty\b|\bIPO\b|\bQ[1-4] results\b"
-    r"|\bbox office\b|\biPhone\b|\bsmartphone\b|\blaptop\b|\bhoroscope\b|\bcricket\b|\bIPL\b"
-    r"|\bAir India\b|\bAI[\s-]?\d{2,4}\b|\bmovie\b|\bfilm\b|\btrailer\b", re.I)
 
-# Order matters: first match wins (see README for why).
-CATEGORY_RULES: list[tuple[str, re.Pattern]] = [
-    ("budget_funding", re.compile(r"\bbudget\b|\ballocat\w*|\boutlay\b|\bearmark\w*|\bcorpus\b"
-                                  r"|\bfund of funds\b|\bAI fund\b|\bgrants?\b|\bsanction(s|ed)?\b", re.I)),
-    ("regulation_ethics", re.compile(r"\bguidelines?\b|\bregulat\w*|\bethic\w*|\bdeep ?fakes?\b|\badvisory\b"
-                                     r"|\bban(s|ned)?\b|\bresponsible AI\b|\bmisuse\b|\bSOPs?\b|\bprivacy\b"
-                                     r"|\bgovernance framework\b|\bcode of conduct\b", re.I)),
-    ("partnership", re.compile(r"\bMoUs?\b|\bpact\b|\bpartner\w*|\bties? up\b|\btie-up\b|\bcollaborat\w*"
-                               r"|\bagreement\b|\bjoins hands\b|\bLoI\b|\binks?\b|\bsigns?\b", re.I)),
-    ("policy_mission", re.compile(r"\bpolicy\b|\bmission\b|\bstrategy\b|\broadmap\b|\bblueprint\b"
-                                  r"|\baction plan\b|\bvision document\b|\bframework\b", re.I)),
-    ("institution", re.compile(r"\btask ?force\b|\bcentres? of excellence\b|\bCoE\b|\bcommittee\b"
-                               r"|\bcouncil\b|\bAI city\b|\binstitute\b|\bAI hub\b|\bcell\b|\blab\b"
-                               r"|\bsets? up\b|\bestablish\w*|\binaugurat\w*|\bAI university\b", re.I)),
-    ("governance_deployment", re.compile(r"\bdeploy\w*|\blaunch\w*|\broll(s|ed)? out\b|\bpilot\w*"
-                                         r"|\bintroduc\w*|\bAI[\s-](powered|based|enabled|driven)\b"
-                                         r"|\bchatbot\b|\bus(es|ing|e) AI\b|\badopt\w*|\bimplement\w*"
-                                         r"|\bcameras?\b|\bsurveillance\b|\bportal\b|\bapp\b|\bexplor\w*"
-                                         r"|\bscreening\b|\bdiagnos\w*|\bforecast\w*|\bmonitor\w*", re.I)),
-]
+@dataclass
+class Verdict:
+    keep: bool
+    reason: str = ""
+    category: str = ""
+    sector: str = ""
+    matched: dict = field(default_factory=dict)   # which keywords fired (audit trail)
 
-SECTOR_RULES: list[tuple[str, re.Pattern]] = [
-    ("health", re.compile(r"\bhealth\w*|\bhospital|\bmedical\b|\bpatients?\b|\bdiagnos|\bTB\b|\bcancer\b|\bdoctor", re.I)),
-    ("agriculture", re.compile(r"\bagri\w*|\bfarm\w*|\bcrops?\b|\bkisan\b|\bsoil\b|\birrigation\b|\bmonsoon\b", re.I)),
-    ("policing", re.compile(r"\bpolice\b|\bcrime\b|\bcyber ?crime\b|\bCCTV\b|\blaw and order\b|\bsurveillance\b|\bdeep ?fakes?\b", re.I)),
-    ("education", re.compile(r"\bschools?\b|\bstudents?\b|\bteachers?\b|\beducation\b|\bcurriculum\b|\bskilling\b|\bskills?\b|\buniversit|\bcolleges?\b", re.I)),
-    ("urban", re.compile(r"\bcivic\b|\bmunicipal\b|\burban\b|\btraffic\b|\bwaste\b|\bwater supply\b|\bmetro rail\b|\bGHMC\b|\bBBMP\b|\bBMC\b", re.I)),
-    ("revenue", re.compile(r"\brevenue\b|\btax\w*|\bland records?\b|\bregistration\b|\bGST\b|\bstamps?\b", re.I)),
-]
+
+def judge(title: str, excerpt: str = "") -> Verdict:
+    L = get_lexicon()
+    text = f"{title}. {excerpt}".strip()
+    t_toks, x_toks = normalise(title).split(), normalise(text).split()
+    ai = L.ai.find(x_toks)
+    if not ai:
+        return Verdict(False, "not_ai")
+    excl = L.exclude.find(t_toks)
+    if excl or EXCLUDE_RE.search(title):
+        return Verdict(False, "excluded_topic", matched={"ai": ai, "exclude": excl or ["pattern"]})
+    gov = L.gov.find(x_toks)
+    deal = L.deal.find(x_toks)
+    subject = bool(STATE_SUBJECT.search(title.strip()))
+    if not (gov or subject or (deal and FOCUS_STATE_RE.search(text))):
+        return Verdict(False, "no_gov_signal", matched={"ai": ai})
+    # Category: headline decides (it states the action); excerpt is fallback;
+    # statement_intent is the catch-all for stance/intent pieces.
+    cat = _first(L.category_order[:-1], L.categories, t_toks) or \
+          _first(L.category_order[:-1], L.categories, normalise(excerpt).split()) or "statement_intent"
+    sector = _first(L.sector_order, L.sectors, x_toks) or ""
+    return Verdict(True, "", cat, sector,
+                   matched={"ai": ai, "gov": gov or (["state_as_subject"] if subject else deal)})
+
+
+def _first(order, sets, toks) -> str:
+    for name in order:
+        if sets[name].any(toks):
+            return name
+    return ""
+
 
 ACTOR_PATTERNS = [
     (r"\bIT (department|dept|minister)\b|\bITE&C\b", "State IT Department"),
@@ -94,52 +100,6 @@ ACTOR_PATTERNS = [
 ACTOR_RES = [(re.compile(p), label) for p, label in ACTOR_PATTERNS]
 
 AMOUNT = re.compile(r"(?:Rs\.?|₹|INR)\s?([\d,]+(?:\.\d+)?)\s*(lakh crore|crore|cr\b)", re.I)
-
-
-@dataclass
-class Verdict:
-    keep: bool
-    reason: str = ""
-    category: str = ""
-    sector: str = ""
-
-
-def is_ai(text: str) -> bool:
-    return bool(AI_CASE_SENSITIVE.search(text) or AI_WORDY.search(text))
-
-
-def has_gov_signal(title: str, text: str) -> bool:
-    return bool(GOV_TERMS.search(text) or STATE_SUBJECT.search(title.strip()))
-
-
-def category_of(text: str) -> str:
-    for cat, pat in CATEGORY_RULES:
-        if pat.search(text):
-            return cat
-    return ""
-
-
-def sector_of(text: str) -> str:
-    for sec, pat in SECTOR_RULES:
-        if pat.search(text):
-            return sec
-    return ""
-
-
-def judge(title: str, excerpt: str = "") -> Verdict:
-    text = f"{title}. {excerpt}".strip()
-    if not is_ai(text):
-        return Verdict(False, "not_ai")
-    if EXCLUDE.search(title):
-        return Verdict(False, "excluded_topic")
-    if not has_gov_signal(title, text):
-        return Verdict(False, "no_gov_signal")
-    # Category is decided on the headline first (it states the action);
-    # the excerpt is only a fallback.
-    cat = category_of(title) or category_of(excerpt)
-    if not cat:
-        return Verdict(False, "no_concrete_action")
-    return Verdict(True, "", cat, sector_of(text))
 
 
 def actors_of(text: str) -> list[str]:

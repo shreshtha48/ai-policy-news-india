@@ -70,6 +70,14 @@ TEMPLATES = {
         ("{s} announces Rs {amt} crore AI fund for startups",
          "A Rs {amt} crore fund will back AI startups based in the state.", None),
     ],
+    "procurement": [
+        ("{s} floats tender for AI-based {sec} system",
+         "The state invited bids for an AI system to support {sec} services.", "sec"),
+    ],
+    "statement_intent": [
+        ("{s} CM praises AI infrastructure, says state plans similar hub",
+         "The Chief Minister signalled interest in building AI infrastructure; no formal decision yet.", None),
+    ],
     "regulation_ethics": [
         ("{s} issues guidelines on AI use by government departments",
          "Departments must follow new guidelines on data privacy and human oversight of AI.", None),
@@ -78,7 +86,8 @@ TEMPLATES = {
     ],
 }
 CAT_WEIGHTS = {"policy_mission": 3, "institution": 3, "partnership": 5,
-               "governance_deployment": 6, "budget_funding": 2, "regulation_ethics": 2}
+               "governance_deployment": 6, "budget_funding": 2, "regulation_ethics": 2,
+               "procurement": 2, "statement_intent": 3}
 
 MOCK_SOURCES = ["Mock Daily", "Mock Times", "Mock Business Standard",
                 "Mock Tech Wire", "Mock Gov Review", "Mock Regional Post",
@@ -106,7 +115,7 @@ for i in range(1, N_EVENTS + 1):
     t_title, t_sum, sub = random.choice(TEMPLATES[cat])
     sector = random.choice(SECTORS) if sub == "sec" else (sub or "")
     city = random.choice(metros) if metros and random.random() < 0.45 else ""
-    amt = random.choice([25, 50, 100, 150, 250, 500]) if cat == "budget_funding" else None
+    amt = random.choice([25, 50, 100, 150, 250, 500]) if cat in ("budget_funding", "procurement") else None
     fmt = dict(s=state_name if code != "IN-CENTRAL" else "Centre",
                c=city or (metros[0] if metros else "New Delhi"),
                p=random.choice(PARTNERS), sec=sector or "public", n=random.choice([500, 1000, 2000]),
@@ -143,6 +152,8 @@ for i in range(1, N_EVENTS + 1):
             "published_date": p_date.isoformat(),
             "fetched_via": random.choice(FETCHERS),
             "is_primary": "true" if j == 0 else "false",
+            "state_basis": "text",
+            "matched_terms": "ai:ai; gov:government",
         })
         first = first or (src, articles[-1]["source_url"], p_date)
 
