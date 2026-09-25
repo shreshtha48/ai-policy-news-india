@@ -1,0 +1,49 @@
+{
+  "generated_at": "2026-09-25T07:48:38+00:00",
+  "since": "2026-01-01",
+  "classifier": "rules",
+  "raw_records": 11034,
+  "raw_by_source": {
+    "gdelt": 500,
+    "gnews": 15,
+    "google_news_rss": 10258,
+    "newsapi": 1,
+    "newsdata": 20,
+    "outlet_rss": 240
+  },
+  "events": 639,
+  "articles_kept": 1076,
+  "rejected": 6712,
+  "events_by_state": {
+    "IN-TG": 200,
+    "IN-DL": 16,
+    "IN-TN": 114,
+    "IN-KA": 255,
+    "IN-MH": 19,
+    "IN-GJ": 10,
+    "IN-CENTRAL": 25
+  },
+  "events_by_category": {
+    "partnership": 47,
+    "governance_deployment": 222,
+    "statement_intent": 125,
+    "budget_funding": 105,
+    "regulation_ethics": 37,
+    "policy_mission": 35,
+    "institution": 65,
+    "procurement": 3
+  },
+  "articles_by_classifier": {
+    "rules": 1076
+  },
+  "rejected_by_reason": {
+    "excluded_topic": 87,
+    "before_2026-01-01": 43,
+    "not_ai": 4644,
+    "no_gov_signal": 1581,
+    "no_state": 297,
+    "non_focus_state": 60
+  },
+  "events_date_unknown": 0,
+  "events_url_unresolved": 610
+}
