@@ -1,0 +1,218 @@
+article_id,event_id,state_code,title,source_name,source_url,published_date,fetched_via,is_primary
+ART-00001,EVT-0001,IN-MH,Maharashtra launches state AI Mission with focus on public services,Mock Times,https://example.com/mock/mock-times/evt-0001-1,2026-07-13,google_news_rss,true
+ART-00002,EVT-0002,IN-TN,Tamil Nadu unveils AI policy targeting 2000 startups by 2030,Mock Business Standard,https://example.com/mock/mock-business-standard/evt-0002-1,2026-03-06,google_news_rss,true
+ART-00003,EVT-0002,IN-TN,Tamil Nadu unveils artificial intelligence policy targeting 2000 startups by 2030,Mock Tech Wire,https://example.com/mock/mock-tech-wire/evt-0002-2,2026-03-06,google_news_rss,false
+ART-00004,EVT-0002,IN-TN,Tamil Nadu unveils AI policy targeting 2000 startups by 2030 - report,Mock Gov Review,https://example.com/mock/mock-gov-review/evt-0002-3,2026-03-07,google_news_rss,false
+ART-00005,EVT-0002,IN-TN,Tamil Nadu unveils AI policy targeting 2000 startups by 2030,Mock Regional Post,https://example.com/mock/mock-regional-post/evt-0002-4,2026-03-07,google_news_rss,false
+ART-00006,EVT-0003,IN-DL,Delhi rolls out AI tool in revenue department,Mock Tech Wire,https://example.com/mock/mock-tech-wire/evt-0003-1,2025-03-22,google_news_rss,true
+ART-00007,EVT-0003,IN-DL,Delhi rolls out AI tool in revenue department - report,Mock Gov Review,https://example.com/mock/mock-gov-review/evt-0003-2,2025-03-22,google_news_rss,false
+ART-00008,EVT-0003,IN-DL,Delhi rolls out AI tool in revenue department - report,Mock Regional Post,https://example.com/mock/mock-regional-post/evt-0003-3,2025-03-22,google_news_rss,false
+ART-00009,EVT-0004,IN-MH,Maharashtra partners an AI startup consortium to build AI compute facility,Mock Gov Review,https://example.com/mock/mock-gov-review/evt-0004-1,2025-03-15,google_news_rss,true
+ART-00010,EVT-0004,IN-MH,Maharashtra partners an artificial intelligence startup consortium to build artificial intelligence compute facility,Mock Regional Post,https://example.com/mock/mock-regional-post/evt-0004-2,2025-03-15,gdelt,false
+ART-00011,EVT-0005,IN-MH,Maharashtra budget earmarks Rs 100 crore for AI,Mock Regional Post,https://example.com/mock/mock-regional-post/evt-0005-1,2025-03-09,gdelt,true
+ART-00012,EVT-0006,IN-TG,AI Centre of Excellence inaugurated in Hyderabad,Mock Chronicle,https://example.com/mock/mock-chronicle/evt-0006-1,2026-02-13,google_news_rss,true
+ART-00013,EVT-0006,IN-TG,AI Centre of Excellence inaugurated in Hyderabad,Mock Herald,https://example.com/mock/mock-herald/evt-0006-2,2026-02-13,google_news_rss,false
+ART-00014,EVT-0007,IN-MH,Maharashtra partners a state university to build AI compute facility,Mock Herald,https://example.com/mock/mock-herald/evt-0007-1,2025-04-28,google_news_rss,true
+ART-00015,EVT-0007,IN-MH,Explained: Maharashtra partners a state university to build AI compute facility,Mock Daily,https://example.com/mock/mock-daily/evt-0007-2,2025-04-28,gdelt,false
+ART-00016,EVT-0007,IN-MH,Maharashtra partners a state university to build artificial intelligence compute facility,Mock Times,https://example.com/mock/mock-times/evt-0007-3,2025-04-28,google_news_rss,false
+ART-00017,EVT-0007,IN-MH,Maharashtra partners a state university to build AI compute facility - report,Mock Business Standard,https://example.com/mock/mock-business-standard/evt-0007-4,2025-04-29,gnews,false
+ART-00018,EVT-0008,IN-DL,Delhi signs MoU with a state university for AI skilling,Mock Daily,https://example.com/mock/mock-daily/evt-0008-1,2025-01-01,google_news_rss,true
+ART-00019,EVT-0009,IN-TG,Telangana rolls out AI tool in health department,Mock Times,https://example.com/mock/mock-times/evt-0009-1,2026-06-30,gnews,true
+ART-00020,EVT-0009,IN-TG,Explained: Telangana rolls out AI tool in health department,Mock Business Standard,https://example.com/mock/mock-business-standard/evt-0009-2,2026-06-30,gnews,false
+ART-00021,EVT-0009,IN-TG,Telangana rolls out artificial intelligence tool in health department,Mock Tech Wire,https://example.com/mock/mock-tech-wire/evt-0009-3,2026-07-04,google_news_rss,false
+ART-00022,EVT-0010,IN-TN,AI pilot for education expands across Tamil Nadu districts,Mock Business Standard,https://example.com/mock/mock-business-standard/evt-0010-1,2025-09-11,gnews,true
+ART-00023,EVT-0011,IN-KA,Karnataka rolls out AI tool in agriculture department,Mock Tech Wire,https://example.com/mock/mock-tech-wire/evt-0011-1,2025-03-14,google_news_rss,true
+ART-00024,EVT-0011,IN-KA,Karnataka rolls out AI tool in agriculture department - report,Mock Gov Review,https://example.com/mock/mock-gov-review/evt-0011-2,2025-03-18,gnews,false
+ART-00025,EVT-0011,IN-KA,Karnataka rolls out artificial intelligence tool in agriculture department,Mock Regional Post,https://example.com/mock/mock-regional-post/evt-0011-3,2025-03-18,google_news_rss,false
+ART-00026,EVT-0012,IN-KA,AI pilot for education expands across Karnataka districts,Mock Gov Review,https://example.com/mock/mock-gov-review/evt-0012-1,2025-04-11,google_news_rss,true
+ART-00027,EVT-0012,IN-KA,AI pilot for education expands across Karnataka districts - report,Mock Regional Post,https://example.com/mock/mock-regional-post/evt-0012-2,2025-04-11,google_news_rss,false
+ART-00029,EVT-0012,IN-KA,AI pilot for education expands across Karnataka districts - report,Mock Herald,https://example.com/mock/mock-herald/evt-0012-4,2025-04-13,google_news_rss,false
+ART-00028,EVT-0012,IN-KA,AI pilot for education expands across Karnataka districts,Mock Chronicle,https://example.com/mock/mock-chronicle/evt-0012-3,2025-04-15,google_news_rss,false
+ART-00030,EVT-0013,IN-TN,Tamil Nadu budget earmarks Rs 25 crore for AI,Mock Regional Post,https://example.com/mock/mock-regional-post/evt-0013-1,2025-06-20,gdelt,true
+ART-00031,EVT-0014,IN-TG,Telangana police issue advisory on deepfakes,Mock Chronicle,https://example.com/mock/mock-chronicle/evt-0014-1,2025-10-20,google_news_rss,true
+ART-00032,EVT-0015,IN-MH,AI pilot for health expands across Maharashtra districts,Mock Herald,https://example.com/mock/mock-herald/evt-0015-1,2025-06-11,google_news_rss,true
+ART-00035,EVT-0015,IN-MH,AI pilot for health expands across Maharashtra districts,Mock Business Standard,https://example.com/mock/mock-business-standard/evt-0015-4,2025-06-11,gnews,false
+ART-00036,EVT-0015,IN-MH,AI pilot for health expands across Maharashtra districts,Mock Tech Wire,https://example.com/mock/mock-tech-wire/evt-0015-5,2025-06-11,gnews,false
+ART-00034,EVT-0015,IN-MH,AI pilot for health expands across Maharashtra districts,Mock Times,https://example.com/mock/mock-times/evt-0015-3,2025-06-13,gnews,false
+ART-00033,EVT-0015,IN-MH,AI pilot for health expands across Maharashtra districts,Mock Daily,https://example.com/mock/mock-daily/evt-0015-2,2025-06-15,google_news_rss,false
+ART-00037,EVT-0015,IN-MH,Explained: AI pilot for health expands across Maharashtra districts,Mock Gov Review,https://example.com/mock/mock-gov-review/evt-0015-6,2025-06-15,google_news_rss,false
+ART-00038,EVT-0016,IN-TG,Telangana partners a big-tech firm to build AI compute facility,Mock Daily,https://example.com/mock/mock-daily/evt-0016-1,2025-01-10,google_news_rss,true
+ART-00039,EVT-0017,IN-DL,Delhi announces Rs 250 crore AI fund for startups,Mock Times,https://example.com/mock/mock-times/evt-0017-1,2026-09-19,gnews,true
+ART-00040,EVT-0017,IN-DL,Explained: Delhi announces Rs 250 crore AI fund for startups,Mock Business Standard,https://example.com/mock/mock-business-standard/evt-0017-2,2026-09-19,google_news_rss,false
+ART-00041,EVT-0017,IN-DL,Explained: Delhi announces Rs 250 crore AI fund for startups,Mock Tech Wire,https://example.com/mock/mock-tech-wire/evt-0017-3,2026-09-19,google_news_rss,false
+ART-00042,EVT-0017,IN-DL,Delhi announces Rs 250 crore AI fund for startups - report,Mock Gov Review,https://example.com/mock/mock-gov-review/evt-0017-4,2026-09-19,google_news_rss,false
+ART-00043,EVT-0018,IN-KA,AI pilot for urban expands across Karnataka districts,Mock Business Standard,https://example.com/mock/mock-business-standard/evt-0018-1,2025-04-05,google_news_rss,true
+ART-00044,EVT-0019,IN-KA,Karnataka partners a global cloud provider to build AI compute facility,Mock Tech Wire,https://example.com/mock/mock-tech-wire/evt-0019-1,2025-06-02,google_news_rss,true
+ART-00046,EVT-0019,IN-KA,Explained: Karnataka partners a global cloud provider to build AI compute facility,Mock Regional Post,https://example.com/mock/mock-regional-post/evt-0019-3,2025-06-03,google_news_rss,false
+ART-00045,EVT-0019,IN-KA,Karnataka partners a global cloud provider to build AI compute facility - report,Mock Gov Review,https://example.com/mock/mock-gov-review/evt-0019-2,2025-06-04,google_news_rss,false
+ART-00047,EVT-0020,IN-MH,Maharashtra partners an AI startup consortium to build AI compute facility,Mock Gov Review,https://example.com/mock/mock-gov-review/evt-0020-1,2025-08-31,google_news_rss,true
+ART-00052,EVT-0020,IN-MH,Maharashtra partners an AI startup consortium to build AI compute facility - report,Mock Times,https://example.com/mock/mock-times/evt-0020-6,2025-08-31,gdelt,false
+ART-00054,EVT-0020,IN-MH,Maharashtra partners an AI startup consortium to build AI compute facility,Mock Tech Wire,https://example.com/mock/mock-tech-wire/evt-0020-8,2025-08-31,google_news_rss,false
+ART-00049,EVT-0020,IN-MH,Maharashtra partners an artificial intelligence startup consortium to build artificial intelligence compute facility,Mock Chronicle,https://example.com/mock/mock-chronicle/evt-0020-3,2025-09-01,google_news_rss,false
+ART-00050,EVT-0020,IN-MH,Maharashtra partners an AI startup consortium to build AI compute facility - report,Mock Herald,https://example.com/mock/mock-herald/evt-0020-4,2025-09-01,google_news_rss,false
+ART-00053,EVT-0020,IN-MH,Explained: Maharashtra partners an AI startup consortium to build AI compute facility,Mock Business Standard,https://example.com/mock/mock-business-standard/evt-0020-7,2025-09-01,google_news_rss,false
+ART-00048,EVT-0020,IN-MH,Maharashtra partners an AI startup consortium to build AI compute facility,Mock Regional Post,https://example.com/mock/mock-regional-post/evt-0020-2,2025-09-02,google_news_rss,false
+ART-00051,EVT-0020,IN-MH,Maharashtra partners an AI startup consortium to build AI compute facility,Mock Daily,https://example.com/mock/mock-daily/evt-0020-5,2025-09-02,gdelt,false
+ART-00055,EVT-0020,IN-MH,Explained: Maharashtra partners an AI startup consortium to build AI compute facility,Mock Gov Review,https://example.com/mock/mock-gov-review/evt-0020-9,2025-09-02,google_news_rss,false
+ART-00056,EVT-0021,IN-TG,Telangana partners a global cloud provider to build AI compute facility,Mock Regional Post,https://example.com/mock/mock-regional-post/evt-0021-1,2025-07-02,gnews,true
+ART-00057,EVT-0022,IN-TN,Tamil Nadu issues guidelines on AI use by government departments,Mock Chronicle,https://example.com/mock/mock-chronicle/evt-0022-1,2026-03-23,google_news_rss,true
+ART-00058,EVT-0022,IN-TN,Explained: Tamil Nadu issues guidelines on AI use by government departments,Mock Herald,https://example.com/mock/mock-herald/evt-0022-2,2026-03-24,google_news_rss,false
+ART-00059,EVT-0023,IN-MH,Maharashtra partners an IIT to build AI compute facility,Mock Herald,https://example.com/mock/mock-herald/evt-0023-1,2026-01-24,google_news_rss,true
+ART-00061,EVT-0023,IN-MH,Maharashtra partners an IIT to build AI compute facility - report,Mock Times,https://example.com/mock/mock-times/evt-0023-3,2026-01-25,gdelt,false
+ART-00060,EVT-0023,IN-MH,Maharashtra partners an IIT to build AI compute facility,Mock Daily,https://example.com/mock/mock-daily/evt-0023-2,2026-01-26,google_news_rss,false
+ART-00062,EVT-0024,IN-TN,AI Centre of Excellence inaugurated in Chennai,Mock Daily,https://example.com/mock/mock-daily/evt-0024-1,2025-06-23,gnews,true
+ART-00063,EVT-0024,IN-TN,AI Centre of Excellence inaugurated in Chennai,Mock Times,https://example.com/mock/mock-times/evt-0024-2,2025-06-24,google_news_rss,false
+ART-00064,EVT-0025,IN-KA,Karnataka launches state AI Mission with focus on public services,Mock Times,https://example.com/mock/mock-times/evt-0025-1,2026-04-12,gdelt,true
+ART-00066,EVT-0025,IN-KA,Karnataka launches state AI Mission with focus on public services,Mock Tech Wire,https://example.com/mock/mock-tech-wire/evt-0025-3,2026-04-12,google_news_rss,false
+ART-00065,EVT-0025,IN-KA,Karnataka launches state artificial intelligence Mission with focus on public services,Mock Business Standard,https://example.com/mock/mock-business-standard/evt-0025-2,2026-04-14,google_news_rss,false
+ART-00067,EVT-0026,IN-GJ,AI pilot for health expands across Gujarat districts,Mock Business Standard,https://example.com/mock/mock-business-standard/evt-0026-1,2026-04-13,gnews,true
+ART-00068,EVT-0026,IN-GJ,Explained: AI pilot for health expands across Gujarat districts,Mock Tech Wire,https://example.com/mock/mock-tech-wire/evt-0026-2,2026-04-17,gdelt,false
+ART-00069,EVT-0026,IN-GJ,AI pilot for health expands across Gujarat districts,Mock Gov Review,https://example.com/mock/mock-gov-review/evt-0026-3,2026-04-17,gnews,false
+ART-00070,EVT-0027,IN-TN,AI pilot for urban expands across Tamil Nadu districts,Mock Tech Wire,https://example.com/mock/mock-tech-wire/evt-0027-1,2026-03-27,google_news_rss,true
+ART-00071,EVT-0028,IN-KA,Karnataka sets up AI task force under IT department,Mock Gov Review,https://example.com/mock/mock-gov-review/evt-0028-1,2026-02-22,google_news_rss,true
+ART-00072,EVT-0028,IN-KA,Karnataka sets up artificial intelligence task force under IT department,Mock Regional Post,https://example.com/mock/mock-regional-post/evt-0028-2,2026-02-24,gnews,false
+ART-00073,EVT-0029,IN-TN,Tamil Nadu police issue advisory on deepfakes,Mock Regional Post,https://example.com/mock/mock-regional-post/evt-0029-1,2026-07-06,google_news_rss,true
+ART-00074,EVT-0029,IN-TN,Tamil Nadu police issue advisory on deepfakes,Mock Chronicle,https://example.com/mock/mock-chronicle/evt-0029-2,2026-07-08,google_news_rss,false
+ART-00075,EVT-0030,IN-GJ,Gujarat budget earmarks Rs 250 crore for AI,Mock Chronicle,https://example.com/mock/mock-chronicle/evt-0030-1,2026-08-30,gdelt,true
+ART-00076,EVT-0031,IN-KA,AI Centre of Excellence inaugurated in Bengaluru,Mock Herald,https://example.com/mock/mock-herald/evt-0031-1,2025-10-12,google_news_rss,true
+ART-00077,EVT-0032,IN-CENTRAL,Centre signs MoU with a big-tech firm for AI skilling,Mock Daily,https://example.com/mock/mock-daily/evt-0032-1,2025-02-11,google_news_rss,true
+ART-00078,EVT-0033,IN-KA,Karnataka rolls out AI tool in education department,Mock Times,https://example.com/mock/mock-times/evt-0033-1,2025-06-21,google_news_rss,true
+ART-00080,EVT-0033,IN-KA,Explained: Karnataka rolls out AI tool in education department,Mock Tech Wire,https://example.com/mock/mock-tech-wire/evt-0033-3,2025-06-21,gnews,false
+ART-00079,EVT-0033,IN-KA,Karnataka rolls out AI tool in education department,Mock Business Standard,https://example.com/mock/mock-business-standard/evt-0033-2,2025-06-22,gnews,false
+ART-00081,EVT-0033,IN-KA,Karnataka rolls out artificial intelligence tool in education department,Mock Gov Review,https://example.com/mock/mock-gov-review/evt-0033-4,2025-06-23,google_news_rss,false
+ART-00082,EVT-0034,IN-KA,Karnataka rolls out AI tool in urban department,Mock Business Standard,https://example.com/mock/mock-business-standard/evt-0034-1,2026-03-15,google_news_rss,true
+ART-00083,EVT-0034,IN-KA,Karnataka rolls out artificial intelligence tool in urban department,Mock Tech Wire,https://example.com/mock/mock-tech-wire/evt-0034-2,2026-03-15,gdelt,false
+ART-00084,EVT-0035,IN-CENTRAL,AI pilot for revenue expands across Centre districts,Mock Tech Wire,https://example.com/mock/mock-tech-wire/evt-0035-1,2025-06-30,gnews,true
+ART-00085,EVT-0035,IN-CENTRAL,AI pilot for revenue expands across Centre districts,Mock Gov Review,https://example.com/mock/mock-gov-review/evt-0035-2,2025-07-02,gdelt,false
+ART-00086,EVT-0035,IN-CENTRAL,Explained: AI pilot for revenue expands across Centre districts,Mock Regional Post,https://example.com/mock/mock-regional-post/evt-0035-3,2025-07-04,google_news_rss,false
+ART-00087,EVT-0036,IN-TG,Telangana partners an AI startup consortium to build AI compute facility,Mock Gov Review,https://example.com/mock/mock-gov-review/evt-0036-1,2025-12-11,google_news_rss,true
+ART-00088,EVT-0037,IN-TG,AI pilot for urban expands across Telangana districts,Mock Regional Post,https://example.com/mock/mock-regional-post/evt-0037-1,2026-02-21,gdelt,true
+ART-00090,EVT-0037,IN-TG,AI pilot for urban expands across Telangana districts - report,Mock Herald,https://example.com/mock/mock-herald/evt-0037-3,2026-02-22,gdelt,false
+ART-00089,EVT-0037,IN-TG,AI pilot for urban expands across Telangana districts,Mock Chronicle,https://example.com/mock/mock-chronicle/evt-0037-2,2026-02-23,google_news_rss,false
+ART-00091,EVT-0038,IN-MH,Maharashtra partners an IIIT to build AI compute facility,Mock Chronicle,https://example.com/mock/mock-chronicle/evt-0038-1,2026-04-10,google_news_rss,true
+ART-00092,EVT-0039,IN-KA,AI pilot for revenue expands across Karnataka districts,Mock Herald,https://example.com/mock/mock-herald/evt-0039-1,2026-09-04,google_news_rss,true
+ART-00093,EVT-0039,IN-KA,Explained: AI pilot for revenue expands across Karnataka districts,Mock Daily,https://example.com/mock/mock-daily/evt-0039-2,2026-09-04,google_news_rss,false
+ART-00095,EVT-0039,IN-KA,Explained: AI pilot for revenue expands across Karnataka districts,Mock Business Standard,https://example.com/mock/mock-business-standard/evt-0039-4,2026-09-04,google_news_rss,false
+ART-00094,EVT-0039,IN-KA,AI pilot for revenue expands across Karnataka districts,Mock Times,https://example.com/mock/mock-times/evt-0039-3,2026-09-05,gnews,false
+ART-00096,EVT-0040,IN-TG,Telangana police issue advisory on deepfakes,Mock Daily,https://example.com/mock/mock-daily/evt-0040-1,2026-04-26,google_news_rss,true
+ART-00097,EVT-0041,IN-GJ,Gujarat signs MoU with an AI startup consortium for AI skilling,Mock Times,https://example.com/mock/mock-times/evt-0041-1,2025-06-05,google_news_rss,true
+ART-00098,EVT-0042,IN-GJ,Gujarat rolls out AI tool in urban department,Mock Business Standard,https://example.com/mock/mock-business-standard/evt-0042-1,2026-03-16,google_news_rss,true
+ART-00099,EVT-0042,IN-GJ,Gujarat rolls out AI tool in urban department - report,Mock Tech Wire,https://example.com/mock/mock-tech-wire/evt-0042-2,2026-03-16,google_news_rss,false
+ART-00100,EVT-0042,IN-GJ,Gujarat rolls out AI tool in urban department - report,Mock Gov Review,https://example.com/mock/mock-gov-review/evt-0042-3,2026-03-16,google_news_rss,false
+ART-00101,EVT-0043,IN-KA,Karnataka launches state AI Mission with focus on public services,Mock Tech Wire,https://example.com/mock/mock-tech-wire/evt-0043-1,2025-02-03,gdelt,true
+ART-00102,EVT-0043,IN-KA,Karnataka launches state AI Mission with focus on public services - report,Mock Gov Review,https://example.com/mock/mock-gov-review/evt-0043-2,2025-02-03,google_news_rss,false
+ART-00103,EVT-0043,IN-KA,Karnataka launches state AI Mission with focus on public services - report,Mock Regional Post,https://example.com/mock/mock-regional-post/evt-0043-3,2025-02-07,gdelt,false
+ART-00104,EVT-0044,IN-TG,AI Centre of Excellence inaugurated in Hyderabad,Mock Gov Review,https://example.com/mock/mock-gov-review/evt-0044-1,2025-06-19,gnews,true
+ART-00105,EVT-0044,IN-TG,AI Centre of Excellence inaugurated in Hyderabad,Mock Regional Post,https://example.com/mock/mock-regional-post/evt-0044-2,2025-06-20,google_news_rss,false
+ART-00106,EVT-0044,IN-TG,Explained: AI Centre of Excellence inaugurated in Hyderabad,Mock Chronicle,https://example.com/mock/mock-chronicle/evt-0044-3,2025-06-21,gdelt,false
+ART-00107,EVT-0045,IN-TN,AI pilot for revenue expands across Tamil Nadu districts,Mock Regional Post,https://example.com/mock/mock-regional-post/evt-0045-1,2025-08-23,gnews,true
+ART-00110,EVT-0045,IN-TN,AI pilot for revenue expands across Tamil Nadu districts,Mock Daily,https://example.com/mock/mock-daily/evt-0045-4,2025-08-25,google_news_rss,false
+ART-00108,EVT-0045,IN-TN,AI pilot for revenue expands across Tamil Nadu districts,Mock Chronicle,https://example.com/mock/mock-chronicle/evt-0045-2,2025-08-27,google_news_rss,false
+ART-00109,EVT-0045,IN-TN,AI pilot for revenue expands across Tamil Nadu districts,Mock Herald,https://example.com/mock/mock-herald/evt-0045-3,2025-08-27,google_news_rss,false
+ART-00111,EVT-0046,IN-MH,Maharashtra signs MoU with a chipmaker for AI skilling,Mock Chronicle,https://example.com/mock/mock-chronicle/evt-0046-1,2025-11-25,gdelt,true
+ART-00112,EVT-0046,IN-MH,Maharashtra signs MoU with a chipmaker for artificial intelligence skilling,Mock Herald,https://example.com/mock/mock-herald/evt-0046-2,2025-11-26,gnews,false
+ART-00113,EVT-0047,IN-KA,Karnataka sets up AI task force under IT department,Mock Herald,https://example.com/mock/mock-herald/evt-0047-1,2025-01-02,google_news_rss,true
+ART-00114,EVT-0047,IN-KA,Explained: Karnataka sets up AI task force under IT department,Mock Daily,https://example.com/mock/mock-daily/evt-0047-2,2025-01-06,gnews,false
+ART-00115,EVT-0048,IN-KA,AI pilot for education expands across Karnataka districts,Mock Daily,https://example.com/mock/mock-daily/evt-0048-1,2025-01-30,google_news_rss,true
+ART-00116,EVT-0048,IN-KA,Explained: AI pilot for education expands across Karnataka districts,Mock Times,https://example.com/mock/mock-times/evt-0048-2,2025-01-30,gnews,false
+ART-00117,EVT-0048,IN-KA,AI pilot for education expands across Karnataka districts,Mock Business Standard,https://example.com/mock/mock-business-standard/evt-0048-3,2025-01-30,google_news_rss,false
+ART-00118,EVT-0049,IN-TN,Tamil Nadu unveils AI policy targeting 1000 startups by 2030,Mock Times,https://example.com/mock/mock-times/evt-0049-1,2026-06-06,gdelt,true
+ART-00119,EVT-0049,IN-TN,Tamil Nadu unveils artificial intelligence policy targeting 1000 startups by 2030,Mock Business Standard,https://example.com/mock/mock-business-standard/evt-0049-2,2026-06-06,gnews,false
+ART-00120,EVT-0049,IN-TN,Tamil Nadu unveils artificial intelligence policy targeting 1000 startups by 2030,Mock Tech Wire,https://example.com/mock/mock-tech-wire/evt-0049-3,2026-06-06,google_news_rss,false
+ART-00121,EVT-0049,IN-TN,Tamil Nadu unveils AI policy targeting 1000 startups by 2030 - report,Mock Gov Review,https://example.com/mock/mock-gov-review/evt-0049-4,2026-06-10,google_news_rss,false
+ART-00122,EVT-0050,IN-CENTRAL,Centre signs MoU with an IIIT for AI skilling,Mock Business Standard,https://example.com/mock/mock-business-standard/evt-0050-1,2025-11-02,gdelt,true
+ART-00123,EVT-0050,IN-CENTRAL,Centre signs MoU with an IIIT for artificial intelligence skilling,Mock Tech Wire,https://example.com/mock/mock-tech-wire/evt-0050-2,2025-11-02,gnews,false
+ART-00124,EVT-0050,IN-CENTRAL,Explained: Centre signs MoU with an IIIT for AI skilling,Mock Gov Review,https://example.com/mock/mock-gov-review/evt-0050-3,2025-11-04,google_news_rss,false
+ART-00125,EVT-0051,IN-DL,Delhi issues guidelines on AI use by government departments,Mock Tech Wire,https://example.com/mock/mock-tech-wire/evt-0051-1,2025-02-14,gdelt,true
+ART-00127,EVT-0051,IN-DL,Delhi issues guidelines on AI use by government departments - report,Mock Regional Post,https://example.com/mock/mock-regional-post/evt-0051-3,2025-02-14,gnews,false
+ART-00126,EVT-0051,IN-DL,Delhi issues guidelines on AI use by government departments - report,Mock Gov Review,https://example.com/mock/mock-gov-review/evt-0051-2,2025-02-16,gdelt,false
+ART-00128,EVT-0052,IN-KA,Karnataka issues guidelines on AI use by government departments,Mock Gov Review,https://example.com/mock/mock-gov-review/evt-0052-1,2025-06-08,gdelt,true
+ART-00129,EVT-0052,IN-KA,Explained: Karnataka issues guidelines on AI use by government departments,Mock Regional Post,https://example.com/mock/mock-regional-post/evt-0052-2,2025-06-08,gnews,false
+ART-00130,EVT-0053,IN-DL,Delhi unveils AI policy targeting 2000 startups by 2030,Mock Regional Post,https://example.com/mock/mock-regional-post/evt-0053-1,2025-04-03,google_news_rss,true
+ART-00132,EVT-0053,IN-DL,Delhi unveils AI policy targeting 2000 startups by 2030,Mock Herald,https://example.com/mock/mock-herald/evt-0053-3,2025-04-03,google_news_rss,false
+ART-00133,EVT-0053,IN-DL,Explained: Delhi unveils AI policy targeting 2000 startups by 2030,Mock Daily,https://example.com/mock/mock-daily/evt-0053-4,2025-04-03,google_news_rss,false
+ART-00131,EVT-0053,IN-DL,Delhi unveils AI policy targeting 2000 startups by 2030 - report,Mock Chronicle,https://example.com/mock/mock-chronicle/evt-0053-2,2025-04-05,google_news_rss,false
+ART-00134,EVT-0054,IN-TG,Telangana signs MoU with a state university for AI skilling,Mock Chronicle,https://example.com/mock/mock-chronicle/evt-0054-1,2025-09-04,google_news_rss,true
+ART-00135,EVT-0055,IN-DL,Delhi partners an IIT to build AI compute facility,Mock Herald,https://example.com/mock/mock-herald/evt-0055-1,2026-03-29,google_news_rss,true
+ART-00137,EVT-0055,IN-DL,Delhi partners an IIT to build AI compute facility - report,Mock Times,https://example.com/mock/mock-times/evt-0055-3,2026-03-30,gdelt,false
+ART-00140,EVT-0055,IN-DL,Explained: Delhi partners an IIT to build AI compute facility,Mock Gov Review,https://example.com/mock/mock-gov-review/evt-0055-6,2026-03-30,google_news_rss,false
+ART-00136,EVT-0055,IN-DL,Explained: Delhi partners an IIT to build AI compute facility,Mock Daily,https://example.com/mock/mock-daily/evt-0055-2,2026-03-31,gdelt,false
+ART-00138,EVT-0055,IN-DL,Delhi partners an IIT to build AI compute facility,Mock Business Standard,https://example.com/mock/mock-business-standard/evt-0055-4,2026-03-31,google_news_rss,false
+ART-00139,EVT-0055,IN-DL,Explained: Delhi partners an IIT to build AI compute facility,Mock Tech Wire,https://example.com/mock/mock-tech-wire/evt-0055-5,2026-03-31,gnews,false
+ART-00141,EVT-0055,IN-DL,Explained: Delhi partners an IIT to build AI compute facility,Mock Regional Post,https://example.com/mock/mock-regional-post/evt-0055-7,2026-03-31,google_news_rss,false
+ART-00143,EVT-0055,IN-DL,Explained: Delhi partners an IIT to build AI compute facility,Mock Herald,https://example.com/mock/mock-herald/evt-0055-9,2026-03-31,google_news_rss,false
+ART-00142,EVT-0055,IN-DL,Delhi partners an IIT to build AI compute facility,Mock Chronicle,https://example.com/mock/mock-chronicle/evt-0055-8,2026-04-02,gnews,false
+ART-00144,EVT-0056,IN-MH,Maharashtra rolls out AI tool in revenue department,Mock Daily,https://example.com/mock/mock-daily/evt-0056-1,2025-02-04,google_news_rss,true
+ART-00145,EVT-0057,IN-KA,AI pilot for urban expands across Karnataka districts,Mock Times,https://example.com/mock/mock-times/evt-0057-1,2025-09-21,google_news_rss,true
+ART-00147,EVT-0057,IN-KA,AI pilot for urban expands across Karnataka districts - report,Mock Tech Wire,https://example.com/mock/mock-tech-wire/evt-0057-3,2025-09-21,google_news_rss,false
+ART-00153,EVT-0057,IN-KA,AI pilot for urban expands across Karnataka districts,Mock Times,https://example.com/mock/mock-times/evt-0057-9,2025-09-21,google_news_rss,false
+ART-00146,EVT-0057,IN-KA,AI pilot for urban expands across Karnataka districts,Mock Business Standard,https://example.com/mock/mock-business-standard/evt-0057-2,2025-09-22,gdelt,false
+ART-00151,EVT-0057,IN-KA,Explained: AI pilot for urban expands across Karnataka districts,Mock Herald,https://example.com/mock/mock-herald/evt-0057-7,2025-09-22,gnews,false
+ART-00148,EVT-0057,IN-KA,Explained: AI pilot for urban expands across Karnataka districts,Mock Gov Review,https://example.com/mock/mock-gov-review/evt-0057-4,2025-09-23,google_news_rss,false
+ART-00149,EVT-0057,IN-KA,AI pilot for urban expands across Karnataka districts,Mock Regional Post,https://example.com/mock/mock-regional-post/evt-0057-5,2025-09-23,google_news_rss,false
+ART-00152,EVT-0057,IN-KA,Explained: AI pilot for urban expands across Karnataka districts,Mock Daily,https://example.com/mock/mock-daily/evt-0057-8,2025-09-23,google_news_rss,false
+ART-00150,EVT-0057,IN-KA,AI pilot for urban expands across Karnataka districts,Mock Chronicle,https://example.com/mock/mock-chronicle/evt-0057-6,2025-09-25,gdelt,false
+ART-00154,EVT-0058,IN-MH,Maharashtra partners a global cloud provider to build AI compute facility,Mock Business Standard,https://example.com/mock/mock-business-standard/evt-0058-1,2025-02-16,gdelt,true
+ART-00155,EVT-0058,IN-MH,Maharashtra partners a global cloud provider to build AI compute facility,Mock Tech Wire,https://example.com/mock/mock-tech-wire/evt-0058-2,2025-02-16,google_news_rss,false
+ART-00156,EVT-0059,IN-TN,AI pilot for urban expands across Tamil Nadu districts,Mock Tech Wire,https://example.com/mock/mock-tech-wire/evt-0059-1,2025-04-12,google_news_rss,true
+ART-00157,EVT-0059,IN-TN,Explained: AI pilot for urban expands across Tamil Nadu districts,Mock Gov Review,https://example.com/mock/mock-gov-review/evt-0059-2,2025-04-12,google_news_rss,false
+ART-00158,EVT-0059,IN-TN,AI pilot for urban expands across Tamil Nadu districts,Mock Regional Post,https://example.com/mock/mock-regional-post/evt-0059-3,2025-04-14,google_news_rss,false
+ART-00159,EVT-0060,IN-TN,Tamil Nadu police issue advisory on deepfakes,Mock Gov Review,https://example.com/mock/mock-gov-review/evt-0060-1,2026-04-11,gnews,true
+ART-00160,EVT-0060,IN-TN,Tamil Nadu police issue advisory on deepfakes,Mock Regional Post,https://example.com/mock/mock-regional-post/evt-0060-2,2026-04-11,google_news_rss,false
+ART-00161,EVT-0060,IN-TN,Tamil Nadu police issue advisory on deepfakes - report,Mock Chronicle,https://example.com/mock/mock-chronicle/evt-0060-3,2026-04-11,gnews,false
+ART-00162,EVT-0061,IN-GJ,Gujarat rolls out AI tool in agriculture department,Mock Regional Post,https://example.com/mock/mock-regional-post/evt-0061-1,2025-01-03,gnews,true
+ART-00164,EVT-0061,IN-GJ,Gujarat rolls out AI tool in agriculture department - report,Mock Herald,https://example.com/mock/mock-herald/evt-0061-3,2025-01-03,google_news_rss,false
+ART-00163,EVT-0061,IN-GJ,Gujarat rolls out AI tool in agriculture department - report,Mock Chronicle,https://example.com/mock/mock-chronicle/evt-0061-2,2025-01-04,google_news_rss,false
+ART-00165,EVT-0061,IN-GJ,Gujarat rolls out AI tool in agriculture department - report,Mock Daily,https://example.com/mock/mock-daily/evt-0061-4,2025-01-04,gnews,false
+ART-00166,EVT-0061,IN-GJ,Gujarat rolls out AI tool in agriculture department,Mock Times,https://example.com/mock/mock-times/evt-0061-5,2025-01-04,google_news_rss,false
+ART-00167,EVT-0061,IN-GJ,Gujarat rolls out AI tool in agriculture department,Mock Business Standard,https://example.com/mock/mock-business-standard/evt-0061-6,2025-01-04,google_news_rss,false
+ART-00168,EVT-0061,IN-GJ,Gujarat rolls out AI tool in agriculture department,Mock Tech Wire,https://example.com/mock/mock-tech-wire/evt-0061-7,2025-01-05,google_news_rss,false
+ART-00169,EVT-0061,IN-GJ,Gujarat rolls out artificial intelligence tool in agriculture department,Mock Gov Review,https://example.com/mock/mock-gov-review/evt-0061-8,2025-01-05,google_news_rss,false
+ART-00170,EVT-0061,IN-GJ,Gujarat rolls out AI tool in agriculture department,Mock Regional Post,https://example.com/mock/mock-regional-post/evt-0061-9,2025-01-07,gdelt,false
+ART-00171,EVT-0062,IN-GJ,Gujarat police issue advisory on deepfakes,Mock Chronicle,https://example.com/mock/mock-chronicle/evt-0062-1,2026-05-06,google_news_rss,true
+ART-00172,EVT-0062,IN-GJ,Gujarat police issue advisory on deepfakes,Mock Herald,https://example.com/mock/mock-herald/evt-0062-2,2026-05-08,google_news_rss,false
+ART-00173,EVT-0063,IN-MH,Maharashtra launches state AI Mission with focus on public services,Mock Herald,https://example.com/mock/mock-herald/evt-0063-1,2025-11-29,gnews,true
+ART-00174,EVT-0063,IN-MH,Maharashtra launches state AI Mission with focus on public services,Mock Daily,https://example.com/mock/mock-daily/evt-0063-2,2025-12-01,google_news_rss,false
+ART-00175,EVT-0064,IN-TN,AI Centre of Excellence inaugurated in Chennai,Mock Daily,https://example.com/mock/mock-daily/evt-0064-1,2025-04-08,google_news_rss,true
+ART-00176,EVT-0064,IN-TN,AI Centre of Excellence inaugurated in Chennai,Mock Times,https://example.com/mock/mock-times/evt-0064-2,2025-04-08,google_news_rss,false
+ART-00177,EVT-0064,IN-TN,AI Centre of Excellence inaugurated in Chennai,Mock Business Standard,https://example.com/mock/mock-business-standard/evt-0064-3,2025-04-08,google_news_rss,false
+ART-00178,EVT-0065,IN-GJ,AI pilot for revenue expands across Gujarat districts,Mock Times,https://example.com/mock/mock-times/evt-0065-1,2026-03-10,google_news_rss,true
+ART-00180,EVT-0065,IN-GJ,AI pilot for revenue expands across Gujarat districts - report,Mock Tech Wire,https://example.com/mock/mock-tech-wire/evt-0065-3,2026-03-10,google_news_rss,false
+ART-00179,EVT-0065,IN-GJ,Explained: AI pilot for revenue expands across Gujarat districts,Mock Business Standard,https://example.com/mock/mock-business-standard/evt-0065-2,2026-03-14,google_news_rss,false
+ART-00181,EVT-0066,IN-TG,Telangana rolls out AI tool in policing department,Mock Business Standard,https://example.com/mock/mock-business-standard/evt-0066-1,2026-07-29,gnews,true
+ART-00183,EVT-0066,IN-TG,Telangana rolls out AI tool in policing department,Mock Gov Review,https://example.com/mock/mock-gov-review/evt-0066-3,2026-07-30,google_news_rss,false
+ART-00184,EVT-0066,IN-TG,Explained: Telangana rolls out AI tool in policing department,Mock Regional Post,https://example.com/mock/mock-regional-post/evt-0066-4,2026-07-30,google_news_rss,false
+ART-00182,EVT-0066,IN-TG,Telangana rolls out AI tool in policing department,Mock Tech Wire,https://example.com/mock/mock-tech-wire/evt-0066-2,2026-08-02,gnews,false
+ART-00185,EVT-0067,IN-DL,AI pilot for health expands across Delhi districts,Mock Tech Wire,https://example.com/mock/mock-tech-wire/evt-0067-1,2026-06-28,google_news_rss,true
+ART-00186,EVT-0067,IN-DL,Explained: AI pilot for health expands across Delhi districts,Mock Gov Review,https://example.com/mock/mock-gov-review/evt-0067-2,2026-06-29,google_news_rss,false
+ART-00187,EVT-0068,IN-KA,Karnataka rolls out AI tool in revenue department,Mock Gov Review,https://example.com/mock/mock-gov-review/evt-0068-1,2026-05-13,gnews,true
+ART-00188,EVT-0069,IN-TN,AI Centre of Excellence inaugurated in Chennai,Mock Regional Post,https://example.com/mock/mock-regional-post/evt-0069-1,2025-08-14,google_news_rss,true
+ART-00189,EVT-0070,IN-GJ,Gujarat signs MoU with an IIT for AI skilling,Mock Chronicle,https://example.com/mock/mock-chronicle/evt-0070-1,2026-01-25,google_news_rss,true
+ART-00190,EVT-0070,IN-GJ,Gujarat signs MoU with an IIT for artificial intelligence skilling,Mock Herald,https://example.com/mock/mock-herald/evt-0070-2,2026-01-25,google_news_rss,false
+ART-00191,EVT-0071,IN-DL,Delhi announces Rs 500 crore AI fund for startups,Mock Herald,https://example.com/mock/mock-herald/evt-0071-1,2025-10-24,google_news_rss,true
+ART-00193,EVT-0071,IN-DL,Delhi announces Rs 500 crore artificial intelligence fund for startups,Mock Times,https://example.com/mock/mock-times/evt-0071-3,2025-10-24,google_news_rss,false
+ART-00194,EVT-0071,IN-DL,Delhi announces Rs 500 crore artificial intelligence fund for startups,Mock Business Standard,https://example.com/mock/mock-business-standard/evt-0071-4,2025-10-24,gnews,false
+ART-00196,EVT-0071,IN-DL,Explained: Delhi announces Rs 500 crore AI fund for startups,Mock Gov Review,https://example.com/mock/mock-gov-review/evt-0071-6,2025-10-25,google_news_rss,false
+ART-00197,EVT-0071,IN-DL,Delhi announces Rs 500 crore AI fund for startups - report,Mock Regional Post,https://example.com/mock/mock-regional-post/evt-0071-7,2025-10-25,google_news_rss,false
+ART-00195,EVT-0071,IN-DL,Delhi announces Rs 500 crore AI fund for startups,Mock Tech Wire,https://example.com/mock/mock-tech-wire/evt-0071-5,2025-10-26,gdelt,false
+ART-00192,EVT-0071,IN-DL,Delhi announces Rs 500 crore artificial intelligence fund for startups,Mock Daily,https://example.com/mock/mock-daily/evt-0071-2,2025-10-28,google_news_rss,false
+ART-00198,EVT-0071,IN-DL,Delhi announces Rs 500 crore AI fund for startups,Mock Chronicle,https://example.com/mock/mock-chronicle/evt-0071-8,2025-10-28,gnews,false
+ART-00199,EVT-0071,IN-DL,Delhi announces Rs 500 crore AI fund for startups - report,Mock Herald,https://example.com/mock/mock-herald/evt-0071-9,2025-10-28,google_news_rss,false
+ART-00200,EVT-0072,IN-KA,Karnataka sets up AI task force under IT department,Mock Daily,https://example.com/mock/mock-daily/evt-0072-1,2025-03-19,gnews,true
+ART-00201,EVT-0072,IN-KA,Karnataka sets up artificial intelligence task force under IT department,Mock Times,https://example.com/mock/mock-times/evt-0072-2,2025-03-23,gnews,false
+ART-00202,EVT-0073,IN-TN,Tamil Nadu partners a state university to build AI compute facility,Mock Times,https://example.com/mock/mock-times/evt-0073-1,2025-12-27,google_news_rss,true
+ART-00203,EVT-0073,IN-TN,Explained: Tamil Nadu partners a state university to build AI compute facility,Mock Business Standard,https://example.com/mock/mock-business-standard/evt-0073-2,2025-12-27,google_news_rss,false
+ART-00204,EVT-0074,IN-MH,Maharashtra partners a big-tech firm to build AI compute facility,Mock Business Standard,https://example.com/mock/mock-business-standard/evt-0074-1,2025-02-12,gdelt,true
+ART-00205,EVT-0074,IN-MH,Maharashtra partners a big-tech firm to build AI compute facility - report,Mock Tech Wire,https://example.com/mock/mock-tech-wire/evt-0074-2,2025-02-16,google_news_rss,false
+ART-00206,EVT-0075,IN-CENTRAL,Centre cabinet approves draft AI and data strategy,Mock Tech Wire,https://example.com/mock/mock-tech-wire/evt-0075-1,2025-09-11,gnews,true
+ART-00207,EVT-0075,IN-CENTRAL,Explained: Centre cabinet approves draft AI and data strategy,Mock Gov Review,https://example.com/mock/mock-gov-review/evt-0075-2,2025-09-11,google_news_rss,false
+ART-00208,EVT-0076,IN-GJ,Gujarat rolls out AI tool in revenue department,Mock Gov Review,https://example.com/mock/mock-gov-review/evt-0076-1,2025-04-07,gnews,true
+ART-00209,EVT-0077,IN-KA,AI pilot for policing expands across Karnataka districts,Mock Regional Post,https://example.com/mock/mock-regional-post/evt-0077-1,2026-02-06,gdelt,true
+ART-00210,EVT-0077,IN-KA,AI pilot for policing expands across Karnataka districts - report,Mock Chronicle,https://example.com/mock/mock-chronicle/evt-0077-2,2026-02-07,gnews,false
+ART-00211,EVT-0078,IN-TN,Tamil Nadu launches state AI Mission with focus on public services,Mock Chronicle,https://example.com/mock/mock-chronicle/evt-0078-1,2025-07-16,google_news_rss,true
+ART-00212,EVT-0079,IN-GJ,Gujarat budget earmarks Rs 250 crore for AI,Mock Herald,https://example.com/mock/mock-herald/evt-0079-1,2026-01-21,gnews,true
+ART-00213,EVT-0079,IN-GJ,Gujarat budget earmarks Rs 250 crore for AI,Mock Daily,https://example.com/mock/mock-daily/evt-0079-2,2026-01-21,google_news_rss,false
+ART-00214,EVT-0079,IN-GJ,Explained: Gujarat budget earmarks Rs 250 crore for AI,Mock Times,https://example.com/mock/mock-times/evt-0079-3,2026-01-23,google_news_rss,false
+ART-00215,EVT-0079,IN-GJ,Explained: Gujarat budget earmarks Rs 250 crore for AI,Mock Business Standard,https://example.com/mock/mock-business-standard/evt-0079-4,2026-01-23,gdelt,false
+ART-00216,EVT-0080,IN-TG,Telangana police issue advisory on deepfakes,Mock Daily,https://example.com/mock/mock-daily/evt-0080-1,2026-08-08,google_news_rss,true
+ART-00217,EVT-0080,IN-TG,Telangana police issue advisory on deepfakes,Mock Times,https://example.com/mock/mock-times/evt-0080-2,2026-08-10,google_news_rss,false

@@ -1,0 +1,8 @@
+state_code,state_name,short_code,metro_cities,is_focus_state,notes
+IN-TN,Tamil Nadu,TN,Chennai,true,
+IN-KA,Karnataka,KA,Bengaluru,true,
+IN-TG,Telangana,TG,Hyderabad,true,Legacy short code TS also maps here
+IN-DL,Delhi,DL,Delhi,true,NCT of Delhi only; Gurugram (HR) and Noida (UP) are NOT Delhi
+IN-GJ,Gujarat,GJ,Ahmedabad,true,Gandhinagar and GIFT City map here
+IN-MH,Maharashtra,MH,Mumbai;Pune,true,
+IN-CENTRAL,Central Government,CENTRAL,,false,Union govt actions (MeitY / IndiaAI Mission); not a state
