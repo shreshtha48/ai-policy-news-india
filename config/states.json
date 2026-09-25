@@ -1,0 +1,319 @@
+{
+  "_doc": "Single source of truth for states. Every spelling maps to ONE ISO 3166-2 code. Aliases are matched case-insensitively on word boundaries after normalising hyphens/dots/extra spaces. Metro cities resolve to their state AND fill the `city` field; non-metro cities only resolve to the state.",
+  "states": {
+    "IN-TN": {
+      "name": "Tamil Nadu",
+      "aliases": [
+        "Tamil Nadu",
+        "Tamilnadu",
+        "Tamil-Nadu",
+        "TN govt",
+        "TN government",
+        "TN's",
+        "Government of Tamil Nadu",
+        "TNeGA",
+        "StartupTN",
+        "Guidance Tamil Nadu",
+        "Stalin"
+      ],
+      "metros": {
+        "Chennai": [
+          "Chennai",
+          "Madras"
+        ]
+      },
+      "cities": [
+        "Coimbatore",
+        "Madurai",
+        "Tiruchirappalli",
+        "Trichy",
+        "Salem",
+        "Tirunelveli",
+        "Hosur",
+        "Vellore"
+      ]
+    },
+    "IN-KA": {
+      "name": "Karnataka",
+      "aliases": [
+        "Karnataka",
+        "Karnatak",
+        "K'taka",
+        "Government of Karnataka",
+        "KITS",
+        "Karnataka Innovation and Technology Society",
+        "Siddaramaiah",
+        "Priyank Kharge"
+      ],
+      "metros": {
+        "Bengaluru": [
+          "Bengaluru",
+          "Bangalore",
+          "Bengaluru Urban",
+          "BBMP",
+          "Greater Bengaluru"
+        ]
+      },
+      "cities": [
+        "Mysuru",
+        "Mysore",
+        "Mangaluru",
+        "Mangalore",
+        "Hubballi",
+        "Hubli",
+        "Dharwad",
+        "Belagavi",
+        "Belgaum",
+        "Kalaburagi"
+      ]
+    },
+    "IN-TG": {
+      "name": "Telangana",
+      "aliases": [
+        "Telangana",
+        "Telengana",
+        "Telanagana",
+        "TG govt",
+        "TG government",
+        "TS govt",
+        "TS government",
+        "Government of Telangana",
+        "T-Hub",
+        "T-Works",
+        "Revanth Reddy",
+        "Sridhar Babu",
+        "ITE&C Telangana"
+      ],
+      "metros": {
+        "Hyderabad": [
+          "Hyderabad",
+          "Cyberabad",
+          "Secunderabad",
+          "GHMC",
+          "HYDRAA"
+        ]
+      },
+      "cities": [
+        "Warangal",
+        "Karimnagar",
+        "Nizamabad",
+        "Khammam"
+      ]
+    },
+    "IN-DL": {
+      "name": "Delhi",
+      "aliases": [
+        "Delhi government",
+        "Delhi govt",
+        "Delhi Govt",
+        "Government of Delhi",
+        "GNCTD",
+        "NCT of Delhi",
+        "Delhi CM",
+        "Delhi Chief Minister",
+        "Delhi Cabinet",
+        "Delhi Police",
+        "Delhi Assembly",
+        "MCD",
+        "NDMC",
+        "Delhi's",
+        "Rekha Gupta"
+      ],
+      "metros": {
+        "Delhi": [
+          "Delhi",
+          "New Delhi"
+        ]
+      },
+      "cities": [],
+      "_note": "Bare 'Delhi'/'New Delhi' is a WEAK signal (datelines, Union govt). It only resolves to IN-DL when no Union-government signal is present. Gurugram (HR) and Noida (UP) are deliberately NOT here."
+    },
+    "IN-GJ": {
+      "name": "Gujarat",
+      "aliases": [
+        "Gujarat",
+        "Gujrat",
+        "Gujarath",
+        "Government of Gujarat",
+        "GIFT City",
+        "GIFT-City",
+        "Gandhinagar",
+        "Bhupendra Patel",
+        "i-Hub Gujarat",
+        "iHub Gujarat"
+      ],
+      "metros": {
+        "Ahmedabad": [
+          "Ahmedabad",
+          "Amdavad",
+          "AMC Ahmedabad"
+        ]
+      },
+      "cities": [
+        "Surat",
+        "Vadodara",
+        "Baroda",
+        "Rajkot",
+        "Bhavnagar",
+        "Jamnagar",
+        "Dholera"
+      ]
+    },
+    "IN-MH": {
+      "name": "Maharashtra",
+      "aliases": [
+        "Maharashtra",
+        "Maharastra",
+        "Maharashtr",
+        "Government of Maharashtra",
+        "Mantralaya",
+        "MahaIT",
+        "Maha IT",
+        "Fadnavis",
+        "Mahayuti"
+      ],
+      "metros": {
+        "Mumbai": [
+          "Mumbai",
+          "Bombay",
+          "Navi Mumbai",
+          "BMC",
+          "MMRDA"
+        ],
+        "Pune": [
+          "Pune",
+          "Poona",
+          "PMC Pune",
+          "Pimpri-Chinchwad",
+          "Pimpri Chinchwad"
+        ]
+      },
+      "cities": [
+        "Nagpur",
+        "Nashik",
+        "Aurangabad",
+        "Chhatrapati Sambhajinagar",
+        "Thane",
+        "Kolhapur",
+        "Solapur"
+      ]
+    }
+  },
+  "short_codes": {
+    "TN": "IN-TN",
+    "KA": "IN-KA",
+    "TG": "IN-TG",
+    "TS": "IN-TG",
+    "DL": "IN-DL",
+    "GJ": "IN-GJ",
+    "MH": "IN-MH",
+    "UP": "IN-UP",
+    "HR": "IN-HR",
+    "AP": "IN-AP",
+    "KL": "IN-KL",
+    "OD": "IN-OD",
+    "OR": "IN-OD",
+    "WB": "IN-WB",
+    "RJ": "IN-RJ",
+    "MP": "IN-MP",
+    "PB": "IN-PB",
+    "AS": "IN-AS",
+    "BR": "IN-BR",
+    "GA": "IN-GA"
+  },
+  "central": {
+    "code": "IN-CENTRAL",
+    "name": "Central Government",
+    "signals": [
+      "Union government",
+      "Union govt",
+      "Union Minister",
+      "Union Cabinet",
+      "Centre",
+      "Centre's",
+      "central government",
+      "Central govt",
+      "MeitY",
+      "IndiaAI",
+      "India AI Mission",
+      "IndiaAI Mission",
+      "Ashwini Vaishnaw",
+      "PM Modi",
+      "Prime Minister",
+      "NITI Aayog",
+      "Parliament",
+      "Lok Sabha",
+      "Rajya Sabha",
+      "Government of India",
+      "GoI"
+    ]
+  },
+  "not_focus_but_known": {
+    "_doc": "Recognised so they are NOT mis-assigned to a focus state (e.g. Noida is not Delhi). Articles resolving only to these are dropped with reason 'non_focus_state'.",
+    "IN-HR": [
+      "Haryana",
+      "Gurugram",
+      "Gurgaon",
+      "Faridabad"
+    ],
+    "IN-UP": [
+      "Uttar Pradesh",
+      "Uttar-Pradesh",
+      "UP govt",
+      "UP government",
+      "Noida",
+      "Greater Noida",
+      "Lucknow",
+      "Yogi Adityanath"
+    ],
+    "IN-AP": [
+      "Andhra Pradesh",
+      "Andhra",
+      "Amaravati",
+      "Visakhapatnam",
+      "Vizag",
+      "Chandrababu Naidu",
+      "Naidu",
+      "Nara Lokesh"
+    ],
+    "IN-KL": [
+      "Kerala",
+      "Thiruvananthapuram",
+      "Kochi",
+      "KSUM"
+    ],
+    "IN-OD": [
+      "Odisha",
+      "Orissa",
+      "Bhubaneswar"
+    ],
+    "IN-WB": [
+      "West Bengal",
+      "Kolkata"
+    ],
+    "IN-RJ": [
+      "Rajasthan",
+      "Jaipur"
+    ],
+    "IN-MP": [
+      "Madhya Pradesh",
+      "Bhopal",
+      "Indore"
+    ],
+    "IN-PB": [
+      "Punjab",
+      "Chandigarh"
+    ],
+    "IN-AS": [
+      "Assam",
+      "Guwahati"
+    ],
+    "IN-BR": [
+      "Bihar",
+      "Patna"
+    ],
+    "IN-GA": [
+      "Goa"
+    ]
+  }
+}
