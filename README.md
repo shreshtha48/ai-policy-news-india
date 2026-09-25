@@ -2,6 +2,9 @@
 
 This is a small pipeline that reads the news every day, picks out what Indian **state governments** are doing with AI (policies, missions, task forces, MoUs, AI rolled out in hospitals or policing, budget lines, rules on deepfakes, and so on) and shows it on a dashboard.
 
+<img width="467" height="305" alt="image" src="https://github.com/user-attachments/assets/1edb2e7f-b764-479f-9b4e-489faca1020c" />
+
+
 - **Live dashboard:** https://shreshtha48.github.io/ai-policy-news-india/
 - **Dataset:** [`data/processed/events.csv`](data/processed/events.csv) (one row per announcement), plus `articles.csv`, `rejected.csv` and an Excel workbook with all of it. Column definitions: [`data/SCHEMA.md`](data/SCHEMA.md)
 
