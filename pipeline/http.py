@@ -22,7 +22,8 @@ def session() -> requests.Session:
     global _session
     if _session is None:
         s = requests.Session()
-        retry = Retry(total=3, backoff_factor=2, status_forcelist=[429, 500, 502, 503, 504],
+        # 429 is NOT retried automatically: for keyed APIs a retry burns quota.
+        retry = Retry(total=3, backoff_factor=2, status_forcelist=[500, 502, 503, 504],
                       allowed_methods=["GET"])
         s.mount("https://", HTTPAdapter(max_retries=retry))
         s.mount("http://", HTTPAdapter(max_retries=retry))
@@ -32,12 +33,12 @@ def session() -> requests.Session:
 
 
 def get(url: str, params: dict | None = None, min_interval: float = DEFAULT_INTERVAL,
-        timeout: int = 25) -> requests.Response:
+        timeout: int = 25, headers: dict | None = None) -> requests.Response:
     host = urlparse(url).netloc
     wait = _last_hit.get(host, 0) + min_interval - time.monotonic()
     if wait > 0:
         time.sleep(wait)
     try:
-        return session().get(url, params=params, timeout=timeout)
+        return session().get(url, params=params, timeout=timeout, headers=headers)
     finally:
         _last_hit[host] = time.monotonic()

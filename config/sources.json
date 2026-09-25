@@ -1,35 +1,75 @@
 {
-  "_doc": "Per-state source matrix. APIs (google_news, gdelt, gnews) run for every focus state using the query terms below; direct outlet sources are listed per state. `verified` = format checked against the live site on 2026-09-25.",
-  "query_terms": {
-    "ai": ["\"artificial intelligence\"", "AI"],
-    "policy": ["policy", "mission", "government", "govt", "MoU", "task force", "centre of excellence", "budget", "minister", "department"]
-  },
+  "_doc": "Per-state source matrix. `verified` = format checked against the live site on 2026-09-25; unverified entries fail soft (logged, skipped).",
+  "since": "2026-01-01",
   "google_news": {
     "verified": true,
     "base": "https://news.google.com/rss/search",
     "params": {"hl": "en-IN", "gl": "IN", "ceid": "IN:en"},
-    "window": "when:1y",
+    "slice": "month",
+    "min_interval_s": 2.0,
     "queries_per_state": [
       "{state} (\"artificial intelligence\" OR AI) (policy OR mission OR \"task force\" OR \"centre of excellence\")",
-      "{state} (\"artificial intelligence\" OR AI) (MoU OR partnership OR budget OR crore)",
+      "{state} (\"artificial intelligence\" OR AI) (MoU OR partnership OR budget OR crore OR tender OR contract)",
       "{state} government AI (health OR agriculture OR police OR education OR schools)",
       "{metro} AI government"
-    ]
+    ],
+    "_entity_doc": "Leaders / state bodies: catches headlines that never name the state.",
+    "entity_queries": {
+      "IN-TN": ["Stalin AI", "TNeGA AI", "\"iTNT\" AI", "\"Tamil Nadu\" \"AI mission\""],
+      "IN-KA": ["\"Priyank Kharge\" AI", "Siddaramaiah AI", "KDEM AI", "\"Karnataka\" \"AI policy\""],
+      "IN-TG": ["\"Sridhar Babu\" AI", "\"Revanth Reddy\" AI", "\"T-Hub\" AI", "\"Telangana AI Mission\""],
+      "IN-DL": ["\"Rekha Gupta\" AI", "\"Delhi government\" AI", "\"Delhi Police\" AI"],
+      "IN-GJ": ["\"Bhupendra Patel\" AI", "\"GIFT City\" AI", "Gandhinagar AI", "\"iHub\" Gujarat AI", "\"Gujarat\" \"AI policy\""],
+      "IN-MH": ["Fadnavis AI", "MahaIT AI", "\"Maharashtra\" \"AI policy\""]
+    },
+    "_site_doc": "Outlet-scoped history: Google News restricted to each state's regional outlets, sliced by month. Gives back-history for outlets whose own RSS only shows the latest items.",
+    "site_queries": {
+      "IN-TN": ["thehindu.com", "dtnext.in", "newindianexpress.com"],
+      "IN-KA": ["deccanherald.com", "thehindu.com", "newindianexpress.com"],
+      "IN-TG": ["telanganatoday.com", "thehansindia.com", "deccanchronicle.com"],
+      "IN-DL": ["hindustantimes.com", "indianexpress.com", "thehindu.com"],
+      "IN-GJ": ["deshgujarat.com", "ahmedabadmirror.com", "indianexpress.com", "timesofindia.indiatimes.com", "gujaratinformation.gujarat.gov.in"],
+      "IN-MH": ["freepressjournal.in", "mid-day.com", "hindustantimes.com"]
+    },
+    "site_query_template": "{state} (AI OR \"artificial intelligence\") ({sites})"
   },
   "gdelt": {
     "verified": true,
     "base": "https://api.gdeltproject.org/api/v2/doc/doc",
     "min_interval_s": 6,
-    "timespan": "12months",
-    "query": "{state} (\"artificial intelligence\" OR \"AI policy\" OR \"AI mission\") sourcelang:english"
+    "query": "{state} (\"artificial intelligence\" OR \"AI policy\" OR \"AI mission\") sourcelang:english",
+    "fallback_query": "{state} artificial intelligence sourcelang:english"
   },
   "gnews": {
     "verified": false,
     "base": "https://gnews.io/api/v4/search",
     "env_key": "GNEWS_API_KEY",
-    "query": "{state} AND (\"artificial intelligence\" OR AI) AND (government OR policy OR MoU)"
+    "daily_budget": 20,
+    "lookback_days": 29,
+    "query": "{state} AND (\"artificial intelligence\" OR AI) AND (government OR policy OR MoU OR minister)"
+  },
+  "newsapi": {
+    "verified": false,
+    "base": "https://newsapi.org/v2/everything",
+    "env_key": "NEWS_API_KEY",
+    "daily_budget": 20,
+    "lookback_days": 29,
+    "query": "{state} AND (AI OR \"artificial intelligence\")",
+    "domains": ["thehindu.com", "indianexpress.com", "hindustantimes.com", "timesofindia.indiatimes.com",
+                "economictimes.indiatimes.com", "livemint.com", "business-standard.com", "deccanherald.com",
+                "newindianexpress.com", "thehansindia.com", "telanganatoday.com", "deccanchronicle.com",
+                "deshgujarat.com", "ndtv.com", "indiatoday.in", "moneycontrol.com", "medianama.com",
+                "freepressjournal.in", "dtnext.in", "ahmedabadmirror.com"]
+  },
+  "newsdata": {
+    "verified": false,
+    "base": "https://newsdata.io/api/1/latest",
+    "env_key": "NEWSDATA_API_KEY",
+    "daily_budget": 20,
+    "query": "{state} AND (AI OR \"artificial intelligence\")"
   },
   "outlets": {
+    "_doc": "rss = latest items only. wp_feed = WordPress feed paged with ?paged=N back to `since` (history). tt_tag_scrape = HTML listing, dates fetched per article.",
     "IN-TN": [
       {"kind": "rss", "name": "The Hindu", "url": "https://www.thehindu.com/news/national/tamil-nadu/feeder/default.rss", "verified": true},
       {"kind": "rss", "name": "The Hindu", "url": "https://www.thehindu.com/news/cities/chennai/feeder/default.rss", "verified": false}
@@ -40,13 +80,15 @@
     ],
     "IN-TG": [
       {"kind": "rss", "name": "The Hindu", "url": "https://www.thehindu.com/news/national/telangana/feeder/default.rss", "verified": true},
-      {"kind": "rss", "name": "Telangana Today", "url": "https://telanganatoday.com/tag/artificial-intelligence/feed", "verified": true},
+      {"kind": "wp_feed", "name": "Telangana Today", "url": "https://telanganatoday.com/tag/artificial-intelligence/feed", "max_pages": 30, "verified": true},
       {"kind": "tt_tag_scrape", "name": "Telangana Today", "url": "https://telanganatoday.com/tag/artificial-intelligence/page/{page}", "pages": 5, "verified": true}
     ],
     "IN-DL": [
       {"kind": "rss", "name": "The Hindu", "url": "https://www.thehindu.com/news/cities/Delhi/feeder/default.rss", "verified": false}
     ],
     "IN-GJ": [
+      {"kind": "wp_feed", "name": "DeshGujarat", "url": "https://www.deshgujarat.com/tag/artificial-intelligence/feed/", "max_pages": 20, "verified": false},
+      {"kind": "wp_feed", "name": "DeshGujarat", "url": "https://www.deshgujarat.com/feed/?s=AI", "max_pages": 20, "verified": false},
       {"kind": "rss", "name": "DeshGujarat", "url": "https://www.deshgujarat.com/feed/", "verified": false}
     ],
     "IN-MH": [

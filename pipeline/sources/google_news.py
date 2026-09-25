@@ -1,9 +1,11 @@
-"""Google News RSS search (no key). Primary source.
+"""Google News RSS search (no key). Primary source, and the only one that
+reaches back to January 2026.
 
-+ free, India edition, supports OR/quotes/`when:` operators, one feed per query.
-- ~100 items max per query; links are news.google.com redirect URLs (we keep
-  the outlet name/domain from <source>, but NOT the final article URL: decoding
-  it needs an extra request per article and the format changes often).
++ free, India edition, supports OR/quotes/site:/after:/before: operators.
+- ~100 items max per query -> every query is sliced by MONTH (see plan.py).
+- links are news.google.com redirect URLs (not the outlet URL); the real URL
+  is borrowed from API/feed copies of the same article during dedupe, or
+  decoded later by `python -m pipeline.run resolve`.
 """
 from __future__ import annotations
 
@@ -12,6 +14,7 @@ from datetime import datetime, timezone
 
 from .. import http
 from ..models import RawArticle
+from ..plan import Call, month_slices
 from .rss import domain_of, parse_rss
 
 log = logging.getLogger(__name__)
@@ -42,25 +45,34 @@ def parse(xml_text: str, state_hint: str = "", query: str = "") -> list[RawArtic
     return out
 
 
-def build_queries(cfg: dict, state_name: str, metros: list[str]) -> list[str]:
+def base_queries(cfg: dict, code: str, state_name: str, metros: list[str]) -> list[str]:
     qs = []
     for tpl in cfg["queries_per_state"]:
         if "{metro}" in tpl:
             qs += [tpl.format(metro=m) for m in metros]
         else:
             qs.append(tpl.format(state=f'"{state_name}"'))
-    return [f'{q} {cfg["window"]}' for q in qs]
+    qs += cfg.get("entity_queries", {}).get(code, [])
+    sites = cfg.get("site_queries", {}).get(code, [])
+    if sites:
+        qs.append(cfg["site_query_template"].format(
+            state=f'"{state_name}"', sites=" OR ".join(f"site:{s}" for s in sites)))
+    return qs
 
 
-def fetch(state_code: str, state_name: str, metros: list[str], cfg: dict) -> list[RawArticle]:
-    out = []
-    for q in build_queries(cfg, state_name, metros):
-        try:
-            r = http.get(cfg["base"], params={"q": q, **cfg["params"]}, min_interval=2.0)
-            r.raise_for_status()
-            got = parse(r.text, state_code, q)
-            log.info("google_news %s %r -> %d", state_code, q, len(got))
-            out += got
-        except Exception as e:                       # one bad query never kills the run
-            log.warning("google_news %s failed for %r: %s", state_code, q, e)
-    return out
+def plan(code: str, state_name: str, metros: list[str], cfg: dict, since: str) -> list[Call]:
+    calls = []
+    for q in base_queries(cfg, code, state_name, metros):
+        for after, before, closed in month_slices(since):
+            full = f"{q} after:{after} before:{before}"
+            calls.append(Call(api="google_news", state=code, key=f"google_news|{full}",
+                              run=_runner(full, code, cfg), permanent=closed))
+    return calls
+
+
+def _runner(q: str, code: str, cfg: dict):
+    def run() -> list[RawArticle]:
+        r = http.get(cfg["base"], params={"q": q, **cfg["params"]}, min_interval=cfg.get("min_interval_s", 2.0))
+        r.raise_for_status()
+        return parse(r.text, code, q)
+    return run

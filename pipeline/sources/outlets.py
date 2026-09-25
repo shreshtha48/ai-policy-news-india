@@ -1,9 +1,11 @@
 """Direct outlet sources: section RSS feeds + an HTML scraper.
 
-* rss            - outlet section feeds (The Hindu state feeds, WordPress tag
-                   feeds). Only the latest ~50-100 items, all topics: the AI
-                   filter runs later. Coverage grows because raw results are
-                   appended on every run.
+* rss            - outlet section feeds (The Hindu state feeds). Only the
+                   latest ~50-100 items, all topics: the AI filter runs later.
+                   History comes from the Google News site: queries instead,
+                   and from running daily (raw results accumulate).
+* wp_feed        - WordPress feeds paged with ?paged=N back to `since`
+                   (Telangana Today AI tag, DeshGujarat): real history.
 * tt_tag_scrape  - Telangana Today's /tag/artificial-intelligence/page/N
                    listing (verified 2026-09-25): `.small-news li > h3 > a` +
                    `.excerpt`. The listing has NO dates, so each new article
@@ -19,6 +21,7 @@ from bs4 import BeautifulSoup
 
 from .. import http
 from ..models import RawArticle
+from ..plan import Call
 from .rss import domain_of, parse_rss
 
 log = logging.getLogger(__name__)
@@ -64,36 +67,69 @@ def parse_published_meta(html_text: str) -> str:
     return t["datetime"].strip() if t else ""
 
 
-def fetch(state_code: str, outlets: list[dict], known_urls: set[str],
-          max_date_lookups: int = 40) -> list[RawArticle]:
+def _paged(url: str, page: int) -> str:
+    return url if page == 1 else f"{url}{'&' if '?' in url else '?'}paged={page}"
+
+
+def fetch_wp_feed(o: dict, code: str, since: str) -> list[RawArticle]:
+    """WordPress feeds accept ?paged=N, which walks back through the archive.
+    Stop at an empty page, at a page entirely older than `since`, or max_pages."""
     out: list[RawArticle] = []
-    for o in outlets:
-        try:
-            if o["kind"] == "rss":
-                r = http.get(o["url"]); r.raise_for_status()
-                got = parse_outlet_rss(r.text, o["name"], state_code, o["url"])
-            elif o["kind"] == "tt_tag_scrape":
-                got = []
-                for p in range(1, o.get("pages", 3) + 1):
-                    url = o["url"].format(page=p)
-                    r = http.get(url, min_interval=3.0); r.raise_for_status()
-                    page = parse_tt_listing(r.text, state_code, url)
-                    if not page:
-                        break
-                    got += page
-                lookups = 0
-                for a in got:            # date enrichment, only for unseen URLs
-                    if a.url in known_urls or lookups >= max_date_lookups:
-                        continue
-                    lookups += 1
-                    try:
-                        a.published = parse_published_meta(http.get(a.url, min_interval=3.0).text)
-                    except Exception as e:
-                        log.debug("date lookup failed %s: %s", a.url, e)
-            else:
-                log.warning("unknown outlet kind %s", o["kind"]); continue
-            log.info("outlet %s %s -> %d", state_code, o["url"], len(got))
-            out += got
-        except Exception as e:
-            log.warning("outlet %s %s failed: %s", state_code, o["url"], e)
+    for page in range(1, o.get("max_pages", 10) + 1):
+        url = _paged(o["url"], page)
+        r = http.get(url, min_interval=3.0)
+        if r.status_code == 404 or not r.text.strip():
+            break
+        r.raise_for_status()
+        items = parse_outlet_rss(r.text, o["name"], code, url)
+        if not items:
+            break
+        out += items
+        dated = [a.published[:10] for a in items if a.published]
+        if dated and max(dated) < since:
+            break
     return out
+
+
+def fetch_tt_scrape(o: dict, code: str, since: str, known_urls: set[str], max_date_lookups: int = 60):
+    got: list[RawArticle] = []
+    lookups = 0
+    for p in range(1, o.get("pages", 3) + 1):
+        url = o["url"].format(page=p)
+        r = http.get(url, min_interval=3.0); r.raise_for_status()
+        page = parse_tt_listing(r.text, code, url)
+        if not page:
+            break
+        for a in page:                # date enrichment, only for unseen URLs
+            if a.url in known_urls or lookups >= max_date_lookups:
+                continue
+            lookups += 1
+            try:
+                a.published = parse_published_meta(http.get(a.url, min_interval=3.0).text)
+            except Exception as e:
+                log.debug("date lookup failed %s: %s", a.url, e)
+        got += page
+        dated = [a.published[:10] for a in page if a.published]
+        if dated and max(dated) < since:
+            break
+    return got
+
+
+def plan(code: str, outlets: list[dict], since: str, known_urls: set[str]) -> list[Call]:
+    calls = []
+    for o in outlets:
+        if o["kind"] == "rss":
+            def run(o=o):
+                r = http.get(o["url"]); r.raise_for_status()
+                return parse_outlet_rss(r.text, o["name"], code, o["url"])
+        elif o["kind"] == "wp_feed":
+            def run(o=o):
+                return fetch_wp_feed(o, code, since)
+        elif o["kind"] == "tt_tag_scrape":
+            def run(o=o):
+                return fetch_tt_scrape(o, code, since, known_urls)
+        else:
+            log.warning("unknown outlet kind %s", o["kind"]); continue
+        calls.append(Call(api="outlets", state=code, key=f"outlets|{o['kind']}|{o['url']}", run=run,
+                          meta={"verified": o.get("verified", False)}))
+    return calls

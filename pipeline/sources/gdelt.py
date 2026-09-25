@@ -1,17 +1,20 @@
-"""GDELT DOC 2.0 API (no key). Secondary / backfill source.
+"""GDELT DOC 2.0 API (no key). Secondary source.
 
-Observed 2026-09-25: strict rate limit (plain-text 'Please limit requests to one
-every 5 seconds' instead of JSON, sometimes even when spaced), `{}` for
-no-result queries, and articles in all Indian languages (we request English).
+Observed 2026-09-25: strict rate limit (plain-text 'Please limit requests to
+one every 5 seconds' instead of JSON), `{}` for no-result queries (possibly
+for quoted phrases - unverified), articles in all Indian languages (we keep
+English). If the main query returns nothing, the unquoted fallback is tried.
+The DOC API only searches roughly the last 3 months.
 """
 from __future__ import annotations
 
 import logging
 import time
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 
 from .. import http
 from ..models import RawArticle
+from ..plan import Call
 from .rss import domain_of
 
 log = logging.getLogger(__name__)
@@ -40,20 +43,26 @@ def parse(payload: dict, state_hint: str = "", query: str = "") -> list[RawArtic
     return out
 
 
-def fetch(state_code: str, state_name: str, cfg: dict, retries: int = 3) -> list[RawArticle]:
-    q = cfg["query"].format(state=state_name)
-    params = {"query": q, "mode": "artlist", "format": "json", "maxrecords": 250,
-              "timespan": cfg["timespan"], "sort": "datedesc"}
-    for attempt in range(retries):
-        try:
-            r = http.get(cfg["base"], params=params, min_interval=cfg["min_interval_s"])
-            if r.text.startswith("Please limit"):
-                raise RuntimeError("rate limited")
-            payload = r.json() if r.text.strip() else {}
-            got = parse(payload, state_code, q)
-            log.info("gdelt %s -> %d", state_code, len(got))
-            return got
-        except Exception as e:
-            log.warning("gdelt %s attempt %d: %s", state_code, attempt + 1, e)
-            time.sleep(10 * (attempt + 1))
-    return []
+def _query(cfg: dict, q: str, since: str) -> list[RawArticle] | None:
+    start = max(datetime.fromisoformat(since), datetime.utcnow() - timedelta(days=89))
+    params = {"query": q, "mode": "artlist", "format": "json", "maxrecords": 250, "sort": "datedesc",
+              "startdatetime": start.strftime("%Y%m%d000000")}
+    for attempt in range(3):
+        r = http.get(cfg["base"], params=params, min_interval=cfg["min_interval_s"])
+        if r.text.startswith("Please limit"):
+            log.warning("gdelt rate limited, waiting (attempt %d)", attempt + 1)
+            time.sleep(15 * (attempt + 1)); continue
+        return parse(r.json() if r.text.strip() else {}, "", q)
+    raise RuntimeError("gdelt rate limited 3 times")
+
+
+def plan(code: str, state_name: str, cfg: dict, since: str) -> list[Call]:
+    def run():
+        got = _query(cfg, cfg["query"].format(state=state_name), since) or []
+        if not got and cfg.get("fallback_query"):
+            log.info("gdelt %s: main query empty, trying fallback", code)
+            got = _query(cfg, cfg["fallback_query"].format(state=state_name), since) or []
+        for a in got:
+            a.state_hint = code
+        return got
+    return [Call(api="gdelt", state=code, key=f"gdelt|{code}", run=run)]
