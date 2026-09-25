@@ -1,5 +1,29 @@
+# Python
 __pycache__/
-*.pyc
-.env
-data/raw/
+*.py[cod]
+*$py.class
 .venv/
+venv/
+.env
+
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+yarn-debug.log
+
+# Dashboard Build
+dashboard/dist/
+# Note: 'site/' is NOT ignored because it needs to be committed for GitHub Pages hosting.
+
+# Data
+data/cache/
+models/relevance/setfit_body/
+dashboard/public/data/
+
+# IDEs and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+scripts/temp_*.py
