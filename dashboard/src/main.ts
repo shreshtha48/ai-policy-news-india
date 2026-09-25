@@ -90,6 +90,9 @@ async function init() {
   const stateSelect = document.getElementById('state-select') as HTMLSelectElement;
   const dateSelect = document.getElementById('date-select') as HTMLInputElement;
   const newsContainer = document.getElementById('news-container') as HTMLDivElement;
+  const pager = document.getElementById('pager') as HTMLElement;
+  const PAGE_SIZE = 10;
+  let page = 1;
 
   states.forEach(state => {
     const option = document.createElement('option');
@@ -115,13 +118,18 @@ async function init() {
     }
 
     newsContainer.innerHTML = '';
+    pager.innerHTML = '';
 
     if (filtered.length === 0) {
       newsContainer.innerHTML = '<div class="loading">No news found for the selected criteria.</div>';
       return;
     }
 
-    filtered.slice(0, 10).forEach(item => {
+    const totalPages = Math.max(1, Math.ceil(filtered.length / PAGE_SIZE));
+    page = Math.min(Math.max(page, 1), totalPages);
+    renderPager(filtered.length, totalPages);
+
+    filtered.slice((page - 1) * PAGE_SIZE, page * PAGE_SIZE).forEach(item => {
       const el = document.createElement('div');
       el.className = 'news-item';
       el.addEventListener('click', (e) => {
@@ -176,11 +184,40 @@ async function init() {
     });
   };
 
+  function renderPager(total: number, totalPages: number) {
+    if (totalPages <= 1) {
+      pager.innerHTML = `<span class="pager-info">${total} ${total === 1 ? 'story' : 'stories'}</span>`;
+      return;
+    }
+    const prev = document.createElement('button');
+    prev.textContent = '← Newer';
+    prev.disabled = page === 1;
+    prev.addEventListener('click', () => goTo(page - 1));
+
+    const info = document.createElement('span');
+    info.className = 'pager-info';
+    info.textContent = `Page ${page} of ${totalPages} · ${total} stories`;
+
+    const next = document.createElement('button');
+    next.textContent = 'Older →';
+    next.disabled = page === totalPages;
+    next.addEventListener('click', () => goTo(page + 1));
+
+    pager.append(prev, info, next);
+  }
+
+  function goTo(p: number) {
+    page = p;
+    renderNews();
+    newsContainer.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+
   // Flatpickr instance — stored so we can call redraw() when state changes
   const fp: FlatpickrInstance = flatpickr(dateSelect, {
     dateFormat: 'Y-m-d',
     onChange(_selectedDates, dateStr) {
       selectedDateStr = dateStr;
+      page = 1;
       renderNews();
     },
     onDayCreate(_dObj, _dStr, _fp, dayElem) {
@@ -200,6 +237,7 @@ async function init() {
     // Also clear the date filter — the old selected date may not exist in the new state
     selectedDateStr = '';
     fp.clear();
+    page = 1;
     renderNews();
   });
 

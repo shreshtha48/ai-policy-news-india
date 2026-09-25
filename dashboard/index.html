@@ -96,6 +96,31 @@
         background: #e6dcc8;
       }
 
+      /* ── Pagination ─────────────────────────────────────────────────────── */
+      .pager {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 0.75rem;
+        margin-top: 1.5rem;
+        padding-top: 0.75rem;
+        border-top: 1px solid #b8a994;
+        font-size: 0.9rem;
+      }
+      .pager:empty { display: none; }
+      .pager button {
+        background: transparent;
+        border: 1px solid #b8a994;
+        cursor: pointer;
+        font-family: inherit;
+        color: #2b231d;
+        padding: 0.3rem 0.7rem;
+        font-size: 0.9rem;
+      }
+      .pager button:hover:not(:disabled) { background: #e6dcc8; }
+      .pager button:disabled { opacity: 0.35; cursor: default; }
+      .pager-info { font-style: italic; text-align: center; }
+
       /* ── Controls ───────────────────────────────────────────────────────── */
       .controls {
         display: flex;
@@ -247,6 +272,7 @@
       <div id="news-container" class="news-list">
         <div class="loading">Loading data…</div>
       </div>
+      <nav id="pager" class="pager" aria-label="Pages"></nav>
     </div>
     <script type="module" src="/src/main.ts"></script>
   </body>
