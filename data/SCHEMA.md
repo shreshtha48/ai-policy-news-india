@@ -39,9 +39,10 @@ with `source_count = 9`.
 | `summary` | string | One line |
 | `event_date` | ISO date, nullable | When it happened. **Empty when unknown**, never guessed |
 | `date_precision` | enum | `day` = exact; `month` = only month known (`event_date` is the 1st, display as "Mar 2026"); `unknown` = `event_date` empty |
-| `first_reported_date` | ISO date, always set | Earliest article date. **Use this for timelines** because it's never empty |
+| `first_reported_date` | ISO date, nullable | Earliest article date. **Use this for timelines**; empty (rare) when no article had a date - bucket as "Undated" |
 | `primary_source_name` | string | Outlet of the chosen primary article |
 | `primary_source_url` | URL | Link to show on the card/table |
+| `url_resolved` | bool | `false` = the link is a Google News redirect, not the outlet's own URL (still opens the article) |
 | `source_count` | int >= 1 | Number of distinct outlets covering this event, a proxy for significance |
 | `actors` | string, `; `-separated | Govt bodies/partners involved |
 | `amount_inr_crore` | number, nullable | Only for money announcements (mostly `budget_funding`) |
@@ -56,9 +57,12 @@ with `source_count = 9`.
 | `title` | string | As published (outlets reword, which is why dedupe exists) |
 | `source_name`, `source_url` | string | |
 | `published_date` | ISO date | |
-| `fetched_via` | enum | `google_news_rss gdelt gnews` |
+| `fetched_via` | enum | `google_news_rss gdelt gnews newsapi newsdata outlet_rss outlet_scrape` |
 | `is_primary` | bool | `true` for the one article chosen as the event's primary |
+| `url_resolved` | bool | As in events |
 | `state_basis` | enum | How the state was decided: `text`, `text_multi_state`, `central_signal`, `source_hint` (audit only) |
+| `classifier` | enum | What kept it: `learned` (trained on our labels), `rules+semantic`, `semantic`, or `rules` (no model installed) |
+| `relevance_score` | float, nullable | `learned`: P(relevant) 0-1. Otherwise the semantic margin (nearest positive minus nearest negative prototype). Empty in rules-only runs |
 | `matched_terms` | string | Keywords that fired, e.g. `ai:ai|gemini; gov:cm` (audit only) |
 
 ## Dashboard notes

@@ -94,7 +94,7 @@ MOCK_SOURCES = ["Mock Daily", "Mock Times", "Mock Business Standard",
                 "Mock Chronicle", "Mock Herald"]
 FETCHERS = ["google_news_rss", "google_news_rss", "google_news_rss", "gdelt", "gnews"]
 
-START, END = date(2025, 1, 1), date(2026, 9, 20)
+START, END = date(2026, 1, 1), date(2026, 9, 20)
 N_EVENTS = 80
 
 
@@ -151,8 +151,11 @@ for i in range(1, N_EVENTS + 1):
             "source_url": f"https://example.com/mock/{slug(src)}/{eid.lower()}-{j + 1}",
             "published_date": p_date.isoformat(),
             "fetched_via": random.choice(FETCHERS),
+            "url_resolved": "true",
             "is_primary": "true" if j == 0 else "false",
             "state_basis": "text",
+            "classifier": "rules+semantic",
+            "relevance_score": round(random.uniform(0.04, 0.3), 3),
             "matched_terms": "ai:ai; gov:government",
         })
         first = first or (src, articles[-1]["source_url"], p_date)
@@ -171,6 +174,7 @@ for i in range(1, N_EVENTS + 1):
         "first_reported_date": first[2].isoformat(),
         "primary_source_name": first[0],
         "primary_source_url": first[1],
+        "url_resolved": "true",
         "source_count": n_src,
         "actors": "; ".join(random.sample(ACTORS, k=random.randint(1, 2))),
         "amount_inr_crore": amt if amt is not None else "",
