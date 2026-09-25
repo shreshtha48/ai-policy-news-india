@@ -1,0 +1,2266 @@
+{
+ "permanent": {
+  "google_news|\"Tamil Nadu\" (\"artificial intelligence\" OR AI) (policy OR mission OR \"task force\" OR \"centre of excellence\") after:2026-01-01 before:2026-02-01": {
+   "date": "2026-09-25",
+   "n": 49
+  },
+  "google_news|\"Tamil Nadu\" (\"artificial intelligence\" OR AI) (policy OR mission OR \"task force\" OR \"centre of excellence\") after:2026-02-01 before:2026-03-01": {
+   "date": "2026-09-25",
+   "n": 42
+  },
+  "google_news|\"Tamil Nadu\" (\"artificial intelligence\" OR AI) (policy OR mission OR \"task force\" OR \"centre of excellence\") after:2026-03-01 before:2026-04-01": {
+   "date": "2026-09-25",
+   "n": 28
+  },
+  "google_news|\"Tamil Nadu\" (\"artificial intelligence\" OR AI) (policy OR mission OR \"task force\" OR \"centre of excellence\") after:2026-04-01 before:2026-05-01": {
+   "date": "2026-09-25",
+   "n": 51
+  },
+  "google_news|\"Tamil Nadu\" (\"artificial intelligence\" OR AI) (policy OR mission OR \"task force\" OR \"centre of excellence\") after:2026-05-01 before:2026-06-01": {
+   "date": "2026-09-25",
+   "n": 49
+  },
+  "google_news|\"Tamil Nadu\" (\"artificial intelligence\" OR AI) (policy OR mission OR \"task force\" OR \"centre of excellence\") after:2026-06-01 before:2026-07-01": {
+   "date": "2026-09-25",
+   "n": 52
+  },
+  "google_news|\"Tamil Nadu\" (\"artificial intelligence\" OR AI) (policy OR mission OR \"task force\" OR \"centre of excellence\") after:2026-07-01 before:2026-08-01": {
+   "date": "2026-09-25",
+   "n": 64
+  },
+  "google_news|\"Tamil Nadu\" (\"artificial intelligence\" OR AI) (policy OR mission OR \"task force\" OR \"centre of excellence\") after:2026-08-01 before:2026-09-01": {
+   "date": "2026-09-25",
+   "n": 64
+  },
+  "google_news|\"Tamil Nadu\" (\"artificial intelligence\" OR AI) (MoU OR partnership OR budget OR crore OR tender OR contract) after:2026-01-01 before:2026-02-01": {
+   "date": "2026-09-25",
+   "n": 48
+  },
+  "google_news|\"Tamil Nadu\" (\"artificial intelligence\" OR AI) (MoU OR partnership OR budget OR crore OR tender OR contract) after:2026-02-01 before:2026-03-01": {
+   "date": "2026-09-25",
+   "n": 48
+  },
+  "google_news|\"Tamil Nadu\" (\"artificial intelligence\" OR AI) (MoU OR partnership OR budget OR crore OR tender OR contract) after:2026-03-01 before:2026-04-01": {
+   "date": "2026-09-25",
+   "n": 33
+  },
+  "google_news|\"Tamil Nadu\" (\"artificial intelligence\" OR AI) (MoU OR partnership OR budget OR crore OR tender OR contract) after:2026-04-01 before:2026-05-01": {
+   "date": "2026-09-25",
+   "n": 50
+  },
+  "google_news|\"Tamil Nadu\" (\"artificial intelligence\" OR AI) (MoU OR partnership OR budget OR crore OR tender OR contract) after:2026-05-01 before:2026-06-01": {
+   "date": "2026-09-25",
+   "n": 49
+  },
+  "google_news|\"Tamil Nadu\" (\"artificial intelligence\" OR AI) (MoU OR partnership OR budget OR crore OR tender OR contract) after:2026-06-01 before:2026-07-01": {
+   "date": "2026-09-25",
+   "n": 50
+  },
+  "google_news|\"Tamil Nadu\" (\"artificial intelligence\" OR AI) (MoU OR partnership OR budget OR crore OR tender OR contract) after:2026-07-01 before:2026-08-01": {
+   "date": "2026-09-25",
+   "n": 62
+  },
+  "google_news|\"Tamil Nadu\" (\"artificial intelligence\" OR AI) (MoU OR partnership OR budget OR crore OR tender OR contract) after:2026-08-01 before:2026-09-01": {
+   "date": "2026-09-25",
+   "n": 86
+  },
+  "google_news|\"Tamil Nadu\" government AI (health OR agriculture OR police OR education OR schools) after:2026-01-01 before:2026-02-01": {
+   "date": "2026-09-25",
+   "n": 48
+  },
+  "google_news|\"Tamil Nadu\" government AI (health OR agriculture OR police OR education OR schools) after:2026-02-01 before:2026-03-01": {
+   "date": "2026-09-25",
+   "n": 38
+  },
+  "google_news|\"Tamil Nadu\" government AI (health OR agriculture OR police OR education OR schools) after:2026-03-01 before:2026-04-01": {
+   "date": "2026-09-25",
+   "n": 31
+  },
+  "google_news|\"Tamil Nadu\" government AI (health OR agriculture OR police OR education OR schools) after:2026-04-01 before:2026-05-01": {
+   "date": "2026-09-25",
+   "n": 49
+  },
+  "google_news|\"Tamil Nadu\" government AI (health OR agriculture OR police OR education OR schools) after:2026-05-01 before:2026-06-01": {
+   "date": "2026-09-25",
+   "n": 47
+  },
+  "google_news|\"Tamil Nadu\" government AI (health OR agriculture OR police OR education OR schools) after:2026-06-01 before:2026-07-01": {
+   "date": "2026-09-25",
+   "n": 47
+  },
+  "google_news|\"Tamil Nadu\" government AI (health OR agriculture OR police OR education OR schools) after:2026-07-01 before:2026-08-01": {
+   "date": "2026-09-25",
+   "n": 61
+  },
+  "google_news|\"Tamil Nadu\" government AI (health OR agriculture OR police OR education OR schools) after:2026-08-01 before:2026-09-01": {
+   "date": "2026-09-25",
+   "n": 63
+  },
+  "google_news|Chennai AI government after:2026-01-01 before:2026-02-01": {
+   "date": "2026-09-25",
+   "n": 48
+  },
+  "google_news|Chennai AI government after:2026-02-01 before:2026-03-01": {
+   "date": "2026-09-25",
+   "n": 48
+  },
+  "google_news|Chennai AI government after:2026-03-01 before:2026-04-01": {
+   "date": "2026-09-25",
+   "n": 44
+  },
+  "google_news|Chennai AI government after:2026-04-01 before:2026-05-01": {
+   "date": "2026-09-25",
+   "n": 52
+  },
+  "google_news|Chennai AI government after:2026-05-01 before:2026-06-01": {
+   "date": "2026-09-25",
+   "n": 47
+  },
+  "google_news|Chennai AI government after:2026-06-01 before:2026-07-01": {
+   "date": "2026-09-25",
+   "n": 52
+  },
+  "google_news|Chennai AI government after:2026-07-01 before:2026-08-01": {
+   "date": "2026-09-25",
+   "n": 66
+  },
+  "google_news|Chennai AI government after:2026-08-01 before:2026-09-01": {
+   "date": "2026-09-25",
+   "n": 64
+  },
+  "google_news|Stalin AI after:2026-01-01 before:2026-02-01": {
+   "date": "2026-09-25",
+   "n": 48
+  },
+  "google_news|Stalin AI after:2026-02-01 before:2026-03-01": {
+   "date": "2026-09-25",
+   "n": 49
+  },
+  "google_news|Stalin AI after:2026-03-01 before:2026-04-01": {
+   "date": "2026-09-25",
+   "n": 34
+  },
+  "google_news|Stalin AI after:2026-04-01 before:2026-05-01": {
+   "date": "2026-09-25",
+   "n": 47
+  },
+  "google_news|Stalin AI after:2026-05-01 before:2026-06-01": {
+   "date": "2026-09-25",
+   "n": 43
+  },
+  "google_news|Stalin AI after:2026-06-01 before:2026-07-01": {
+   "date": "2026-09-25",
+   "n": 47
+  },
+  "google_news|Stalin AI after:2026-07-01 before:2026-08-01": {
+   "date": "2026-09-25",
+   "n": 22
+  },
+  "google_news|Stalin AI after:2026-08-01 before:2026-09-01": {
+   "date": "2026-09-25",
+   "n": 45
+  },
+  "google_news|TNeGA AI after:2026-01-01 before:2026-02-01": {
+   "date": "2026-09-25",
+   "n": 3
+  },
+  "google_news|TNeGA AI after:2026-02-01 before:2026-03-01": {
+   "date": "2026-09-25",
+   "n": 0
+  },
+  "google_news|TNeGA AI after:2026-03-01 before:2026-04-01": {
+   "date": "2026-09-25",
+   "n": 0
+  },
+  "google_news|TNeGA AI after:2026-04-01 before:2026-05-01": {
+   "date": "2026-09-25",
+   "n": 0
+  },
+  "google_news|TNeGA AI after:2026-05-01 before:2026-06-01": {
+   "date": "2026-09-25",
+   "n": 1
+  },
+  "google_news|TNeGA AI after:2026-06-01 before:2026-07-01": {
+   "date": "2026-09-25",
+   "n": 0
+  },
+  "google_news|TNeGA AI after:2026-07-01 before:2026-08-01": {
+   "date": "2026-09-25",
+   "n": 0
+  },
+  "google_news|TNeGA AI after:2026-08-01 before:2026-09-01": {
+   "date": "2026-09-25",
+   "n": 2
+  },
+  "google_news|\"iTNT\" AI after:2026-01-01 before:2026-02-01": {
+   "date": "2026-09-25",
+   "n": 3
+  },
+  "google_news|\"iTNT\" AI after:2026-02-01 before:2026-03-01": {
+   "date": "2026-09-25",
+   "n": 0
+  },
+  "google_news|\"iTNT\" AI after:2026-03-01 before:2026-04-01": {
+   "date": "2026-09-25",
+   "n": 0
+  },
+  "google_news|\"iTNT\" AI after:2026-04-01 before:2026-05-01": {
+   "date": "2026-09-25",
+   "n": 0
+  },
+  "google_news|\"iTNT\" AI after:2026-05-01 before:2026-06-01": {
+   "date": "2026-09-25",
+   "n": 2
+  },
+  "google_news|\"iTNT\" AI after:2026-06-01 before:2026-07-01": {
+   "date": "2026-09-25",
+   "n": 1
+  },
+  "google_news|\"iTNT\" AI after:2026-07-01 before:2026-08-01": {
+   "date": "2026-09-25",
+   "n": 1
+  },
+  "google_news|\"iTNT\" AI after:2026-08-01 before:2026-09-01": {
+   "date": "2026-09-25",
+   "n": 4
+  },
+  "google_news|\"Tamil Nadu\" \"AI mission\" after:2026-01-01 before:2026-02-01": {
+   "date": "2026-09-25",
+   "n": 9
+  },
+  "google_news|\"Tamil Nadu\" \"AI mission\" after:2026-02-01 before:2026-03-01": {
+   "date": "2026-09-25",
+   "n": 10
+  },
+  "google_news|\"Tamil Nadu\" \"AI mission\" after:2026-03-01 before:2026-04-01": {
+   "date": "2026-09-25",
+   "n": 10
+  },
+  "google_news|\"Tamil Nadu\" \"AI mission\" after:2026-04-01 before:2026-05-01": {
+   "date": "2026-09-25",
+   "n": 8
+  },
+  "google_news|\"Tamil Nadu\" \"AI mission\" after:2026-05-01 before:2026-06-01": {
+   "date": "2026-09-25",
+   "n": 8
+  },
+  "google_news|\"Tamil Nadu\" \"AI mission\" after:2026-06-01 before:2026-07-01": {
+   "date": "2026-09-25",
+   "n": 9
+  },
+  "google_news|\"Tamil Nadu\" \"AI mission\" after:2026-07-01 before:2026-08-01": {
+   "date": "2026-09-25",
+   "n": 9
+  },
+  "google_news|\"Tamil Nadu\" \"AI mission\" after:2026-08-01 before:2026-09-01": {
+   "date": "2026-09-25",
+   "n": 10
+  },
+  "google_news|\"Tamil Nadu\" (AI OR \"artificial intelligence\") (site:thehindu.com OR site:dtnext.in OR site:newindianexpress.com) after:2026-01-01 before:2026-02-01": {
+   "date": "2026-09-25",
+   "n": 100
+  },
+  "google_news|\"Tamil Nadu\" (AI OR \"artificial intelligence\") (site:thehindu.com OR site:dtnext.in OR site:newindianexpress.com) after:2026-02-01 before:2026-03-01": {
+   "date": "2026-09-25",
+   "n": 100
+  },
+  "google_news|\"Tamil Nadu\" (AI OR \"artificial intelligence\") (site:thehindu.com OR site:dtnext.in OR site:newindianexpress.com) after:2026-03-01 before:2026-04-01": {
+   "date": "2026-09-25",
+   "n": 100
+  },
+  "google_news|\"Tamil Nadu\" (AI OR \"artificial intelligence\") (site:thehindu.com OR site:dtnext.in OR site:newindianexpress.com) after:2026-04-01 before:2026-05-01": {
+   "date": "2026-09-25",
+   "n": 100
+  },
+  "google_news|\"Tamil Nadu\" (AI OR \"artificial intelligence\") (site:thehindu.com OR site:dtnext.in OR site:newindianexpress.com) after:2026-05-01 before:2026-06-01": {
+   "date": "2026-09-25",
+   "n": 100
+  },
+  "google_news|\"Tamil Nadu\" (AI OR \"artificial intelligence\") (site:thehindu.com OR site:dtnext.in OR site:newindianexpress.com) after:2026-06-01 before:2026-07-01": {
+   "date": "2026-09-25",
+   "n": 100
+  },
+  "google_news|\"Tamil Nadu\" (AI OR \"artificial intelligence\") (site:thehindu.com OR site:dtnext.in OR site:newindianexpress.com) after:2026-07-01 before:2026-08-01": {
+   "date": "2026-09-25",
+   "n": 100
+  },
+  "google_news|\"Tamil Nadu\" (AI OR \"artificial intelligence\") (site:thehindu.com OR site:dtnext.in OR site:newindianexpress.com) after:2026-08-01 before:2026-09-01": {
+   "date": "2026-09-25",
+   "n": 100
+  },
+  "google_news|\"Karnataka\" (\"artificial intelligence\" OR AI) (policy OR mission OR \"task force\" OR \"centre of excellence\") after:2026-01-01 before:2026-02-01": {
+   "date": "2026-09-25",
+   "n": 45
+  },
+  "google_news|\"Karnataka\" (\"artificial intelligence\" OR AI) (policy OR mission OR \"task force\" OR \"centre of excellence\") after:2026-02-01 before:2026-03-01": {
+   "date": "2026-09-25",
+   "n": 38
+  },
+  "google_news|\"Karnataka\" (\"artificial intelligence\" OR AI) (policy OR mission OR \"task force\" OR \"centre of excellence\") after:2026-03-01 before:2026-04-01": {
+   "date": "2026-09-25",
+   "n": 43
+  },
+  "google_news|\"Karnataka\" (\"artificial intelligence\" OR AI) (policy OR mission OR \"task force\" OR \"centre of excellence\") after:2026-04-01 before:2026-05-01": {
+   "date": "2026-09-25",
+   "n": 49
+  },
+  "google_news|\"Karnataka\" (\"artificial intelligence\" OR AI) (policy OR mission OR \"task force\" OR \"centre of excellence\") after:2026-05-01 before:2026-06-01": {
+   "date": "2026-09-25",
+   "n": 45
+  },
+  "google_news|\"Karnataka\" (\"artificial intelligence\" OR AI) (policy OR mission OR \"task force\" OR \"centre of excellence\") after:2026-06-01 before:2026-07-01": {
+   "date": "2026-09-25",
+   "n": 35
+  },
+  "google_news|\"Karnataka\" (\"artificial intelligence\" OR AI) (policy OR mission OR \"task force\" OR \"centre of excellence\") after:2026-07-01 before:2026-08-01": {
+   "date": "2026-09-25",
+   "n": 46
+  },
+  "google_news|\"Karnataka\" (\"artificial intelligence\" OR AI) (policy OR mission OR \"task force\" OR \"centre of excellence\") after:2026-08-01 before:2026-09-01": {
+   "date": "2026-09-25",
+   "n": 48
+  },
+  "google_news|\"Karnataka\" (\"artificial intelligence\" OR AI) (MoU OR partnership OR budget OR crore OR tender OR contract) after:2026-01-01 before:2026-02-01": {
+   "date": "2026-09-25",
+   "n": 48
+  },
+  "google_news|\"Karnataka\" (\"artificial intelligence\" OR AI) (MoU OR partnership OR budget OR crore OR tender OR contract) after:2026-02-01 before:2026-03-01": {
+   "date": "2026-09-25",
+   "n": 38
+  },
+  "google_news|\"Karnataka\" (\"artificial intelligence\" OR AI) (MoU OR partnership OR budget OR crore OR tender OR contract) after:2026-03-01 before:2026-04-01": {
+   "date": "2026-09-25",
+   "n": 48
+  },
+  "google_news|\"Karnataka\" (\"artificial intelligence\" OR AI) (MoU OR partnership OR budget OR crore OR tender OR contract) after:2026-04-01 before:2026-05-01": {
+   "date": "2026-09-25",
+   "n": 47
+  },
+  "google_news|\"Karnataka\" (\"artificial intelligence\" OR AI) (MoU OR partnership OR budget OR crore OR tender OR contract) after:2026-05-01 before:2026-06-01": {
+   "date": "2026-09-25",
+   "n": 44
+  },
+  "google_news|\"Karnataka\" (\"artificial intelligence\" OR AI) (MoU OR partnership OR budget OR crore OR tender OR contract) after:2026-06-01 before:2026-07-01": {
+   "date": "2026-09-25",
+   "n": 40
+  },
+  "google_news|\"Karnataka\" (\"artificial intelligence\" OR AI) (MoU OR partnership OR budget OR crore OR tender OR contract) after:2026-07-01 before:2026-08-01": {
+   "date": "2026-09-25",
+   "n": 45
+  },
+  "google_news|\"Karnataka\" (\"artificial intelligence\" OR AI) (MoU OR partnership OR budget OR crore OR tender OR contract) after:2026-08-01 before:2026-09-01": {
+   "date": "2026-09-25",
+   "n": 49
+  },
+  "google_news|\"Karnataka\" government AI (health OR agriculture OR police OR education OR schools) after:2026-01-01 before:2026-02-01": {
+   "date": "2026-09-25",
+   "n": 47
+  },
+  "google_news|\"Karnataka\" government AI (health OR agriculture OR police OR education OR schools) after:2026-02-01 before:2026-03-01": {
+   "date": "2026-09-25",
+   "n": 39
+  },
+  "google_news|\"Karnataka\" government AI (health OR agriculture OR police OR education OR schools) after:2026-03-01 before:2026-04-01": {
+   "date": "2026-09-25",
+   "n": 46
+  },
+  "google_news|\"Karnataka\" government AI (health OR agriculture OR police OR education OR schools) after:2026-04-01 before:2026-05-01": {
+   "date": "2026-09-25",
+   "n": 48
+  },
+  "google_news|\"Karnataka\" government AI (health OR agriculture OR police OR education OR schools) after:2026-05-01 before:2026-06-01": {
+   "date": "2026-09-25",
+   "n": 42
+  },
+  "google_news|\"Karnataka\" government AI (health OR agriculture OR police OR education OR schools) after:2026-06-01 before:2026-07-01": {
+   "date": "2026-09-25",
+   "n": 38
+  },
+  "google_news|\"Karnataka\" government AI (health OR agriculture OR police OR education OR schools) after:2026-07-01 before:2026-08-01": {
+   "date": "2026-09-25",
+   "n": 52
+  },
+  "google_news|\"Karnataka\" government AI (health OR agriculture OR police OR education OR schools) after:2026-08-01 before:2026-09-01": {
+   "date": "2026-09-25",
+   "n": 56
+  },
+  "google_news|Bengaluru AI government after:2026-01-01 before:2026-02-01": {
+   "date": "2026-09-25",
+   "n": 49
+  },
+  "google_news|Bengaluru AI government after:2026-02-01 before:2026-03-01": {
+   "date": "2026-09-25",
+   "n": 47
+  },
+  "google_news|Bengaluru AI government after:2026-03-01 before:2026-04-01": {
+   "date": "2026-09-25",
+   "n": 43
+  },
+  "google_news|Bengaluru AI government after:2026-04-01 before:2026-05-01": {
+   "date": "2026-09-25",
+   "n": 50
+  },
+  "google_news|Bengaluru AI government after:2026-05-01 before:2026-06-01": {
+   "date": "2026-09-25",
+   "n": 52
+  },
+  "google_news|Bengaluru AI government after:2026-06-01 before:2026-07-01": {
+   "date": "2026-09-25",
+   "n": 47
+  },
+  "google_news|Bengaluru AI government after:2026-07-01 before:2026-08-01": {
+   "date": "2026-09-25",
+   "n": 67
+  },
+  "google_news|Bengaluru AI government after:2026-08-01 before:2026-09-01": {
+   "date": "2026-09-25",
+   "n": 67
+  },
+  "google_news|\"Priyank Kharge\" AI after:2026-01-01 before:2026-02-01": {
+   "date": "2026-09-25",
+   "n": 25
+  },
+  "google_news|\"Priyank Kharge\" AI after:2026-02-01 before:2026-03-01": {
+   "date": "2026-09-25",
+   "n": 28
+  },
+  "google_news|\"Priyank Kharge\" AI after:2026-03-01 before:2026-04-01": {
+   "date": "2026-09-25",
+   "n": 19
+  },
+  "google_news|\"Priyank Kharge\" AI after:2026-04-01 before:2026-05-01": {
+   "date": "2026-09-25",
+   "n": 35
+  },
+  "google_news|\"Priyank Kharge\" AI after:2026-05-01 before:2026-06-01": {
+   "date": "2026-09-25",
+   "n": 34
+  },
+  "google_news|\"Priyank Kharge\" AI after:2026-06-01 before:2026-07-01": {
+   "date": "2026-09-25",
+   "n": 46
+  },
+  "google_news|\"Priyank Kharge\" AI after:2026-07-01 before:2026-08-01": {
+   "date": "2026-09-25",
+   "n": 46
+  },
+  "google_news|\"Priyank Kharge\" AI after:2026-08-01 before:2026-09-01": {
+   "date": "2026-09-25",
+   "n": 42
+  },
+  "google_news|Siddaramaiah AI after:2026-01-01 before:2026-02-01": {
+   "date": "2026-09-25",
+   "n": 41
+  },
+  "google_news|Siddaramaiah AI after:2026-02-01 before:2026-03-01": {
+   "date": "2026-09-25",
+   "n": 34
+  },
+  "google_news|Siddaramaiah AI after:2026-03-01 before:2026-04-01": {
+   "date": "2026-09-25",
+   "n": 43
+  },
+  "google_news|Siddaramaiah AI after:2026-04-01 before:2026-05-01": {
+   "date": "2026-09-25",
+   "n": 45
+  },
+  "google_news|Siddaramaiah AI after:2026-05-01 before:2026-06-01": {
+   "date": "2026-09-25",
+   "n": 49
+  },
+  "google_news|Siddaramaiah AI after:2026-06-01 before:2026-07-01": {
+   "date": "2026-09-25",
+   "n": 36
+  },
+  "google_news|Siddaramaiah AI after:2026-07-01 before:2026-08-01": {
+   "date": "2026-09-25",
+   "n": 19
+  },
+  "google_news|Siddaramaiah AI after:2026-08-01 before:2026-09-01": {
+   "date": "2026-09-25",
+   "n": 11
+  },
+  "google_news|KDEM AI after:2026-01-01 before:2026-02-01": {
+   "date": "2026-09-25",
+   "n": 2
+  },
+  "google_news|KDEM AI after:2026-02-01 before:2026-03-01": {
+   "date": "2026-09-25",
+   "n": 4
+  },
+  "google_news|KDEM AI after:2026-03-01 before:2026-04-01": {
+   "date": "2026-09-25",
+   "n": 2
+  },
+  "google_news|KDEM AI after:2026-04-01 before:2026-05-01": {
+   "date": "2026-09-25",
+   "n": 1
+  },
+  "google_news|KDEM AI after:2026-05-01 before:2026-06-01": {
+   "date": "2026-09-25",
+   "n": 7
+  },
+  "google_news|KDEM AI after:2026-06-01 before:2026-07-01": {
+   "date": "2026-09-25",
+   "n": 8
+  },
+  "google_news|KDEM AI after:2026-07-01 before:2026-08-01": {
+   "date": "2026-09-25",
+   "n": 14
+  },
+  "google_news|KDEM AI after:2026-08-01 before:2026-09-01": {
+   "date": "2026-09-25",
+   "n": 4
+  },
+  "google_news|\"Karnataka\" \"AI policy\" after:2026-01-01 before:2026-02-01": {
+   "date": "2026-09-25",
+   "n": 2
+  },
+  "google_news|\"Karnataka\" \"AI policy\" after:2026-02-01 before:2026-03-01": {
+   "date": "2026-09-25",
+   "n": 9
+  },
+  "google_news|\"Karnataka\" \"AI policy\" after:2026-03-01 before:2026-04-01": {
+   "date": "2026-09-25",
+   "n": 10
+  },
+  "google_news|\"Karnataka\" \"AI policy\" after:2026-04-01 before:2026-05-01": {
+   "date": "2026-09-25",
+   "n": 10
+  },
+  "google_news|\"Karnataka\" \"AI policy\" after:2026-05-01 before:2026-06-01": {
+   "date": "2026-09-25",
+   "n": 10
+  },
+  "google_news|\"Karnataka\" \"AI policy\" after:2026-06-01 before:2026-07-01": {
+   "date": "2026-09-25",
+   "n": 9
+  },
+  "google_news|\"Karnataka\" \"AI policy\" after:2026-07-01 before:2026-08-01": {
+   "date": "2026-09-25",
+   "n": 10
+  },
+  "google_news|\"Karnataka\" \"AI policy\" after:2026-08-01 before:2026-09-01": {
+   "date": "2026-09-25",
+   "n": 2
+  },
+  "google_news|\"Karnataka\" (AI OR \"artificial intelligence\") (site:deccanherald.com OR site:thehindu.com OR site:newindianexpress.com) after:2026-01-01 before:2026-02-01": {
+   "date": "2026-09-25",
+   "n": 100
+  },
+  "google_news|\"Karnataka\" (AI OR \"artificial intelligence\") (site:deccanherald.com OR site:thehindu.com OR site:newindianexpress.com) after:2026-02-01 before:2026-03-01": {
+   "date": "2026-09-25",
+   "n": 100
+  },
+  "google_news|\"Karnataka\" (AI OR \"artificial intelligence\") (site:deccanherald.com OR site:thehindu.com OR site:newindianexpress.com) after:2026-03-01 before:2026-04-01": {
+   "date": "2026-09-25",
+   "n": 100
+  },
+  "google_news|\"Karnataka\" (AI OR \"artificial intelligence\") (site:deccanherald.com OR site:thehindu.com OR site:newindianexpress.com) after:2026-04-01 before:2026-05-01": {
+   "date": "2026-09-25",
+   "n": 100
+  },
+  "google_news|\"Karnataka\" (AI OR \"artificial intelligence\") (site:deccanherald.com OR site:thehindu.com OR site:newindianexpress.com) after:2026-05-01 before:2026-06-01": {
+   "date": "2026-09-25",
+   "n": 100
+  },
+  "google_news|\"Karnataka\" (AI OR \"artificial intelligence\") (site:deccanherald.com OR site:thehindu.com OR site:newindianexpress.com) after:2026-06-01 before:2026-07-01": {
+   "date": "2026-09-25",
+   "n": 100
+  },
+  "google_news|\"Karnataka\" (AI OR \"artificial intelligence\") (site:deccanherald.com OR site:thehindu.com OR site:newindianexpress.com) after:2026-07-01 before:2026-08-01": {
+   "date": "2026-09-25",
+   "n": 100
+  },
+  "google_news|\"Karnataka\" (AI OR \"artificial intelligence\") (site:deccanherald.com OR site:thehindu.com OR site:newindianexpress.com) after:2026-08-01 before:2026-09-01": {
+   "date": "2026-09-25",
+   "n": 100
+  },
+  "google_news|\"Telangana\" (\"artificial intelligence\" OR AI) (policy OR mission OR \"task force\" OR \"centre of excellence\") after:2026-01-01 before:2026-02-01": {
+   "date": "2026-09-25",
+   "n": 46
+  },
+  "google_news|\"Telangana\" (\"artificial intelligence\" OR AI) (policy OR mission OR \"task force\" OR \"centre of excellence\") after:2026-02-01 before:2026-03-01": {
+   "date": "2026-09-25",
+   "n": 47
+  },
+  "google_news|\"Telangana\" (\"artificial intelligence\" OR AI) (policy OR mission OR \"task force\" OR \"centre of excellence\") after:2026-03-01 before:2026-04-01": {
+   "date": "2026-09-25",
+   "n": 28
+  },
+  "google_news|\"Telangana\" (\"artificial intelligence\" OR AI) (policy OR mission OR \"task force\" OR \"centre of excellence\") after:2026-04-01 before:2026-05-01": {
+   "date": "2026-09-25",
+   "n": 46
+  },
+  "google_news|\"Telangana\" (\"artificial intelligence\" OR AI) (policy OR mission OR \"task force\" OR \"centre of excellence\") after:2026-05-01 before:2026-06-01": {
+   "date": "2026-09-25",
+   "n": 29
+  },
+  "google_news|\"Telangana\" (\"artificial intelligence\" OR AI) (policy OR mission OR \"task force\" OR \"centre of excellence\") after:2026-06-01 before:2026-07-01": {
+   "date": "2026-09-25",
+   "n": 37
+  },
+  "google_news|\"Telangana\" (\"artificial intelligence\" OR AI) (policy OR mission OR \"task force\" OR \"centre of excellence\") after:2026-07-01 before:2026-08-01": {
+   "date": "2026-09-25",
+   "n": 43
+  },
+  "google_news|\"Telangana\" (\"artificial intelligence\" OR AI) (policy OR mission OR \"task force\" OR \"centre of excellence\") after:2026-08-01 before:2026-09-01": {
+   "date": "2026-09-25",
+   "n": 52
+  },
+  "google_news|\"Telangana\" (\"artificial intelligence\" OR AI) (MoU OR partnership OR budget OR crore OR tender OR contract) after:2026-01-01 before:2026-02-01": {
+   "date": "2026-09-25",
+   "n": 48
+  },
+  "google_news|\"Telangana\" (\"artificial intelligence\" OR AI) (MoU OR partnership OR budget OR crore OR tender OR contract) after:2026-02-01 before:2026-03-01": {
+   "date": "2026-09-25",
+   "n": 45
+  },
+  "google_news|\"Telangana\" (\"artificial intelligence\" OR AI) (MoU OR partnership OR budget OR crore OR tender OR contract) after:2026-03-01 before:2026-04-01": {
+   "date": "2026-09-25",
+   "n": 43
+  },
+  "google_news|\"Telangana\" (\"artificial intelligence\" OR AI) (MoU OR partnership OR budget OR crore OR tender OR contract) after:2026-04-01 before:2026-05-01": {
+   "date": "2026-09-25",
+   "n": 48
+  },
+  "google_news|\"Telangana\" (\"artificial intelligence\" OR AI) (MoU OR partnership OR budget OR crore OR tender OR contract) after:2026-05-01 before:2026-06-01": {
+   "date": "2026-09-25",
+   "n": 47
+  },
+  "google_news|\"Telangana\" (\"artificial intelligence\" OR AI) (MoU OR partnership OR budget OR crore OR tender OR contract) after:2026-06-01 before:2026-07-01": {
+   "date": "2026-09-25",
+   "n": 49
+  },
+  "google_news|\"Telangana\" (\"artificial intelligence\" OR AI) (MoU OR partnership OR budget OR crore OR tender OR contract) after:2026-07-01 before:2026-08-01": {
+   "date": "2026-09-25",
+   "n": 50
+  },
+  "google_news|\"Telangana\" (\"artificial intelligence\" OR AI) (MoU OR partnership OR budget OR crore OR tender OR contract) after:2026-08-01 before:2026-09-01": {
+   "date": "2026-09-25",
+   "n": 51
+  },
+  "google_news|\"Telangana\" government AI (health OR agriculture OR police OR education OR schools) after:2026-01-01 before:2026-02-01": {
+   "date": "2026-09-25",
+   "n": 48
+  },
+  "google_news|\"Telangana\" government AI (health OR agriculture OR police OR education OR schools) after:2026-02-01 before:2026-03-01": {
+   "date": "2026-09-25",
+   "n": 43
+  },
+  "google_news|\"Telangana\" government AI (health OR agriculture OR police OR education OR schools) after:2026-03-01 before:2026-04-01": {
+   "date": "2026-09-25",
+   "n": 41
+  },
+  "google_news|\"Telangana\" government AI (health OR agriculture OR police OR education OR schools) after:2026-04-01 before:2026-05-01": {
+   "date": "2026-09-25",
+   "n": 43
+  },
+  "google_news|\"Telangana\" government AI (health OR agriculture OR police OR education OR schools) after:2026-05-01 before:2026-06-01": {
+   "date": "2026-09-25",
+   "n": 44
+  },
+  "google_news|\"Telangana\" government AI (health OR agriculture OR police OR education OR schools) after:2026-06-01 before:2026-07-01": {
+   "date": "2026-09-25",
+   "n": 47
+  },
+  "google_news|\"Telangana\" government AI (health OR agriculture OR police OR education OR schools) after:2026-07-01 before:2026-08-01": {
+   "date": "2026-09-25",
+   "n": 44
+  },
+  "google_news|\"Telangana\" government AI (health OR agriculture OR police OR education OR schools) after:2026-08-01 before:2026-09-01": {
+   "date": "2026-09-25",
+   "n": 51
+  },
+  "google_news|Hyderabad AI government after:2026-01-01 before:2026-02-01": {
+   "date": "2026-09-25",
+   "n": 46
+  },
+  "google_news|Hyderabad AI government after:2026-02-01 before:2026-03-01": {
+   "date": "2026-09-25",
+   "n": 45
+  },
+  "google_news|Hyderabad AI government after:2026-03-01 before:2026-04-01": {
+   "date": "2026-09-25",
+   "n": 43
+  },
+  "google_news|Hyderabad AI government after:2026-04-01 before:2026-05-01": {
+   "date": "2026-09-25",
+   "n": 50
+  },
+  "google_news|Hyderabad AI government after:2026-05-01 before:2026-06-01": {
+   "date": "2026-09-25",
+   "n": 49
+  },
+  "google_news|Hyderabad AI government after:2026-06-01 before:2026-07-01": {
+   "date": "2026-09-25",
+   "n": 50
+  },
+  "google_news|Hyderabad AI government after:2026-07-01 before:2026-08-01": {
+   "date": "2026-09-25",
+   "n": 64
+  },
+  "google_news|Hyderabad AI government after:2026-08-01 before:2026-09-01": {
+   "date": "2026-09-25",
+   "n": 69
+  },
+  "google_news|\"Sridhar Babu\" AI after:2026-01-01 before:2026-02-01": {
+   "date": "2026-09-25",
+   "n": 16
+  },
+  "google_news|\"Sridhar Babu\" AI after:2026-02-01 before:2026-03-01": {
+   "date": "2026-09-25",
+   "n": 11
+  },
+  "google_news|\"Sridhar Babu\" AI after:2026-03-01 before:2026-04-01": {
+   "date": "2026-09-25",
+   "n": 13
+  },
+  "google_news|\"Sridhar Babu\" AI after:2026-04-01 before:2026-05-01": {
+   "date": "2026-09-25",
+   "n": 14
+  },
+  "google_news|\"Sridhar Babu\" AI after:2026-05-01 before:2026-06-01": {
+   "date": "2026-09-25",
+   "n": 14
+  },
+  "google_news|\"Sridhar Babu\" AI after:2026-06-01 before:2026-07-01": {
+   "date": "2026-09-25",
+   "n": 13
+  },
+  "google_news|\"Sridhar Babu\" AI after:2026-07-01 before:2026-08-01": {
+   "date": "2026-09-25",
+   "n": 13
+  },
+  "google_news|\"Sridhar Babu\" AI after:2026-08-01 before:2026-09-01": {
+   "date": "2026-09-25",
+   "n": 14
+  },
+  "google_news|\"Revanth Reddy\" AI after:2026-01-01 before:2026-02-01": {
+   "date": "2026-09-25",
+   "n": 41
+  },
+  "google_news|\"Revanth Reddy\" AI after:2026-02-01 before:2026-03-01": {
+   "date": "2026-09-25",
+   "n": 33
+  },
+  "google_news|\"Revanth Reddy\" AI after:2026-03-01 before:2026-04-01": {
+   "date": "2026-09-25",
+   "n": 36
+  },
+  "google_news|\"Revanth Reddy\" AI after:2026-04-01 before:2026-05-01": {
+   "date": "2026-09-25",
+   "n": 48
+  },
+  "google_news|\"Revanth Reddy\" AI after:2026-05-01 before:2026-06-01": {
+   "date": "2026-09-25",
+   "n": 38
+  },
+  "google_news|\"Revanth Reddy\" AI after:2026-06-01 before:2026-07-01": {
+   "date": "2026-09-25",
+   "n": 45
+  },
+  "google_news|\"Revanth Reddy\" AI after:2026-07-01 before:2026-08-01": {
+   "date": "2026-09-25",
+   "n": 44
+  },
+  "google_news|\"Revanth Reddy\" AI after:2026-08-01 before:2026-09-01": {
+   "date": "2026-09-25",
+   "n": 49
+  },
+  "google_news|\"T-Hub\" AI after:2026-01-01 before:2026-02-01": {
+   "date": "2026-09-25",
+   "n": 9
+  },
+  "google_news|\"T-Hub\" AI after:2026-02-01 before:2026-03-01": {
+   "date": "2026-09-25",
+   "n": 10
+  },
+  "google_news|\"T-Hub\" AI after:2026-03-01 before:2026-04-01": {
+   "date": "2026-09-25",
+   "n": 9
+  },
+  "google_news|\"T-Hub\" AI after:2026-04-01 before:2026-05-01": {
+   "date": "2026-09-25",
+   "n": 7
+  },
+  "google_news|\"T-Hub\" AI after:2026-05-01 before:2026-06-01": {
+   "date": "2026-09-25",
+   "n": 8
+  },
+  "google_news|\"T-Hub\" AI after:2026-06-01 before:2026-07-01": {
+   "date": "2026-09-25",
+   "n": 10
+  },
+  "google_news|\"T-Hub\" AI after:2026-07-01 before:2026-08-01": {
+   "date": "2026-09-25",
+   "n": 12
+  },
+  "google_news|\"T-Hub\" AI after:2026-08-01 before:2026-09-01": {
+   "date": "2026-09-25",
+   "n": 31
+  },
+  "google_news|\"Telangana AI Mission\" after:2026-01-01 before:2026-02-01": {
+   "date": "2026-09-25",
+   "n": 0
+  },
+  "google_news|\"Telangana AI Mission\" after:2026-02-01 before:2026-03-01": {
+   "date": "2026-09-25",
+   "n": 1
+  },
+  "google_news|\"Telangana AI Mission\" after:2026-03-01 before:2026-04-01": {
+   "date": "2026-09-25",
+   "n": 0
+  },
+  "google_news|\"Telangana AI Mission\" after:2026-04-01 before:2026-05-01": {
+   "date": "2026-09-25",
+   "n": 0
+  },
+  "google_news|\"Telangana AI Mission\" after:2026-05-01 before:2026-06-01": {
+   "date": "2026-09-25",
+   "n": 0
+  },
+  "google_news|\"Telangana AI Mission\" after:2026-06-01 before:2026-07-01": {
+   "date": "2026-09-25",
+   "n": 0
+  },
+  "google_news|\"Telangana AI Mission\" after:2026-07-01 before:2026-08-01": {
+   "date": "2026-09-25",
+   "n": 0
+  },
+  "google_news|\"Telangana AI Mission\" after:2026-08-01 before:2026-09-01": {
+   "date": "2026-09-25",
+   "n": 0
+  },
+  "google_news|\"Telangana\" (AI OR \"artificial intelligence\") (site:telanganatoday.com OR site:thehansindia.com OR site:deccanchronicle.com) after:2026-01-01 before:2026-02-01": {
+   "date": "2026-09-25",
+   "n": 100
+  },
+  "google_news|\"Telangana\" (AI OR \"artificial intelligence\") (site:telanganatoday.com OR site:thehansindia.com OR site:deccanchronicle.com) after:2026-02-01 before:2026-03-01": {
+   "date": "2026-09-25",
+   "n": 100
+  },
+  "google_news|\"Telangana\" (AI OR \"artificial intelligence\") (site:telanganatoday.com OR site:thehansindia.com OR site:deccanchronicle.com) after:2026-03-01 before:2026-04-01": {
+   "date": "2026-09-25",
+   "n": 100
+  },
+  "google_news|\"Telangana\" (AI OR \"artificial intelligence\") (site:telanganatoday.com OR site:thehansindia.com OR site:deccanchronicle.com) after:2026-04-01 before:2026-05-01": {
+   "date": "2026-09-25",
+   "n": 100
+  },
+  "google_news|\"Telangana\" (AI OR \"artificial intelligence\") (site:telanganatoday.com OR site:thehansindia.com OR site:deccanchronicle.com) after:2026-05-01 before:2026-06-01": {
+   "date": "2026-09-25",
+   "n": 100
+  },
+  "google_news|\"Telangana\" (AI OR \"artificial intelligence\") (site:telanganatoday.com OR site:thehansindia.com OR site:deccanchronicle.com) after:2026-06-01 before:2026-07-01": {
+   "date": "2026-09-25",
+   "n": 100
+  },
+  "google_news|\"Telangana\" (AI OR \"artificial intelligence\") (site:telanganatoday.com OR site:thehansindia.com OR site:deccanchronicle.com) after:2026-07-01 before:2026-08-01": {
+   "date": "2026-09-25",
+   "n": 100
+  },
+  "google_news|\"Telangana\" (AI OR \"artificial intelligence\") (site:telanganatoday.com OR site:thehansindia.com OR site:deccanchronicle.com) after:2026-08-01 before:2026-09-01": {
+   "date": "2026-09-25",
+   "n": 100
+  },
+  "google_news|\"Delhi\" (\"artificial intelligence\" OR AI) (policy OR mission OR \"task force\" OR \"centre of excellence\") after:2026-01-01 before:2026-02-01": {
+   "date": "2026-09-25",
+   "n": 37
+  },
+  "google_news|\"Delhi\" (\"artificial intelligence\" OR AI) (policy OR mission OR \"task force\" OR \"centre of excellence\") after:2026-02-01 before:2026-03-01": {
+   "date": "2026-09-25",
+   "n": 100
+  },
+  "google_news|\"Delhi\" (\"artificial intelligence\" OR AI) (policy OR mission OR \"task force\" OR \"centre of excellence\") after:2026-03-01 before:2026-04-01": {
+   "date": "2026-09-25",
+   "n": 19
+  },
+  "google_news|\"Delhi\" (\"artificial intelligence\" OR AI) (policy OR mission OR \"task force\" OR \"centre of excellence\") after:2026-04-01 before:2026-05-01": {
+   "date": "2026-09-25",
+   "n": 50
+  },
+  "google_news|\"Delhi\" (\"artificial intelligence\" OR AI) (policy OR mission OR \"task force\" OR \"centre of excellence\") after:2026-05-01 before:2026-06-01": {
+   "date": "2026-09-25",
+   "n": 48
+  },
+  "google_news|\"Delhi\" (\"artificial intelligence\" OR AI) (policy OR mission OR \"task force\" OR \"centre of excellence\") after:2026-06-01 before:2026-07-01": {
+   "date": "2026-09-25",
+   "n": 39
+  },
+  "google_news|\"Delhi\" (\"artificial intelligence\" OR AI) (policy OR mission OR \"task force\" OR \"centre of excellence\") after:2026-07-01 before:2026-08-01": {
+   "date": "2026-09-25",
+   "n": 58
+  },
+  "google_news|\"Delhi\" (\"artificial intelligence\" OR AI) (policy OR mission OR \"task force\" OR \"centre of excellence\") after:2026-08-01 before:2026-09-01": {
+   "date": "2026-09-25",
+   "n": 62
+  },
+  "google_news|\"Delhi\" (\"artificial intelligence\" OR AI) (MoU OR partnership OR budget OR crore OR tender OR contract) after:2026-01-01 before:2026-02-01": {
+   "date": "2026-09-25",
+   "n": 42
+  },
+  "google_news|\"Delhi\" (\"artificial intelligence\" OR AI) (MoU OR partnership OR budget OR crore OR tender OR contract) after:2026-02-01 before:2026-03-01": {
+   "date": "2026-09-25",
+   "n": 45
+  },
+  "google_news|\"Delhi\" (\"artificial intelligence\" OR AI) (MoU OR partnership OR budget OR crore OR tender OR contract) after:2026-03-01 before:2026-04-01": {
+   "date": "2026-09-25",
+   "n": 25
+  },
+  "google_news|\"Delhi\" (\"artificial intelligence\" OR AI) (MoU OR partnership OR budget OR crore OR tender OR contract) after:2026-04-01 before:2026-05-01": {
+   "date": "2026-09-25",
+   "n": 48
+  },
+  "google_news|\"Delhi\" (\"artificial intelligence\" OR AI) (MoU OR partnership OR budget OR crore OR tender OR contract) after:2026-05-01 before:2026-06-01": {
+   "date": "2026-09-25",
+   "n": 45
+  },
+  "google_news|\"Delhi\" (\"artificial intelligence\" OR AI) (MoU OR partnership OR budget OR crore OR tender OR contract) after:2026-06-01 before:2026-07-01": {
+   "date": "2026-09-25",
+   "n": 46
+  },
+  "google_news|\"Delhi\" (\"artificial intelligence\" OR AI) (MoU OR partnership OR budget OR crore OR tender OR contract) after:2026-07-01 before:2026-08-01": {
+   "date": "2026-09-25",
+   "n": 54
+  },
+  "google_news|\"Delhi\" (\"artificial intelligence\" OR AI) (MoU OR partnership OR budget OR crore OR tender OR contract) after:2026-08-01 before:2026-09-01": {
+   "date": "2026-09-25",
+   "n": 56
+  },
+  "google_news|\"Delhi\" government AI (health OR agriculture OR police OR education OR schools) after:2026-01-01 before:2026-02-01": {
+   "date": "2026-09-25",
+   "n": 38
+  },
+  "google_news|\"Delhi\" government AI (health OR agriculture OR police OR education OR schools) after:2026-02-01 before:2026-03-01": {
+   "date": "2026-09-25",
+   "n": 57
+  },
+  "google_news|\"Delhi\" government AI (health OR agriculture OR police OR education OR schools) after:2026-03-01 before:2026-04-01": {
+   "date": "2026-09-25",
+   "n": 25
+  },
+  "google_news|\"Delhi\" government AI (health OR agriculture OR police OR education OR schools) after:2026-04-01 before:2026-05-01": {
+   "date": "2026-09-25",
+   "n": 44
+  },
+  "google_news|\"Delhi\" government AI (health OR agriculture OR police OR education OR schools) after:2026-05-01 before:2026-06-01": {
+   "date": "2026-09-25",
+   "n": 40
+  },
+  "google_news|\"Delhi\" government AI (health OR agriculture OR police OR education OR schools) after:2026-06-01 before:2026-07-01": {
+   "date": "2026-09-25",
+   "n": 32
+  },
+  "google_news|\"Delhi\" government AI (health OR agriculture OR police OR education OR schools) after:2026-07-01 before:2026-08-01": {
+   "date": "2026-09-25",
+   "n": 48
+  },
+  "google_news|\"Delhi\" government AI (health OR agriculture OR police OR education OR schools) after:2026-08-01 before:2026-09-01": {
+   "date": "2026-09-25",
+   "n": 61
+  },
+  "google_news|Delhi AI government after:2026-01-01 before:2026-02-01": {
+   "date": "2026-09-25",
+   "n": 38
+  },
+  "google_news|Delhi AI government after:2026-02-01 before:2026-03-01": {
+   "date": "2026-09-25",
+   "n": 74
+  },
+  "google_news|Delhi AI government after:2026-03-01 before:2026-04-01": {
+   "date": "2026-09-25",
+   "n": 27
+  },
+  "google_news|Delhi AI government after:2026-04-01 before:2026-05-01": {
+   "date": "2026-09-25",
+   "n": 48
+  },
+  "google_news|Delhi AI government after:2026-05-01 before:2026-06-01": {
+   "date": "2026-09-25",
+   "n": 50
+  },
+  "google_news|Delhi AI government after:2026-06-01 before:2026-07-01": {
+   "date": "2026-09-25",
+   "n": 47
+  },
+  "google_news|Delhi AI government after:2026-07-01 before:2026-08-01": {
+   "date": "2026-09-25",
+   "n": 64
+  },
+  "google_news|Delhi AI government after:2026-08-01 before:2026-09-01": {
+   "date": "2026-09-25",
+   "n": 64
+  },
+  "google_news|\"Rekha Gupta\" AI after:2026-01-01 before:2026-02-01": {
+   "date": "2026-09-25",
+   "n": 35
+  },
+  "google_news|\"Rekha Gupta\" AI after:2026-02-01 before:2026-03-01": {
+   "date": "2026-09-25",
+   "n": 45
+  },
+  "google_news|\"Rekha Gupta\" AI after:2026-03-01 before:2026-04-01": {
+   "date": "2026-09-25",
+   "n": 37
+  },
+  "google_news|\"Rekha Gupta\" AI after:2026-04-01 before:2026-05-01": {
+   "date": "2026-09-25",
+   "n": 46
+  },
+  "google_news|\"Rekha Gupta\" AI after:2026-05-01 before:2026-06-01": {
+   "date": "2026-09-25",
+   "n": 46
+  },
+  "google_news|\"Rekha Gupta\" AI after:2026-06-01 before:2026-07-01": {
+   "date": "2026-09-25",
+   "n": 38
+  },
+  "google_news|\"Rekha Gupta\" AI after:2026-07-01 before:2026-08-01": {
+   "date": "2026-09-25",
+   "n": 45
+  },
+  "google_news|\"Rekha Gupta\" AI after:2026-08-01 before:2026-09-01": {
+   "date": "2026-09-25",
+   "n": 43
+  },
+  "google_news|\"Delhi government\" AI after:2026-01-01 before:2026-02-01": {
+   "date": "2026-09-25",
+   "n": 48
+  },
+  "google_news|\"Delhi government\" AI after:2026-02-01 before:2026-03-01": {
+   "date": "2026-09-25",
+   "n": 47
+  },
+  "google_news|\"Delhi government\" AI after:2026-03-01 before:2026-04-01": {
+   "date": "2026-09-25",
+   "n": 44
+  },
+  "google_news|\"Delhi government\" AI after:2026-04-01 before:2026-05-01": {
+   "date": "2026-09-25",
+   "n": 46
+  },
+  "google_news|\"Delhi government\" AI after:2026-05-01 before:2026-06-01": {
+   "date": "2026-09-25",
+   "n": 48
+  },
+  "google_news|\"Delhi government\" AI after:2026-06-01 before:2026-07-01": {
+   "date": "2026-09-25",
+   "n": 45
+  },
+  "google_news|\"Delhi government\" AI after:2026-07-01 before:2026-08-01": {
+   "date": "2026-09-25",
+   "n": 45
+  },
+  "google_news|\"Delhi government\" AI after:2026-08-01 before:2026-09-01": {
+   "date": "2026-09-25",
+   "n": 39
+  },
+  "google_news|\"Delhi Police\" AI after:2026-01-01 before:2026-02-01": {
+   "date": "2026-09-25",
+   "n": 37
+  },
+  "google_news|\"Delhi Police\" AI after:2026-02-01 before:2026-03-01": {
+   "date": "2026-09-25",
+   "n": 100
+  },
+  "google_news|\"Delhi Police\" AI after:2026-03-01 before:2026-04-01": {
+   "date": "2026-09-25",
+   "n": 33
+  },
+  "google_news|\"Delhi Police\" AI after:2026-04-01 before:2026-05-01": {
+   "date": "2026-09-25",
+   "n": 51
+  },
+  "google_news|\"Delhi Police\" AI after:2026-05-01 before:2026-06-01": {
+   "date": "2026-09-25",
+   "n": 44
+  },
+  "google_news|\"Delhi Police\" AI after:2026-06-01 before:2026-07-01": {
+   "date": "2026-09-25",
+   "n": 27
+  },
+  "google_news|\"Delhi Police\" AI after:2026-07-01 before:2026-08-01": {
+   "date": "2026-09-25",
+   "n": 86
+  },
+  "google_news|\"Delhi Police\" AI after:2026-08-01 before:2026-09-01": {
+   "date": "2026-09-25",
+   "n": 58
+  },
+  "google_news|\"Delhi\" (AI OR \"artificial intelligence\") (site:hindustantimes.com OR site:indianexpress.com OR site:thehindu.com) after:2026-01-01 before:2026-02-01": {
+   "date": "2026-09-25",
+   "n": 100
+  },
+  "google_news|\"Delhi\" (AI OR \"artificial intelligence\") (site:hindustantimes.com OR site:indianexpress.com OR site:thehindu.com) after:2026-02-01 before:2026-03-01": {
+   "date": "2026-09-25",
+   "n": 100
+  },
+  "google_news|\"Delhi\" (AI OR \"artificial intelligence\") (site:hindustantimes.com OR site:indianexpress.com OR site:thehindu.com) after:2026-03-01 before:2026-04-01": {
+   "date": "2026-09-25",
+   "n": 97
+  },
+  "google_news|\"Delhi\" (AI OR \"artificial intelligence\") (site:hindustantimes.com OR site:indianexpress.com OR site:thehindu.com) after:2026-04-01 before:2026-05-01": {
+   "date": "2026-09-25",
+   "n": 100
+  },
+  "google_news|\"Delhi\" (AI OR \"artificial intelligence\") (site:hindustantimes.com OR site:indianexpress.com OR site:thehindu.com) after:2026-05-01 before:2026-06-01": {
+   "date": "2026-09-25",
+   "n": 100
+  },
+  "google_news|\"Delhi\" (AI OR \"artificial intelligence\") (site:hindustantimes.com OR site:indianexpress.com OR site:thehindu.com) after:2026-06-01 before:2026-07-01": {
+   "date": "2026-09-25",
+   "n": 100
+  },
+  "google_news|\"Delhi\" (AI OR \"artificial intelligence\") (site:hindustantimes.com OR site:indianexpress.com OR site:thehindu.com) after:2026-07-01 before:2026-08-01": {
+   "date": "2026-09-25",
+   "n": 100
+  },
+  "google_news|\"Delhi\" (AI OR \"artificial intelligence\") (site:hindustantimes.com OR site:indianexpress.com OR site:thehindu.com) after:2026-08-01 before:2026-09-01": {
+   "date": "2026-09-25",
+   "n": 100
+  },
+  "google_news|\"Gujarat\" (\"artificial intelligence\" OR AI) (policy OR mission OR \"task force\" OR \"centre of excellence\") after:2026-01-01 before:2026-02-01": {
+   "date": "2026-09-25",
+   "n": 46
+  },
+  "google_news|\"Gujarat\" (\"artificial intelligence\" OR AI) (policy OR mission OR \"task force\" OR \"centre of excellence\") after:2026-02-01 before:2026-03-01": {
+   "date": "2026-09-25",
+   "n": 46
+  },
+  "google_news|\"Gujarat\" (\"artificial intelligence\" OR AI) (policy OR mission OR \"task force\" OR \"centre of excellence\") after:2026-03-01 before:2026-04-01": {
+   "date": "2026-09-25",
+   "n": 34
+  },
+  "google_news|\"Gujarat\" (\"artificial intelligence\" OR AI) (policy OR mission OR \"task force\" OR \"centre of excellence\") after:2026-04-01 before:2026-05-01": {
+   "date": "2026-09-25",
+   "n": 43
+  },
+  "google_news|\"Gujarat\" (\"artificial intelligence\" OR AI) (policy OR mission OR \"task force\" OR \"centre of excellence\") after:2026-05-01 before:2026-06-01": {
+   "date": "2026-09-25",
+   "n": 45
+  },
+  "google_news|\"Gujarat\" (\"artificial intelligence\" OR AI) (policy OR mission OR \"task force\" OR \"centre of excellence\") after:2026-06-01 before:2026-07-01": {
+   "date": "2026-09-25",
+   "n": 39
+  },
+  "google_news|\"Gujarat\" (\"artificial intelligence\" OR AI) (policy OR mission OR \"task force\" OR \"centre of excellence\") after:2026-07-01 before:2026-08-01": {
+   "date": "2026-09-25",
+   "n": 49
+  },
+  "google_news|\"Gujarat\" (\"artificial intelligence\" OR AI) (policy OR mission OR \"task force\" OR \"centre of excellence\") after:2026-08-01 before:2026-09-01": {
+   "date": "2026-09-25",
+   "n": 57
+  },
+  "google_news|\"Gujarat\" (\"artificial intelligence\" OR AI) (MoU OR partnership OR budget OR crore OR tender OR contract) after:2026-01-01 before:2026-02-01": {
+   "date": "2026-09-25",
+   "n": 43
+  },
+  "google_news|\"Gujarat\" (\"artificial intelligence\" OR AI) (MoU OR partnership OR budget OR crore OR tender OR contract) after:2026-02-01 before:2026-03-01": {
+   "date": "2026-09-25",
+   "n": 48
+  },
+  "google_news|\"Gujarat\" (\"artificial intelligence\" OR AI) (MoU OR partnership OR budget OR crore OR tender OR contract) after:2026-03-01 before:2026-04-01": {
+   "date": "2026-09-25",
+   "n": 40
+  },
+  "google_news|\"Gujarat\" (\"artificial intelligence\" OR AI) (MoU OR partnership OR budget OR crore OR tender OR contract) after:2026-04-01 before:2026-05-01": {
+   "date": "2026-09-25",
+   "n": 49
+  },
+  "google_news|\"Gujarat\" (\"artificial intelligence\" OR AI) (MoU OR partnership OR budget OR crore OR tender OR contract) after:2026-05-01 before:2026-06-01": {
+   "date": "2026-09-25",
+   "n": 45
+  },
+  "google_news|\"Gujarat\" (\"artificial intelligence\" OR AI) (MoU OR partnership OR budget OR crore OR tender OR contract) after:2026-06-01 before:2026-07-01": {
+   "date": "2026-09-25",
+   "n": 42
+  },
+  "google_news|\"Gujarat\" (\"artificial intelligence\" OR AI) (MoU OR partnership OR budget OR crore OR tender OR contract) after:2026-07-01 before:2026-08-01": {
+   "date": "2026-09-25",
+   "n": 49
+  },
+  "google_news|\"Gujarat\" (\"artificial intelligence\" OR AI) (MoU OR partnership OR budget OR crore OR tender OR contract) after:2026-08-01 before:2026-09-01": {
+   "date": "2026-09-25",
+   "n": 57
+  },
+  "google_news|\"Gujarat\" government AI (health OR agriculture OR police OR education OR schools) after:2026-01-01 before:2026-02-01": {
+   "date": "2026-09-25",
+   "n": 41
+  },
+  "google_news|\"Gujarat\" government AI (health OR agriculture OR police OR education OR schools) after:2026-02-01 before:2026-03-01": {
+   "date": "2026-09-25",
+   "n": 44
+  },
+  "google_news|\"Gujarat\" government AI (health OR agriculture OR police OR education OR schools) after:2026-03-01 before:2026-04-01": {
+   "date": "2026-09-25",
+   "n": 34
+  },
+  "google_news|\"Gujarat\" government AI (health OR agriculture OR police OR education OR schools) after:2026-04-01 before:2026-05-01": {
+   "date": "2026-09-25",
+   "n": 46
+  },
+  "google_news|\"Gujarat\" government AI (health OR agriculture OR police OR education OR schools) after:2026-05-01 before:2026-06-01": {
+   "date": "2026-09-25",
+   "n": 41
+  },
+  "google_news|\"Gujarat\" government AI (health OR agriculture OR police OR education OR schools) after:2026-06-01 before:2026-07-01": {
+   "date": "2026-09-25",
+   "n": 35
+  },
+  "google_news|\"Gujarat\" government AI (health OR agriculture OR police OR education OR schools) after:2026-07-01 before:2026-08-01": {
+   "date": "2026-09-25",
+   "n": 48
+  },
+  "google_news|\"Gujarat\" government AI (health OR agriculture OR police OR education OR schools) after:2026-08-01 before:2026-09-01": {
+   "date": "2026-09-25",
+   "n": 53
+  },
+  "google_news|Ahmedabad AI government after:2026-01-01 before:2026-02-01": {
+   "date": "2026-09-25",
+   "n": 44
+  },
+  "google_news|Ahmedabad AI government after:2026-02-01 before:2026-03-01": {
+   "date": "2026-09-25",
+   "n": 45
+  },
+  "google_news|Ahmedabad AI government after:2026-03-01 before:2026-04-01": {
+   "date": "2026-09-25",
+   "n": 43
+  },
+  "google_news|Ahmedabad AI government after:2026-04-01 before:2026-05-01": {
+   "date": "2026-09-25",
+   "n": 49
+  },
+  "google_news|Ahmedabad AI government after:2026-05-01 before:2026-06-01": {
+   "date": "2026-09-25",
+   "n": 44
+  },
+  "google_news|Ahmedabad AI government after:2026-06-01 before:2026-07-01": {
+   "date": "2026-09-25",
+   "n": 45
+  },
+  "google_news|Ahmedabad AI government after:2026-07-01 before:2026-08-01": {
+   "date": "2026-09-25",
+   "n": 47
+  },
+  "google_news|Ahmedabad AI government after:2026-08-01 before:2026-09-01": {
+   "date": "2026-09-25",
+   "n": 59
+  },
+  "google_news|\"Bhupendra Patel\" AI after:2026-01-01 before:2026-02-01": {
+   "date": "2026-09-25",
+   "n": 12
+  },
+  "google_news|\"Bhupendra Patel\" AI after:2026-02-01 before:2026-03-01": {
+   "date": "2026-09-25",
+   "n": 11
+  },
+  "google_news|\"Bhupendra Patel\" AI after:2026-03-01 before:2026-04-01": {
+   "date": "2026-09-25",
+   "n": 17
+  },
+  "google_news|\"Bhupendra Patel\" AI after:2026-04-01 before:2026-05-01": {
+   "date": "2026-09-25",
+   "n": 16
+  },
+  "google_news|\"Bhupendra Patel\" AI after:2026-05-01 before:2026-06-01": {
+   "date": "2026-09-25",
+   "n": 19
+  },
+  "google_news|\"Bhupendra Patel\" AI after:2026-06-01 before:2026-07-01": {
+   "date": "2026-09-25",
+   "n": 21
+  },
+  "google_news|\"Bhupendra Patel\" AI after:2026-07-01 before:2026-08-01": {
+   "date": "2026-09-25",
+   "n": 42
+  },
+  "google_news|\"Bhupendra Patel\" AI after:2026-08-01 before:2026-09-01": {
+   "date": "2026-09-25",
+   "n": 21
+  },
+  "google_news|\"GIFT City\" AI after:2026-01-01 before:2026-02-01": {
+   "date": "2026-09-25",
+   "n": 41
+  },
+  "google_news|\"GIFT City\" AI after:2026-02-01 before:2026-03-01": {
+   "date": "2026-09-25",
+   "n": 43
+  },
+  "google_news|\"GIFT City\" AI after:2026-03-01 before:2026-04-01": {
+   "date": "2026-09-25",
+   "n": 37
+  },
+  "google_news|\"GIFT City\" AI after:2026-04-01 before:2026-05-01": {
+   "date": "2026-09-25",
+   "n": 46
+  },
+  "google_news|\"GIFT City\" AI after:2026-05-01 before:2026-06-01": {
+   "date": "2026-09-25",
+   "n": 45
+  },
+  "google_news|\"GIFT City\" AI after:2026-06-01 before:2026-07-01": {
+   "date": "2026-09-25",
+   "n": 47
+  },
+  "google_news|\"GIFT City\" AI after:2026-07-01 before:2026-08-01": {
+   "date": "2026-09-25",
+   "n": 47
+  },
+  "google_news|\"GIFT City\" AI after:2026-08-01 before:2026-09-01": {
+   "date": "2026-09-25",
+   "n": 47
+  },
+  "google_news|Gandhinagar AI after:2026-01-01 before:2026-02-01": {
+   "date": "2026-09-25",
+   "n": 46
+  },
+  "google_news|Gandhinagar AI after:2026-02-01 before:2026-03-01": {
+   "date": "2026-09-25",
+   "n": 44
+  },
+  "google_news|Gandhinagar AI after:2026-03-01 before:2026-04-01": {
+   "date": "2026-09-25",
+   "n": 41
+  },
+  "google_news|Gandhinagar AI after:2026-04-01 before:2026-05-01": {
+   "date": "2026-09-25",
+   "n": 34
+  },
+  "google_news|Gandhinagar AI after:2026-05-01 before:2026-06-01": {
+   "date": "2026-09-25",
+   "n": 46
+  },
+  "google_news|Gandhinagar AI after:2026-06-01 before:2026-07-01": {
+   "date": "2026-09-25",
+   "n": 48
+  },
+  "google_news|Gandhinagar AI after:2026-07-01 before:2026-08-01": {
+   "date": "2026-09-25",
+   "n": 47
+  },
+  "google_news|Gandhinagar AI after:2026-08-01 before:2026-09-01": {
+   "date": "2026-09-25",
+   "n": 43
+  },
+  "google_news|\"iHub\" Gujarat AI after:2026-01-01 before:2026-02-01": {
+   "date": "2026-09-25",
+   "n": 0
+  },
+  "google_news|\"iHub\" Gujarat AI after:2026-02-01 before:2026-03-01": {
+   "date": "2026-09-25",
+   "n": 0
+  },
+  "google_news|\"iHub\" Gujarat AI after:2026-03-01 before:2026-04-01": {
+   "date": "2026-09-25",
+   "n": 0
+  },
+  "google_news|\"iHub\" Gujarat AI after:2026-04-01 before:2026-05-01": {
+   "date": "2026-09-25",
+   "n": 0
+  },
+  "google_news|\"iHub\" Gujarat AI after:2026-05-01 before:2026-06-01": {
+   "date": "2026-09-25",
+   "n": 0
+  },
+  "google_news|\"iHub\" Gujarat AI after:2026-06-01 before:2026-07-01": {
+   "date": "2026-09-25",
+   "n": 0
+  },
+  "google_news|\"iHub\" Gujarat AI after:2026-07-01 before:2026-08-01": {
+   "date": "2026-09-25",
+   "n": 1
+  },
+  "google_news|\"iHub\" Gujarat AI after:2026-08-01 before:2026-09-01": {
+   "date": "2026-09-25",
+   "n": 1
+  },
+  "google_news|\"Gujarat\" \"AI policy\" after:2026-01-01 before:2026-02-01": {
+   "date": "2026-09-25",
+   "n": 2
+  },
+  "google_news|\"Gujarat\" \"AI policy\" after:2026-02-01 before:2026-03-01": {
+   "date": "2026-09-25",
+   "n": 8
+  },
+  "google_news|\"Gujarat\" \"AI policy\" after:2026-03-01 before:2026-04-01": {
+   "date": "2026-09-25",
+   "n": 1
+  },
+  "google_news|\"Gujarat\" \"AI policy\" after:2026-04-01 before:2026-05-01": {
+   "date": "2026-09-25",
+   "n": 8
+  },
+  "google_news|\"Gujarat\" \"AI policy\" after:2026-05-01 before:2026-06-01": {
+   "date": "2026-09-25",
+   "n": 7
+  },
+  "google_news|\"Gujarat\" \"AI policy\" after:2026-06-01 before:2026-07-01": {
+   "date": "2026-09-25",
+   "n": 6
+  },
+  "google_news|\"Gujarat\" \"AI policy\" after:2026-07-01 before:2026-08-01": {
+   "date": "2026-09-25",
+   "n": 6
+  },
+  "google_news|\"Gujarat\" \"AI policy\" after:2026-08-01 before:2026-09-01": {
+   "date": "2026-09-25",
+   "n": 1
+  },
+  "google_news|\"Gujarat\" (AI OR \"artificial intelligence\") (site:deshgujarat.com OR site:ahmedabadmirror.com OR site:indianexpress.com OR site:timesofindia.indiatimes.com OR site:gujaratinformation.gujarat.gov.in) after:2026-01-01 before:2026-02-01": {
+   "date": "2026-09-25",
+   "n": 100
+  },
+  "google_news|\"Gujarat\" (AI OR \"artificial intelligence\") (site:deshgujarat.com OR site:ahmedabadmirror.com OR site:indianexpress.com OR site:timesofindia.indiatimes.com OR site:gujaratinformation.gujarat.gov.in) after:2026-02-01 before:2026-03-01": {
+   "date": "2026-09-25",
+   "n": 100
+  },
+  "google_news|\"Gujarat\" (AI OR \"artificial intelligence\") (site:deshgujarat.com OR site:ahmedabadmirror.com OR site:indianexpress.com OR site:timesofindia.indiatimes.com OR site:gujaratinformation.gujarat.gov.in) after:2026-03-01 before:2026-04-01": {
+   "date": "2026-09-25",
+   "n": 100
+  },
+  "google_news|\"Gujarat\" (AI OR \"artificial intelligence\") (site:deshgujarat.com OR site:ahmedabadmirror.com OR site:indianexpress.com OR site:timesofindia.indiatimes.com OR site:gujaratinformation.gujarat.gov.in) after:2026-04-01 before:2026-05-01": {
+   "date": "2026-09-25",
+   "n": 100
+  },
+  "google_news|\"Gujarat\" (AI OR \"artificial intelligence\") (site:deshgujarat.com OR site:ahmedabadmirror.com OR site:indianexpress.com OR site:timesofindia.indiatimes.com OR site:gujaratinformation.gujarat.gov.in) after:2026-05-01 before:2026-06-01": {
+   "date": "2026-09-25",
+   "n": 100
+  },
+  "google_news|\"Gujarat\" (AI OR \"artificial intelligence\") (site:deshgujarat.com OR site:ahmedabadmirror.com OR site:indianexpress.com OR site:timesofindia.indiatimes.com OR site:gujaratinformation.gujarat.gov.in) after:2026-06-01 before:2026-07-01": {
+   "date": "2026-09-25",
+   "n": 100
+  },
+  "google_news|\"Gujarat\" (AI OR \"artificial intelligence\") (site:deshgujarat.com OR site:ahmedabadmirror.com OR site:indianexpress.com OR site:timesofindia.indiatimes.com OR site:gujaratinformation.gujarat.gov.in) after:2026-07-01 before:2026-08-01": {
+   "date": "2026-09-25",
+   "n": 100
+  },
+  "google_news|\"Gujarat\" (AI OR \"artificial intelligence\") (site:deshgujarat.com OR site:ahmedabadmirror.com OR site:indianexpress.com OR site:timesofindia.indiatimes.com OR site:gujaratinformation.gujarat.gov.in) after:2026-08-01 before:2026-09-01": {
+   "date": "2026-09-25",
+   "n": 100
+  },
+  "google_news|\"Maharashtra\" (\"artificial intelligence\" OR AI) (policy OR mission OR \"task force\" OR \"centre of excellence\") after:2026-01-01 before:2026-02-01": {
+   "date": "2026-09-25",
+   "n": 43
+  },
+  "google_news|\"Maharashtra\" (\"artificial intelligence\" OR AI) (policy OR mission OR \"task force\" OR \"centre of excellence\") after:2026-02-01 before:2026-03-01": {
+   "date": "2026-09-25",
+   "n": 37
+  },
+  "google_news|\"Maharashtra\" (\"artificial intelligence\" OR AI) (policy OR mission OR \"task force\" OR \"centre of excellence\") after:2026-03-01 before:2026-04-01": {
+   "date": "2026-09-25",
+   "n": 38
+  },
+  "google_news|\"Maharashtra\" (\"artificial intelligence\" OR AI) (policy OR mission OR \"task force\" OR \"centre of excellence\") after:2026-04-01 before:2026-05-01": {
+   "date": "2026-09-25",
+   "n": 44
+  },
+  "google_news|\"Maharashtra\" (\"artificial intelligence\" OR AI) (policy OR mission OR \"task force\" OR \"centre of excellence\") after:2026-05-01 before:2026-06-01": {
+   "date": "2026-09-25",
+   "n": 46
+  },
+  "google_news|\"Maharashtra\" (\"artificial intelligence\" OR AI) (policy OR mission OR \"task force\" OR \"centre of excellence\") after:2026-06-01 before:2026-07-01": {
+   "date": "2026-09-25",
+   "n": 39
+  },
+  "google_news|\"Maharashtra\" (\"artificial intelligence\" OR AI) (policy OR mission OR \"task force\" OR \"centre of excellence\") after:2026-07-01 before:2026-08-01": {
+   "date": "2026-09-25",
+   "n": 52
+  },
+  "google_news|\"Maharashtra\" (\"artificial intelligence\" OR AI) (policy OR mission OR \"task force\" OR \"centre of excellence\") after:2026-08-01 before:2026-09-01": {
+   "date": "2026-09-25",
+   "n": 61
+  },
+  "google_news|\"Maharashtra\" (\"artificial intelligence\" OR AI) (MoU OR partnership OR budget OR crore OR tender OR contract) after:2026-01-01 before:2026-02-01": {
+   "date": "2026-09-25",
+   "n": 46
+  },
+  "google_news|\"Maharashtra\" (\"artificial intelligence\" OR AI) (MoU OR partnership OR budget OR crore OR tender OR contract) after:2026-02-01 before:2026-03-01": {
+   "date": "2026-09-25",
+   "n": 41
+  },
+  "google_news|\"Maharashtra\" (\"artificial intelligence\" OR AI) (MoU OR partnership OR budget OR crore OR tender OR contract) after:2026-03-01 before:2026-04-01": {
+   "date": "2026-09-25",
+   "n": 37
+  },
+  "google_news|\"Maharashtra\" (\"artificial intelligence\" OR AI) (MoU OR partnership OR budget OR crore OR tender OR contract) after:2026-04-01 before:2026-05-01": {
+   "date": "2026-09-25",
+   "n": 46
+  },
+  "google_news|\"Maharashtra\" (\"artificial intelligence\" OR AI) (MoU OR partnership OR budget OR crore OR tender OR contract) after:2026-05-01 before:2026-06-01": {
+   "date": "2026-09-25",
+   "n": 42
+  },
+  "google_news|\"Maharashtra\" (\"artificial intelligence\" OR AI) (MoU OR partnership OR budget OR crore OR tender OR contract) after:2026-06-01 before:2026-07-01": {
+   "date": "2026-09-25",
+   "n": 41
+  },
+  "google_news|\"Maharashtra\" (\"artificial intelligence\" OR AI) (MoU OR partnership OR budget OR crore OR tender OR contract) after:2026-07-01 before:2026-08-01": {
+   "date": "2026-09-25",
+   "n": 52
+  },
+  "google_news|\"Maharashtra\" (\"artificial intelligence\" OR AI) (MoU OR partnership OR budget OR crore OR tender OR contract) after:2026-08-01 before:2026-09-01": {
+   "date": "2026-09-25",
+   "n": 55
+  },
+  "google_news|\"Maharashtra\" government AI (health OR agriculture OR police OR education OR schools) after:2026-01-01 before:2026-02-01": {
+   "date": "2026-09-25",
+   "n": 45
+  },
+  "google_news|\"Maharashtra\" government AI (health OR agriculture OR police OR education OR schools) after:2026-02-01 before:2026-03-01": {
+   "date": "2026-09-25",
+   "n": 41
+  },
+  "google_news|\"Maharashtra\" government AI (health OR agriculture OR police OR education OR schools) after:2026-03-01 before:2026-04-01": {
+   "date": "2026-09-25",
+   "n": 32
+  },
+  "google_news|\"Maharashtra\" government AI (health OR agriculture OR police OR education OR schools) after:2026-04-01 before:2026-05-01": {
+   "date": "2026-09-25",
+   "n": 42
+  },
+  "google_news|\"Maharashtra\" government AI (health OR agriculture OR police OR education OR schools) after:2026-05-01 before:2026-06-01": {
+   "date": "2026-09-25",
+   "n": 46
+  },
+  "google_news|\"Maharashtra\" government AI (health OR agriculture OR police OR education OR schools) after:2026-06-01 before:2026-07-01": {
+   "date": "2026-09-25",
+   "n": 38
+  },
+  "google_news|\"Maharashtra\" government AI (health OR agriculture OR police OR education OR schools) after:2026-07-01 before:2026-08-01": {
+   "date": "2026-09-25",
+   "n": 47
+  },
+  "google_news|\"Maharashtra\" government AI (health OR agriculture OR police OR education OR schools) after:2026-08-01 before:2026-09-01": {
+   "date": "2026-09-25",
+   "n": 51
+  },
+  "google_news|Mumbai AI government after:2026-01-01 before:2026-02-01": {
+   "date": "2026-09-25",
+   "n": 47
+  },
+  "google_news|Mumbai AI government after:2026-02-01 before:2026-03-01": {
+   "date": "2026-09-25",
+   "n": 43
+  },
+  "google_news|Mumbai AI government after:2026-03-01 before:2026-04-01": {
+   "date": "2026-09-25",
+   "n": 46
+  },
+  "google_news|Mumbai AI government after:2026-04-01 before:2026-05-01": {
+   "date": "2026-09-25",
+   "n": 49
+  },
+  "google_news|Mumbai AI government after:2026-05-01 before:2026-06-01": {
+   "date": "2026-09-25",
+   "n": 45
+  },
+  "google_news|Mumbai AI government after:2026-06-01 before:2026-07-01": {
+   "date": "2026-09-25",
+   "n": 52
+  },
+  "google_news|Mumbai AI government after:2026-07-01 before:2026-08-01": {
+   "date": "2026-09-25",
+   "n": 76
+  },
+  "google_news|Mumbai AI government after:2026-08-01 before:2026-09-01": {
+   "date": "2026-09-25",
+   "n": 66
+  },
+  "google_news|Pune AI government after:2026-01-01 before:2026-02-01": {
+   "date": "2026-09-25",
+   "n": 46
+  },
+  "google_news|Pune AI government after:2026-02-01 before:2026-03-01": {
+   "date": "2026-09-25",
+   "n": 45
+  },
+  "google_news|Pune AI government after:2026-03-01 before:2026-04-01": {
+   "date": "2026-09-25",
+   "n": 42
+  },
+  "google_news|Pune AI government after:2026-04-01 before:2026-05-01": {
+   "date": "2026-09-25",
+   "n": 49
+  },
+  "google_news|Pune AI government after:2026-05-01 before:2026-06-01": {
+   "date": "2026-09-25",
+   "n": 50
+  },
+  "google_news|Pune AI government after:2026-06-01 before:2026-07-01": {
+   "date": "2026-09-25",
+   "n": 47
+  },
+  "google_news|Pune AI government after:2026-07-01 before:2026-08-01": {
+   "date": "2026-09-25",
+   "n": 71
+  },
+  "google_news|Pune AI government after:2026-08-01 before:2026-09-01": {
+   "date": "2026-09-25",
+   "n": 71
+  },
+  "google_news|Fadnavis AI after:2026-01-01 before:2026-02-01": {
+   "date": "2026-09-25",
+   "n": 48
+  },
+  "google_news|Fadnavis AI after:2026-02-01 before:2026-03-01": {
+   "date": "2026-09-25",
+   "n": 44
+  },
+  "google_news|Fadnavis AI after:2026-03-01 before:2026-04-01": {
+   "date": "2026-09-25",
+   "n": 42
+  },
+  "google_news|Fadnavis AI after:2026-04-01 before:2026-05-01": {
+   "date": "2026-09-25",
+   "n": 47
+  },
+  "google_news|Fadnavis AI after:2026-05-01 before:2026-06-01": {
+   "date": "2026-09-25",
+   "n": 41
+  },
+  "google_news|Fadnavis AI after:2026-06-01 before:2026-07-01": {
+   "date": "2026-09-25",
+   "n": 43
+  },
+  "google_news|Fadnavis AI after:2026-07-01 before:2026-08-01": {
+   "date": "2026-09-25",
+   "n": 50
+  },
+  "google_news|Fadnavis AI after:2026-08-01 before:2026-09-01": {
+   "date": "2026-09-25",
+   "n": 43
+  },
+  "google_news|MahaIT AI after:2026-01-01 before:2026-02-01": {
+   "date": "2026-09-25",
+   "n": 0
+  },
+  "google_news|MahaIT AI after:2026-02-01 before:2026-03-01": {
+   "date": "2026-09-25",
+   "n": 2
+  },
+  "google_news|MahaIT AI after:2026-03-01 before:2026-04-01": {
+   "date": "2026-09-25",
+   "n": 0
+  },
+  "google_news|MahaIT AI after:2026-04-01 before:2026-05-01": {
+   "date": "2026-09-25",
+   "n": 0
+  },
+  "google_news|MahaIT AI after:2026-05-01 before:2026-06-01": {
+   "date": "2026-09-25",
+   "n": 3
+  },
+  "google_news|MahaIT AI after:2026-06-01 before:2026-07-01": {
+   "date": "2026-09-25",
+   "n": 1
+  },
+  "google_news|MahaIT AI after:2026-07-01 before:2026-08-01": {
+   "date": "2026-09-25",
+   "n": 1
+  },
+  "google_news|MahaIT AI after:2026-08-01 before:2026-09-01": {
+   "date": "2026-09-25",
+   "n": 0
+  },
+  "google_news|\"Maharashtra\" \"AI policy\" after:2026-01-01 before:2026-02-01": {
+   "date": "2026-09-25",
+   "n": 4
+  },
+  "google_news|\"Maharashtra\" \"AI policy\" after:2026-02-01 before:2026-03-01": {
+   "date": "2026-09-25",
+   "n": 21
+  },
+  "google_news|\"Maharashtra\" \"AI policy\" after:2026-03-01 before:2026-04-01": {
+   "date": "2026-09-25",
+   "n": 8
+  },
+  "google_news|\"Maharashtra\" \"AI policy\" after:2026-04-01 before:2026-05-01": {
+   "date": "2026-09-25",
+   "n": 20
+  },
+  "google_news|\"Maharashtra\" \"AI policy\" after:2026-05-01 before:2026-06-01": {
+   "date": "2026-09-25",
+   "n": 14
+  },
+  "google_news|\"Maharashtra\" \"AI policy\" after:2026-06-01 before:2026-07-01": {
+   "date": "2026-09-25",
+   "n": 10
+  },
+  "google_news|\"Maharashtra\" \"AI policy\" after:2026-07-01 before:2026-08-01": {
+   "date": "2026-09-25",
+   "n": 10
+  },
+  "google_news|\"Maharashtra\" \"AI policy\" after:2026-08-01 before:2026-09-01": {
+   "date": "2026-09-25",
+   "n": 8
+  },
+  "google_news|\"Maharashtra\" (AI OR \"artificial intelligence\") (site:freepressjournal.in OR site:mid-day.com OR site:hindustantimes.com) after:2026-01-01 before:2026-02-01": {
+   "date": "2026-09-25",
+   "n": 100
+  },
+  "google_news|\"Maharashtra\" (AI OR \"artificial intelligence\") (site:freepressjournal.in OR site:mid-day.com OR site:hindustantimes.com) after:2026-02-01 before:2026-03-01": {
+   "date": "2026-09-25",
+   "n": 100
+  },
+  "google_news|\"Maharashtra\" (AI OR \"artificial intelligence\") (site:freepressjournal.in OR site:mid-day.com OR site:hindustantimes.com) after:2026-03-01 before:2026-04-01": {
+   "date": "2026-09-25",
+   "n": 100
+  },
+  "google_news|\"Maharashtra\" (AI OR \"artificial intelligence\") (site:freepressjournal.in OR site:mid-day.com OR site:hindustantimes.com) after:2026-04-01 before:2026-05-01": {
+   "date": "2026-09-25",
+   "n": 100
+  },
+  "google_news|\"Maharashtra\" (AI OR \"artificial intelligence\") (site:freepressjournal.in OR site:mid-day.com OR site:hindustantimes.com) after:2026-05-01 before:2026-06-01": {
+   "date": "2026-09-25",
+   "n": 100
+  },
+  "google_news|\"Maharashtra\" (AI OR \"artificial intelligence\") (site:freepressjournal.in OR site:mid-day.com OR site:hindustantimes.com) after:2026-06-01 before:2026-07-01": {
+   "date": "2026-09-25",
+   "n": 100
+  },
+  "google_news|\"Maharashtra\" (AI OR \"artificial intelligence\") (site:freepressjournal.in OR site:mid-day.com OR site:hindustantimes.com) after:2026-07-01 before:2026-08-01": {
+   "date": "2026-09-25",
+   "n": 100
+  },
+  "google_news|\"Maharashtra\" (AI OR \"artificial intelligence\") (site:freepressjournal.in OR site:mid-day.com OR site:hindustantimes.com) after:2026-08-01 before:2026-09-01": {
+   "date": "2026-09-25",
+   "n": 100
+  }
+ },
+ "daily": {
+  "2026-09-25": {
+   "google_news": {
+    "google_news|\"Tamil Nadu\" (\"artificial intelligence\" OR AI) (policy OR mission OR \"task force\" OR \"centre of excellence\") after:2026-01-01 before:2026-02-01": 49,
+    "google_news|\"Tamil Nadu\" (\"artificial intelligence\" OR AI) (policy OR mission OR \"task force\" OR \"centre of excellence\") after:2026-02-01 before:2026-03-01": 42,
+    "google_news|\"Tamil Nadu\" (\"artificial intelligence\" OR AI) (policy OR mission OR \"task force\" OR \"centre of excellence\") after:2026-03-01 before:2026-04-01": 28,
+    "google_news|\"Tamil Nadu\" (\"artificial intelligence\" OR AI) (policy OR mission OR \"task force\" OR \"centre of excellence\") after:2026-04-01 before:2026-05-01": 51,
+    "google_news|\"Tamil Nadu\" (\"artificial intelligence\" OR AI) (policy OR mission OR \"task force\" OR \"centre of excellence\") after:2026-05-01 before:2026-06-01": 49,
+    "google_news|\"Tamil Nadu\" (\"artificial intelligence\" OR AI) (policy OR mission OR \"task force\" OR \"centre of excellence\") after:2026-06-01 before:2026-07-01": 52,
+    "google_news|\"Tamil Nadu\" (\"artificial intelligence\" OR AI) (policy OR mission OR \"task force\" OR \"centre of excellence\") after:2026-07-01 before:2026-08-01": 64,
+    "google_news|\"Tamil Nadu\" (\"artificial intelligence\" OR AI) (policy OR mission OR \"task force\" OR \"centre of excellence\") after:2026-08-01 before:2026-09-01": 64,
+    "google_news|\"Tamil Nadu\" (\"artificial intelligence\" OR AI) (policy OR mission OR \"task force\" OR \"centre of excellence\") after:2026-09-01 before:2026-10-01": 70,
+    "google_news|\"Tamil Nadu\" (\"artificial intelligence\" OR AI) (MoU OR partnership OR budget OR crore OR tender OR contract) after:2026-01-01 before:2026-02-01": 48,
+    "google_news|\"Tamil Nadu\" (\"artificial intelligence\" OR AI) (MoU OR partnership OR budget OR crore OR tender OR contract) after:2026-02-01 before:2026-03-01": 48,
+    "google_news|\"Tamil Nadu\" (\"artificial intelligence\" OR AI) (MoU OR partnership OR budget OR crore OR tender OR contract) after:2026-03-01 before:2026-04-01": 33,
+    "google_news|\"Tamil Nadu\" (\"artificial intelligence\" OR AI) (MoU OR partnership OR budget OR crore OR tender OR contract) after:2026-04-01 before:2026-05-01": 50,
+    "google_news|\"Tamil Nadu\" (\"artificial intelligence\" OR AI) (MoU OR partnership OR budget OR crore OR tender OR contract) after:2026-05-01 before:2026-06-01": 49,
+    "google_news|\"Tamil Nadu\" (\"artificial intelligence\" OR AI) (MoU OR partnership OR budget OR crore OR tender OR contract) after:2026-06-01 before:2026-07-01": 50,
+    "google_news|\"Tamil Nadu\" (\"artificial intelligence\" OR AI) (MoU OR partnership OR budget OR crore OR tender OR contract) after:2026-07-01 before:2026-08-01": 62,
+    "google_news|\"Tamil Nadu\" (\"artificial intelligence\" OR AI) (MoU OR partnership OR budget OR crore OR tender OR contract) after:2026-08-01 before:2026-09-01": 86,
+    "google_news|\"Tamil Nadu\" (\"artificial intelligence\" OR AI) (MoU OR partnership OR budget OR crore OR tender OR contract) after:2026-09-01 before:2026-10-01": 69,
+    "google_news|\"Tamil Nadu\" government AI (health OR agriculture OR police OR education OR schools) after:2026-01-01 before:2026-02-01": 48,
+    "google_news|\"Tamil Nadu\" government AI (health OR agriculture OR police OR education OR schools) after:2026-02-01 before:2026-03-01": 38,
+    "google_news|\"Tamil Nadu\" government AI (health OR agriculture OR police OR education OR schools) after:2026-03-01 before:2026-04-01": 31,
+    "google_news|\"Tamil Nadu\" government AI (health OR agriculture OR police OR education OR schools) after:2026-04-01 before:2026-05-01": 49,
+    "google_news|\"Tamil Nadu\" government AI (health OR agriculture OR police OR education OR schools) after:2026-05-01 before:2026-06-01": 47,
+    "google_news|\"Tamil Nadu\" government AI (health OR agriculture OR police OR education OR schools) after:2026-06-01 before:2026-07-01": 47,
+    "google_news|\"Tamil Nadu\" government AI (health OR agriculture OR police OR education OR schools) after:2026-07-01 before:2026-08-01": 61,
+    "google_news|\"Tamil Nadu\" government AI (health OR agriculture OR police OR education OR schools) after:2026-08-01 before:2026-09-01": 63,
+    "google_news|\"Tamil Nadu\" government AI (health OR agriculture OR police OR education OR schools) after:2026-09-01 before:2026-10-01": 63,
+    "google_news|Chennai AI government after:2026-01-01 before:2026-02-01": 48,
+    "google_news|Chennai AI government after:2026-02-01 before:2026-03-01": 48,
+    "google_news|Chennai AI government after:2026-03-01 before:2026-04-01": 44,
+    "google_news|Chennai AI government after:2026-04-01 before:2026-05-01": 52,
+    "google_news|Chennai AI government after:2026-05-01 before:2026-06-01": 47,
+    "google_news|Chennai AI government after:2026-06-01 before:2026-07-01": 52,
+    "google_news|Chennai AI government after:2026-07-01 before:2026-08-01": 66,
+    "google_news|Chennai AI government after:2026-08-01 before:2026-09-01": 64,
+    "google_news|Chennai AI government after:2026-09-01 before:2026-10-01": 67,
+    "google_news|Stalin AI after:2026-01-01 before:2026-02-01": 48,
+    "google_news|Stalin AI after:2026-02-01 before:2026-03-01": 49,
+    "google_news|Stalin AI after:2026-03-01 before:2026-04-01": 34,
+    "google_news|Stalin AI after:2026-04-01 before:2026-05-01": 47,
+    "google_news|Stalin AI after:2026-05-01 before:2026-06-01": 43,
+    "google_news|Stalin AI after:2026-06-01 before:2026-07-01": 47,
+    "google_news|Stalin AI after:2026-07-01 before:2026-08-01": 22,
+    "google_news|Stalin AI after:2026-08-01 before:2026-09-01": 45,
+    "google_news|Stalin AI after:2026-09-01 before:2026-10-01": 41,
+    "google_news|TNeGA AI after:2026-01-01 before:2026-02-01": 3,
+    "google_news|TNeGA AI after:2026-02-01 before:2026-03-01": 0,
+    "google_news|TNeGA AI after:2026-03-01 before:2026-04-01": 0,
+    "google_news|TNeGA AI after:2026-04-01 before:2026-05-01": 0,
+    "google_news|TNeGA AI after:2026-05-01 before:2026-06-01": 1,
+    "google_news|TNeGA AI after:2026-06-01 before:2026-07-01": 0,
+    "google_news|TNeGA AI after:2026-07-01 before:2026-08-01": 0,
+    "google_news|TNeGA AI after:2026-08-01 before:2026-09-01": 2,
+    "google_news|TNeGA AI after:2026-09-01 before:2026-10-01": 1,
+    "google_news|\"iTNT\" AI after:2026-01-01 before:2026-02-01": 3,
+    "google_news|\"iTNT\" AI after:2026-02-01 before:2026-03-01": 0,
+    "google_news|\"iTNT\" AI after:2026-03-01 before:2026-04-01": 0,
+    "google_news|\"iTNT\" AI after:2026-04-01 before:2026-05-01": 0,
+    "google_news|\"iTNT\" AI after:2026-05-01 before:2026-06-01": 2,
+    "google_news|\"iTNT\" AI after:2026-06-01 before:2026-07-01": 1,
+    "google_news|\"iTNT\" AI after:2026-07-01 before:2026-08-01": 1,
+    "google_news|\"iTNT\" AI after:2026-08-01 before:2026-09-01": 4,
+    "google_news|\"iTNT\" AI after:2026-09-01 before:2026-10-01": 0,
+    "google_news|\"Tamil Nadu\" \"AI mission\" after:2026-01-01 before:2026-02-01": 9,
+    "google_news|\"Tamil Nadu\" \"AI mission\" after:2026-02-01 before:2026-03-01": 10,
+    "google_news|\"Tamil Nadu\" \"AI mission\" after:2026-03-01 before:2026-04-01": 10,
+    "google_news|\"Tamil Nadu\" \"AI mission\" after:2026-04-01 before:2026-05-01": 8,
+    "google_news|\"Tamil Nadu\" \"AI mission\" after:2026-05-01 before:2026-06-01": 8,
+    "google_news|\"Tamil Nadu\" \"AI mission\" after:2026-06-01 before:2026-07-01": 9,
+    "google_news|\"Tamil Nadu\" \"AI mission\" after:2026-07-01 before:2026-08-01": 9,
+    "google_news|\"Tamil Nadu\" \"AI mission\" after:2026-08-01 before:2026-09-01": 10,
+    "google_news|\"Tamil Nadu\" \"AI mission\" after:2026-09-01 before:2026-10-01": 6,
+    "google_news|\"Tamil Nadu\" (AI OR \"artificial intelligence\") (site:thehindu.com OR site:dtnext.in OR site:newindianexpress.com) after:2026-01-01 before:2026-02-01": 100,
+    "google_news|\"Tamil Nadu\" (AI OR \"artificial intelligence\") (site:thehindu.com OR site:dtnext.in OR site:newindianexpress.com) after:2026-02-01 before:2026-03-01": 100,
+    "google_news|\"Tamil Nadu\" (AI OR \"artificial intelligence\") (site:thehindu.com OR site:dtnext.in OR site:newindianexpress.com) after:2026-03-01 before:2026-04-01": 100,
+    "google_news|\"Tamil Nadu\" (AI OR \"artificial intelligence\") (site:thehindu.com OR site:dtnext.in OR site:newindianexpress.com) after:2026-04-01 before:2026-05-01": 100,
+    "google_news|\"Tamil Nadu\" (AI OR \"artificial intelligence\") (site:thehindu.com OR site:dtnext.in OR site:newindianexpress.com) after:2026-05-01 before:2026-06-01": 100,
+    "google_news|\"Tamil Nadu\" (AI OR \"artificial intelligence\") (site:thehindu.com OR site:dtnext.in OR site:newindianexpress.com) after:2026-06-01 before:2026-07-01": 100,
+    "google_news|\"Tamil Nadu\" (AI OR \"artificial intelligence\") (site:thehindu.com OR site:dtnext.in OR site:newindianexpress.com) after:2026-07-01 before:2026-08-01": 100,
+    "google_news|\"Tamil Nadu\" (AI OR \"artificial intelligence\") (site:thehindu.com OR site:dtnext.in OR site:newindianexpress.com) after:2026-08-01 before:2026-09-01": 100,
+    "google_news|\"Tamil Nadu\" (AI OR \"artificial intelligence\") (site:thehindu.com OR site:dtnext.in OR site:newindianexpress.com) after:2026-09-01 before:2026-10-01": 100,
+    "google_news|\"Karnataka\" (\"artificial intelligence\" OR AI) (policy OR mission OR \"task force\" OR \"centre of excellence\") after:2026-01-01 before:2026-02-01": 45,
+    "google_news|\"Karnataka\" (\"artificial intelligence\" OR AI) (policy OR mission OR \"task force\" OR \"centre of excellence\") after:2026-02-01 before:2026-03-01": 38,
+    "google_news|\"Karnataka\" (\"artificial intelligence\" OR AI) (policy OR mission OR \"task force\" OR \"centre of excellence\") after:2026-03-01 before:2026-04-01": 43,
+    "google_news|\"Karnataka\" (\"artificial intelligence\" OR AI) (policy OR mission OR \"task force\" OR \"centre of excellence\") after:2026-04-01 before:2026-05-01": 49,
+    "google_news|\"Karnataka\" (\"artificial intelligence\" OR AI) (policy OR mission OR \"task force\" OR \"centre of excellence\") after:2026-05-01 before:2026-06-01": 45,
+    "google_news|\"Karnataka\" (\"artificial intelligence\" OR AI) (policy OR mission OR \"task force\" OR \"centre of excellence\") after:2026-06-01 before:2026-07-01": 35,
+    "google_news|\"Karnataka\" (\"artificial intelligence\" OR AI) (policy OR mission OR \"task force\" OR \"centre of excellence\") after:2026-07-01 before:2026-08-01": 46,
+    "google_news|\"Karnataka\" (\"artificial intelligence\" OR AI) (policy OR mission OR \"task force\" OR \"centre of excellence\") after:2026-08-01 before:2026-09-01": 48,
+    "google_news|\"Karnataka\" (\"artificial intelligence\" OR AI) (policy OR mission OR \"task force\" OR \"centre of excellence\") after:2026-09-01 before:2026-10-01": 60,
+    "google_news|\"Karnataka\" (\"artificial intelligence\" OR AI) (MoU OR partnership OR budget OR crore OR tender OR contract) after:2026-01-01 before:2026-02-01": 48,
+    "google_news|\"Karnataka\" (\"artificial intelligence\" OR AI) (MoU OR partnership OR budget OR crore OR tender OR contract) after:2026-02-01 before:2026-03-01": 38,
+    "google_news|\"Karnataka\" (\"artificial intelligence\" OR AI) (MoU OR partnership OR budget OR crore OR tender OR contract) after:2026-03-01 before:2026-04-01": 48,
+    "google_news|\"Karnataka\" (\"artificial intelligence\" OR AI) (MoU OR partnership OR budget OR crore OR tender OR contract) after:2026-04-01 before:2026-05-01": 47,
+    "google_news|\"Karnataka\" (\"artificial intelligence\" OR AI) (MoU OR partnership OR budget OR crore OR tender OR contract) after:2026-05-01 before:2026-06-01": 44,
+    "google_news|\"Karnataka\" (\"artificial intelligence\" OR AI) (MoU OR partnership OR budget OR crore OR tender OR contract) after:2026-06-01 before:2026-07-01": 40,
+    "google_news|\"Karnataka\" (\"artificial intelligence\" OR AI) (MoU OR partnership OR budget OR crore OR tender OR contract) after:2026-07-01 before:2026-08-01": 45,
+    "google_news|\"Karnataka\" (\"artificial intelligence\" OR AI) (MoU OR partnership OR budget OR crore OR tender OR contract) after:2026-08-01 before:2026-09-01": 49,
+    "google_news|\"Karnataka\" (\"artificial intelligence\" OR AI) (MoU OR partnership OR budget OR crore OR tender OR contract) after:2026-09-01 before:2026-10-01": 56,
+    "google_news|\"Karnataka\" government AI (health OR agriculture OR police OR education OR schools) after:2026-01-01 before:2026-02-01": 47,
+    "google_news|\"Karnataka\" government AI (health OR agriculture OR police OR education OR schools) after:2026-02-01 before:2026-03-01": 39,
+    "google_news|\"Karnataka\" government AI (health OR agriculture OR police OR education OR schools) after:2026-03-01 before:2026-04-01": 46,
+    "google_news|\"Karnataka\" government AI (health OR agriculture OR police OR education OR schools) after:2026-04-01 before:2026-05-01": 48,
+    "google_news|\"Karnataka\" government AI (health OR agriculture OR police OR education OR schools) after:2026-05-01 before:2026-06-01": 42,
+    "google_news|\"Karnataka\" government AI (health OR agriculture OR police OR education OR schools) after:2026-06-01 before:2026-07-01": 38,
+    "google_news|\"Karnataka\" government AI (health OR agriculture OR police OR education OR schools) after:2026-07-01 before:2026-08-01": 52,
+    "google_news|\"Karnataka\" government AI (health OR agriculture OR police OR education OR schools) after:2026-08-01 before:2026-09-01": 56,
+    "google_news|\"Karnataka\" government AI (health OR agriculture OR police OR education OR schools) after:2026-09-01 before:2026-10-01": 57,
+    "google_news|Bengaluru AI government after:2026-01-01 before:2026-02-01": 49,
+    "google_news|Bengaluru AI government after:2026-02-01 before:2026-03-01": 47,
+    "google_news|Bengaluru AI government after:2026-03-01 before:2026-04-01": 43,
+    "google_news|Bengaluru AI government after:2026-04-01 before:2026-05-01": 50,
+    "google_news|Bengaluru AI government after:2026-05-01 before:2026-06-01": 52,
+    "google_news|Bengaluru AI government after:2026-06-01 before:2026-07-01": 47,
+    "google_news|Bengaluru AI government after:2026-07-01 before:2026-08-01": 67,
+    "google_news|Bengaluru AI government after:2026-08-01 before:2026-09-01": 67,
+    "google_news|Bengaluru AI government after:2026-09-01 before:2026-10-01": 58,
+    "google_news|\"Priyank Kharge\" AI after:2026-01-01 before:2026-02-01": 25,
+    "google_news|\"Priyank Kharge\" AI after:2026-02-01 before:2026-03-01": 28,
+    "google_news|\"Priyank Kharge\" AI after:2026-03-01 before:2026-04-01": 19,
+    "google_news|\"Priyank Kharge\" AI after:2026-04-01 before:2026-05-01": 35,
+    "google_news|\"Priyank Kharge\" AI after:2026-05-01 before:2026-06-01": 34,
+    "google_news|\"Priyank Kharge\" AI after:2026-06-01 before:2026-07-01": 46,
+    "google_news|\"Priyank Kharge\" AI after:2026-07-01 before:2026-08-01": 46,
+    "google_news|\"Priyank Kharge\" AI after:2026-08-01 before:2026-09-01": 42,
+    "google_news|\"Priyank Kharge\" AI after:2026-09-01 before:2026-10-01": 55,
+    "google_news|Siddaramaiah AI after:2026-01-01 before:2026-02-01": 41,
+    "google_news|Siddaramaiah AI after:2026-02-01 before:2026-03-01": 34,
+    "google_news|Siddaramaiah AI after:2026-03-01 before:2026-04-01": 43,
+    "google_news|Siddaramaiah AI after:2026-04-01 before:2026-05-01": 45,
+    "google_news|Siddaramaiah AI after:2026-05-01 before:2026-06-01": 49,
+    "google_news|Siddaramaiah AI after:2026-06-01 before:2026-07-01": 36,
+    "google_news|Siddaramaiah AI after:2026-07-01 before:2026-08-01": 19,
+    "google_news|Siddaramaiah AI after:2026-08-01 before:2026-09-01": 11,
+    "google_news|Siddaramaiah AI after:2026-09-01 before:2026-10-01": 19,
+    "google_news|KDEM AI after:2026-01-01 before:2026-02-01": 2,
+    "google_news|KDEM AI after:2026-02-01 before:2026-03-01": 4,
+    "google_news|KDEM AI after:2026-03-01 before:2026-04-01": 2,
+    "google_news|KDEM AI after:2026-04-01 before:2026-05-01": 1,
+    "google_news|KDEM AI after:2026-05-01 before:2026-06-01": 7,
+    "google_news|KDEM AI after:2026-06-01 before:2026-07-01": 8,
+    "google_news|KDEM AI after:2026-07-01 before:2026-08-01": 14,
+    "google_news|KDEM AI after:2026-08-01 before:2026-09-01": 4,
+    "google_news|KDEM AI after:2026-09-01 before:2026-10-01": 5,
+    "google_news|\"Karnataka\" \"AI policy\" after:2026-01-01 before:2026-02-01": 2,
+    "google_news|\"Karnataka\" \"AI policy\" after:2026-02-01 before:2026-03-01": 9,
+    "google_news|\"Karnataka\" \"AI policy\" after:2026-03-01 before:2026-04-01": 10,
+    "google_news|\"Karnataka\" \"AI policy\" after:2026-04-01 before:2026-05-01": 10,
+    "google_news|\"Karnataka\" \"AI policy\" after:2026-05-01 before:2026-06-01": 10,
+    "google_news|\"Karnataka\" \"AI policy\" after:2026-06-01 before:2026-07-01": 9,
+    "google_news|\"Karnataka\" \"AI policy\" after:2026-07-01 before:2026-08-01": 10,
+    "google_news|\"Karnataka\" \"AI policy\" after:2026-08-01 before:2026-09-01": 2,
+    "google_news|\"Karnataka\" \"AI policy\" after:2026-09-01 before:2026-10-01": 5,
+    "google_news|\"Karnataka\" (AI OR \"artificial intelligence\") (site:deccanherald.com OR site:thehindu.com OR site:newindianexpress.com) after:2026-01-01 before:2026-02-01": 100,
+    "google_news|\"Karnataka\" (AI OR \"artificial intelligence\") (site:deccanherald.com OR site:thehindu.com OR site:newindianexpress.com) after:2026-02-01 before:2026-03-01": 100,
+    "google_news|\"Karnataka\" (AI OR \"artificial intelligence\") (site:deccanherald.com OR site:thehindu.com OR site:newindianexpress.com) after:2026-03-01 before:2026-04-01": 100,
+    "google_news|\"Karnataka\" (AI OR \"artificial intelligence\") (site:deccanherald.com OR site:thehindu.com OR site:newindianexpress.com) after:2026-04-01 before:2026-05-01": 100,
+    "google_news|\"Karnataka\" (AI OR \"artificial intelligence\") (site:deccanherald.com OR site:thehindu.com OR site:newindianexpress.com) after:2026-05-01 before:2026-06-01": 100,
+    "google_news|\"Karnataka\" (AI OR \"artificial intelligence\") (site:deccanherald.com OR site:thehindu.com OR site:newindianexpress.com) after:2026-06-01 before:2026-07-01": 100,
+    "google_news|\"Karnataka\" (AI OR \"artificial intelligence\") (site:deccanherald.com OR site:thehindu.com OR site:newindianexpress.com) after:2026-07-01 before:2026-08-01": 100,
+    "google_news|\"Karnataka\" (AI OR \"artificial intelligence\") (site:deccanherald.com OR site:thehindu.com OR site:newindianexpress.com) after:2026-08-01 before:2026-09-01": 100,
+    "google_news|\"Karnataka\" (AI OR \"artificial intelligence\") (site:deccanherald.com OR site:thehindu.com OR site:newindianexpress.com) after:2026-09-01 before:2026-10-01": 100,
+    "google_news|\"Telangana\" (\"artificial intelligence\" OR AI) (policy OR mission OR \"task force\" OR \"centre of excellence\") after:2026-01-01 before:2026-02-01": 46,
+    "google_news|\"Telangana\" (\"artificial intelligence\" OR AI) (policy OR mission OR \"task force\" OR \"centre of excellence\") after:2026-02-01 before:2026-03-01": 47,
+    "google_news|\"Telangana\" (\"artificial intelligence\" OR AI) (policy OR mission OR \"task force\" OR \"centre of excellence\") after:2026-03-01 before:2026-04-01": 28,
+    "google_news|\"Telangana\" (\"artificial intelligence\" OR AI) (policy OR mission OR \"task force\" OR \"centre of excellence\") after:2026-04-01 before:2026-05-01": 46,
+    "google_news|\"Telangana\" (\"artificial intelligence\" OR AI) (policy OR mission OR \"task force\" OR \"centre of excellence\") after:2026-05-01 before:2026-06-01": 29,
+    "google_news|\"Telangana\" (\"artificial intelligence\" OR AI) (policy OR mission OR \"task force\" OR \"centre of excellence\") after:2026-06-01 before:2026-07-01": 37,
+    "google_news|\"Telangana\" (\"artificial intelligence\" OR AI) (policy OR mission OR \"task force\" OR \"centre of excellence\") after:2026-07-01 before:2026-08-01": 43,
+    "google_news|\"Telangana\" (\"artificial intelligence\" OR AI) (policy OR mission OR \"task force\" OR \"centre of excellence\") after:2026-08-01 before:2026-09-01": 52,
+    "google_news|\"Telangana\" (\"artificial intelligence\" OR AI) (policy OR mission OR \"task force\" OR \"centre of excellence\") after:2026-09-01 before:2026-10-01": 63,
+    "google_news|\"Telangana\" (\"artificial intelligence\" OR AI) (MoU OR partnership OR budget OR crore OR tender OR contract) after:2026-01-01 before:2026-02-01": 48,
+    "google_news|\"Telangana\" (\"artificial intelligence\" OR AI) (MoU OR partnership OR budget OR crore OR tender OR contract) after:2026-02-01 before:2026-03-01": 45,
+    "google_news|\"Telangana\" (\"artificial intelligence\" OR AI) (MoU OR partnership OR budget OR crore OR tender OR contract) after:2026-03-01 before:2026-04-01": 43,
+    "google_news|\"Telangana\" (\"artificial intelligence\" OR AI) (MoU OR partnership OR budget OR crore OR tender OR contract) after:2026-04-01 before:2026-05-01": 48,
+    "google_news|\"Telangana\" (\"artificial intelligence\" OR AI) (MoU OR partnership OR budget OR crore OR tender OR contract) after:2026-05-01 before:2026-06-01": 47,
+    "google_news|\"Telangana\" (\"artificial intelligence\" OR AI) (MoU OR partnership OR budget OR crore OR tender OR contract) after:2026-06-01 before:2026-07-01": 49,
+    "google_news|\"Telangana\" (\"artificial intelligence\" OR AI) (MoU OR partnership OR budget OR crore OR tender OR contract) after:2026-07-01 before:2026-08-01": 50,
+    "google_news|\"Telangana\" (\"artificial intelligence\" OR AI) (MoU OR partnership OR budget OR crore OR tender OR contract) after:2026-08-01 before:2026-09-01": 51,
+    "google_news|\"Telangana\" (\"artificial intelligence\" OR AI) (MoU OR partnership OR budget OR crore OR tender OR contract) after:2026-09-01 before:2026-10-01": 61,
+    "google_news|\"Telangana\" government AI (health OR agriculture OR police OR education OR schools) after:2026-01-01 before:2026-02-01": 48,
+    "google_news|\"Telangana\" government AI (health OR agriculture OR police OR education OR schools) after:2026-02-01 before:2026-03-01": 43,
+    "google_news|\"Telangana\" government AI (health OR agriculture OR police OR education OR schools) after:2026-03-01 before:2026-04-01": 41,
+    "google_news|\"Telangana\" government AI (health OR agriculture OR police OR education OR schools) after:2026-04-01 before:2026-05-01": 43,
+    "google_news|\"Telangana\" government AI (health OR agriculture OR police OR education OR schools) after:2026-05-01 before:2026-06-01": 44,
+    "google_news|\"Telangana\" government AI (health OR agriculture OR police OR education OR schools) after:2026-06-01 before:2026-07-01": 47,
+    "google_news|\"Telangana\" government AI (health OR agriculture OR police OR education OR schools) after:2026-07-01 before:2026-08-01": 44,
+    "google_news|\"Telangana\" government AI (health OR agriculture OR police OR education OR schools) after:2026-08-01 before:2026-09-01": 51,
+    "google_news|\"Telangana\" government AI (health OR agriculture OR police OR education OR schools) after:2026-09-01 before:2026-10-01": 67,
+    "google_news|Hyderabad AI government after:2026-01-01 before:2026-02-01": 46,
+    "google_news|Hyderabad AI government after:2026-02-01 before:2026-03-01": 45,
+    "google_news|Hyderabad AI government after:2026-03-01 before:2026-04-01": 43,
+    "google_news|Hyderabad AI government after:2026-04-01 before:2026-05-01": 50,
+    "google_news|Hyderabad AI government after:2026-05-01 before:2026-06-01": 49,
+    "google_news|Hyderabad AI government after:2026-06-01 before:2026-07-01": 50,
+    "google_news|Hyderabad AI government after:2026-07-01 before:2026-08-01": 64,
+    "google_news|Hyderabad AI government after:2026-08-01 before:2026-09-01": 69,
+    "google_news|Hyderabad AI government after:2026-09-01 before:2026-10-01": 65,
+    "google_news|\"Sridhar Babu\" AI after:2026-01-01 before:2026-02-01": 16,
+    "google_news|\"Sridhar Babu\" AI after:2026-02-01 before:2026-03-01": 11,
+    "google_news|\"Sridhar Babu\" AI after:2026-03-01 before:2026-04-01": 13,
+    "google_news|\"Sridhar Babu\" AI after:2026-04-01 before:2026-05-01": 14,
+    "google_news|\"Sridhar Babu\" AI after:2026-05-01 before:2026-06-01": 14,
+    "google_news|\"Sridhar Babu\" AI after:2026-06-01 before:2026-07-01": 13,
+    "google_news|\"Sridhar Babu\" AI after:2026-07-01 before:2026-08-01": 13,
+    "google_news|\"Sridhar Babu\" AI after:2026-08-01 before:2026-09-01": 14,
+    "google_news|\"Sridhar Babu\" AI after:2026-09-01 before:2026-10-01": 25,
+    "google_news|\"Revanth Reddy\" AI after:2026-01-01 before:2026-02-01": 41,
+    "google_news|\"Revanth Reddy\" AI after:2026-02-01 before:2026-03-01": 33,
+    "google_news|\"Revanth Reddy\" AI after:2026-03-01 before:2026-04-01": 36,
+    "google_news|\"Revanth Reddy\" AI after:2026-04-01 before:2026-05-01": 48,
+    "google_news|\"Revanth Reddy\" AI after:2026-05-01 before:2026-06-01": 38,
+    "google_news|\"Revanth Reddy\" AI after:2026-06-01 before:2026-07-01": 45,
+    "google_news|\"Revanth Reddy\" AI after:2026-07-01 before:2026-08-01": 44,
+    "google_news|\"Revanth Reddy\" AI after:2026-08-01 before:2026-09-01": 49,
+    "google_news|\"Revanth Reddy\" AI after:2026-09-01 before:2026-10-01": 65,
+    "google_news|\"T-Hub\" AI after:2026-01-01 before:2026-02-01": 9,
+    "google_news|\"T-Hub\" AI after:2026-02-01 before:2026-03-01": 10,
+    "google_news|\"T-Hub\" AI after:2026-03-01 before:2026-04-01": 9,
+    "google_news|\"T-Hub\" AI after:2026-04-01 before:2026-05-01": 7,
+    "google_news|\"T-Hub\" AI after:2026-05-01 before:2026-06-01": 8,
+    "google_news|\"T-Hub\" AI after:2026-06-01 before:2026-07-01": 10,
+    "google_news|\"T-Hub\" AI after:2026-07-01 before:2026-08-01": 12,
+    "google_news|\"T-Hub\" AI after:2026-08-01 before:2026-09-01": 31,
+    "google_news|\"T-Hub\" AI after:2026-09-01 before:2026-10-01": 10,
+    "google_news|\"Telangana AI Mission\" after:2026-01-01 before:2026-02-01": 0,
+    "google_news|\"Telangana AI Mission\" after:2026-02-01 before:2026-03-01": 1,
+    "google_news|\"Telangana AI Mission\" after:2026-03-01 before:2026-04-01": 0,
+    "google_news|\"Telangana AI Mission\" after:2026-04-01 before:2026-05-01": 0,
+    "google_news|\"Telangana AI Mission\" after:2026-05-01 before:2026-06-01": 0,
+    "google_news|\"Telangana AI Mission\" after:2026-06-01 before:2026-07-01": 0,
+    "google_news|\"Telangana AI Mission\" after:2026-07-01 before:2026-08-01": 0,
+    "google_news|\"Telangana AI Mission\" after:2026-08-01 before:2026-09-01": 0,
+    "google_news|\"Telangana AI Mission\" after:2026-09-01 before:2026-10-01": 0,
+    "google_news|\"Telangana\" (AI OR \"artificial intelligence\") (site:telanganatoday.com OR site:thehansindia.com OR site:deccanchronicle.com) after:2026-01-01 before:2026-02-01": 100,
+    "google_news|\"Telangana\" (AI OR \"artificial intelligence\") (site:telanganatoday.com OR site:thehansindia.com OR site:deccanchronicle.com) after:2026-02-01 before:2026-03-01": 100,
+    "google_news|\"Telangana\" (AI OR \"artificial intelligence\") (site:telanganatoday.com OR site:thehansindia.com OR site:deccanchronicle.com) after:2026-03-01 before:2026-04-01": 100,
+    "google_news|\"Telangana\" (AI OR \"artificial intelligence\") (site:telanganatoday.com OR site:thehansindia.com OR site:deccanchronicle.com) after:2026-04-01 before:2026-05-01": 100,
+    "google_news|\"Telangana\" (AI OR \"artificial intelligence\") (site:telanganatoday.com OR site:thehansindia.com OR site:deccanchronicle.com) after:2026-05-01 before:2026-06-01": 100,
+    "google_news|\"Telangana\" (AI OR \"artificial intelligence\") (site:telanganatoday.com OR site:thehansindia.com OR site:deccanchronicle.com) after:2026-06-01 before:2026-07-01": 100,
+    "google_news|\"Telangana\" (AI OR \"artificial intelligence\") (site:telanganatoday.com OR site:thehansindia.com OR site:deccanchronicle.com) after:2026-07-01 before:2026-08-01": 100,
+    "google_news|\"Telangana\" (AI OR \"artificial intelligence\") (site:telanganatoday.com OR site:thehansindia.com OR site:deccanchronicle.com) after:2026-08-01 before:2026-09-01": 100,
+    "google_news|\"Telangana\" (AI OR \"artificial intelligence\") (site:telanganatoday.com OR site:thehansindia.com OR site:deccanchronicle.com) after:2026-09-01 before:2026-10-01": 100,
+    "google_news|\"Delhi\" (\"artificial intelligence\" OR AI) (policy OR mission OR \"task force\" OR \"centre of excellence\") after:2026-01-01 before:2026-02-01": 37,
+    "google_news|\"Delhi\" (\"artificial intelligence\" OR AI) (policy OR mission OR \"task force\" OR \"centre of excellence\") after:2026-02-01 before:2026-03-01": 100,
+    "google_news|\"Delhi\" (\"artificial intelligence\" OR AI) (policy OR mission OR \"task force\" OR \"centre of excellence\") after:2026-03-01 before:2026-04-01": 19,
+    "google_news|\"Delhi\" (\"artificial intelligence\" OR AI) (policy OR mission OR \"task force\" OR \"centre of excellence\") after:2026-04-01 before:2026-05-01": 50,
+    "google_news|\"Delhi\" (\"artificial intelligence\" OR AI) (policy OR mission OR \"task force\" OR \"centre of excellence\") after:2026-05-01 before:2026-06-01": 48,
+    "google_news|\"Delhi\" (\"artificial intelligence\" OR AI) (policy OR mission OR \"task force\" OR \"centre of excellence\") after:2026-06-01 before:2026-07-01": 39,
+    "google_news|\"Delhi\" (\"artificial intelligence\" OR AI) (policy OR mission OR \"task force\" OR \"centre of excellence\") after:2026-07-01 before:2026-08-01": 58,
+    "google_news|\"Delhi\" (\"artificial intelligence\" OR AI) (policy OR mission OR \"task force\" OR \"centre of excellence\") after:2026-08-01 before:2026-09-01": 62,
+    "google_news|\"Delhi\" (\"artificial intelligence\" OR AI) (policy OR mission OR \"task force\" OR \"centre of excellence\") after:2026-09-01 before:2026-10-01": 67,
+    "google_news|\"Delhi\" (\"artificial intelligence\" OR AI) (MoU OR partnership OR budget OR crore OR tender OR contract) after:2026-01-01 before:2026-02-01": 42,
+    "google_news|\"Delhi\" (\"artificial intelligence\" OR AI) (MoU OR partnership OR budget OR crore OR tender OR contract) after:2026-02-01 before:2026-03-01": 45,
+    "google_news|\"Delhi\" (\"artificial intelligence\" OR AI) (MoU OR partnership OR budget OR crore OR tender OR contract) after:2026-03-01 before:2026-04-01": 25,
+    "google_news|\"Delhi\" (\"artificial intelligence\" OR AI) (MoU OR partnership OR budget OR crore OR tender OR contract) after:2026-04-01 before:2026-05-01": 48,
+    "google_news|\"Delhi\" (\"artificial intelligence\" OR AI) (MoU OR partnership OR budget OR crore OR tender OR contract) after:2026-05-01 before:2026-06-01": 45,
+    "google_news|\"Delhi\" (\"artificial intelligence\" OR AI) (MoU OR partnership OR budget OR crore OR tender OR contract) after:2026-06-01 before:2026-07-01": 46,
+    "google_news|\"Delhi\" (\"artificial intelligence\" OR AI) (MoU OR partnership OR budget OR crore OR tender OR contract) after:2026-07-01 before:2026-08-01": 54,
+    "google_news|\"Delhi\" (\"artificial intelligence\" OR AI) (MoU OR partnership OR budget OR crore OR tender OR contract) after:2026-08-01 before:2026-09-01": 56,
+    "google_news|\"Delhi\" (\"artificial intelligence\" OR AI) (MoU OR partnership OR budget OR crore OR tender OR contract) after:2026-09-01 before:2026-10-01": 69,
+    "google_news|\"Delhi\" government AI (health OR agriculture OR police OR education OR schools) after:2026-01-01 before:2026-02-01": 38,
+    "google_news|\"Delhi\" government AI (health OR agriculture OR police OR education OR schools) after:2026-02-01 before:2026-03-01": 57,
+    "google_news|\"Delhi\" government AI (health OR agriculture OR police OR education OR schools) after:2026-03-01 before:2026-04-01": 25,
+    "google_news|\"Delhi\" government AI (health OR agriculture OR police OR education OR schools) after:2026-04-01 before:2026-05-01": 44,
+    "google_news|\"Delhi\" government AI (health OR agriculture OR police OR education OR schools) after:2026-05-01 before:2026-06-01": 40,
+    "google_news|\"Delhi\" government AI (health OR agriculture OR police OR education OR schools) after:2026-06-01 before:2026-07-01": 32,
+    "google_news|\"Delhi\" government AI (health OR agriculture OR police OR education OR schools) after:2026-07-01 before:2026-08-01": 48,
+    "google_news|\"Delhi\" government AI (health OR agriculture OR police OR education OR schools) after:2026-08-01 before:2026-09-01": 61,
+    "google_news|\"Delhi\" government AI (health OR agriculture OR police OR education OR schools) after:2026-09-01 before:2026-10-01": 68,
+    "google_news|Delhi AI government after:2026-01-01 before:2026-02-01": 38,
+    "google_news|Delhi AI government after:2026-02-01 before:2026-03-01": 74,
+    "google_news|Delhi AI government after:2026-03-01 before:2026-04-01": 27,
+    "google_news|Delhi AI government after:2026-04-01 before:2026-05-01": 48,
+    "google_news|Delhi AI government after:2026-05-01 before:2026-06-01": 50,
+    "google_news|Delhi AI government after:2026-06-01 before:2026-07-01": 47,
+    "google_news|Delhi AI government after:2026-07-01 before:2026-08-01": 64,
+    "google_news|Delhi AI government after:2026-08-01 before:2026-09-01": 64,
+    "google_news|Delhi AI government after:2026-09-01 before:2026-10-01": 38,
+    "google_news|\"Rekha Gupta\" AI after:2026-01-01 before:2026-02-01": 35,
+    "google_news|\"Rekha Gupta\" AI after:2026-02-01 before:2026-03-01": 45,
+    "google_news|\"Rekha Gupta\" AI after:2026-03-01 before:2026-04-01": 37,
+    "google_news|\"Rekha Gupta\" AI after:2026-04-01 before:2026-05-01": 46,
+    "google_news|\"Rekha Gupta\" AI after:2026-05-01 before:2026-06-01": 46,
+    "google_news|\"Rekha Gupta\" AI after:2026-06-01 before:2026-07-01": 38,
+    "google_news|\"Rekha Gupta\" AI after:2026-07-01 before:2026-08-01": 45,
+    "google_news|\"Rekha Gupta\" AI after:2026-08-01 before:2026-09-01": 43,
+    "google_news|\"Rekha Gupta\" AI after:2026-09-01 before:2026-10-01": 64,
+    "google_news|\"Delhi government\" AI after:2026-01-01 before:2026-02-01": 48,
+    "google_news|\"Delhi government\" AI after:2026-02-01 before:2026-03-01": 47,
+    "google_news|\"Delhi government\" AI after:2026-03-01 before:2026-04-01": 44,
+    "google_news|\"Delhi government\" AI after:2026-04-01 before:2026-05-01": 46,
+    "google_news|\"Delhi government\" AI after:2026-05-01 before:2026-06-01": 48,
+    "google_news|\"Delhi government\" AI after:2026-06-01 before:2026-07-01": 45,
+    "google_news|\"Delhi government\" AI after:2026-07-01 before:2026-08-01": 45,
+    "google_news|\"Delhi government\" AI after:2026-08-01 before:2026-09-01": 39,
+    "google_news|\"Delhi government\" AI after:2026-09-01 before:2026-10-01": 63,
+    "google_news|\"Delhi Police\" AI after:2026-01-01 before:2026-02-01": 37,
+    "google_news|\"Delhi Police\" AI after:2026-02-01 before:2026-03-01": 100,
+    "google_news|\"Delhi Police\" AI after:2026-03-01 before:2026-04-01": 33,
+    "google_news|\"Delhi Police\" AI after:2026-04-01 before:2026-05-01": 51,
+    "google_news|\"Delhi Police\" AI after:2026-05-01 before:2026-06-01": 44,
+    "google_news|\"Delhi Police\" AI after:2026-06-01 before:2026-07-01": 27,
+    "google_news|\"Delhi Police\" AI after:2026-07-01 before:2026-08-01": 86,
+    "google_news|\"Delhi Police\" AI after:2026-08-01 before:2026-09-01": 58,
+    "google_news|\"Delhi Police\" AI after:2026-09-01 before:2026-10-01": 55,
+    "google_news|\"Delhi\" (AI OR \"artificial intelligence\") (site:hindustantimes.com OR site:indianexpress.com OR site:thehindu.com) after:2026-01-01 before:2026-02-01": 100,
+    "google_news|\"Delhi\" (AI OR \"artificial intelligence\") (site:hindustantimes.com OR site:indianexpress.com OR site:thehindu.com) after:2026-02-01 before:2026-03-01": 100,
+    "google_news|\"Delhi\" (AI OR \"artificial intelligence\") (site:hindustantimes.com OR site:indianexpress.com OR site:thehindu.com) after:2026-03-01 before:2026-04-01": 97,
+    "google_news|\"Delhi\" (AI OR \"artificial intelligence\") (site:hindustantimes.com OR site:indianexpress.com OR site:thehindu.com) after:2026-04-01 before:2026-05-01": 100,
+    "google_news|\"Delhi\" (AI OR \"artificial intelligence\") (site:hindustantimes.com OR site:indianexpress.com OR site:thehindu.com) after:2026-05-01 before:2026-06-01": 100,
+    "google_news|\"Delhi\" (AI OR \"artificial intelligence\") (site:hindustantimes.com OR site:indianexpress.com OR site:thehindu.com) after:2026-06-01 before:2026-07-01": 100,
+    "google_news|\"Delhi\" (AI OR \"artificial intelligence\") (site:hindustantimes.com OR site:indianexpress.com OR site:thehindu.com) after:2026-07-01 before:2026-08-01": 100,
+    "google_news|\"Delhi\" (AI OR \"artificial intelligence\") (site:hindustantimes.com OR site:indianexpress.com OR site:thehindu.com) after:2026-08-01 before:2026-09-01": 100,
+    "google_news|\"Delhi\" (AI OR \"artificial intelligence\") (site:hindustantimes.com OR site:indianexpress.com OR site:thehindu.com) after:2026-09-01 before:2026-10-01": 100,
+    "google_news|\"Gujarat\" (\"artificial intelligence\" OR AI) (policy OR mission OR \"task force\" OR \"centre of excellence\") after:2026-01-01 before:2026-02-01": 46,
+    "google_news|\"Gujarat\" (\"artificial intelligence\" OR AI) (policy OR mission OR \"task force\" OR \"centre of excellence\") after:2026-02-01 before:2026-03-01": 46,
+    "google_news|\"Gujarat\" (\"artificial intelligence\" OR AI) (policy OR mission OR \"task force\" OR \"centre of excellence\") after:2026-03-01 before:2026-04-01": 34,
+    "google_news|\"Gujarat\" (\"artificial intelligence\" OR AI) (policy OR mission OR \"task force\" OR \"centre of excellence\") after:2026-04-01 before:2026-05-01": 43,
+    "google_news|\"Gujarat\" (\"artificial intelligence\" OR AI) (policy OR mission OR \"task force\" OR \"centre of excellence\") after:2026-05-01 before:2026-06-01": 45,
+    "google_news|\"Gujarat\" (\"artificial intelligence\" OR AI) (policy OR mission OR \"task force\" OR \"centre of excellence\") after:2026-06-01 before:2026-07-01": 39,
+    "google_news|\"Gujarat\" (\"artificial intelligence\" OR AI) (policy OR mission OR \"task force\" OR \"centre of excellence\") after:2026-07-01 before:2026-08-01": 49,
+    "google_news|\"Gujarat\" (\"artificial intelligence\" OR AI) (policy OR mission OR \"task force\" OR \"centre of excellence\") after:2026-08-01 before:2026-09-01": 57,
+    "google_news|\"Gujarat\" (\"artificial intelligence\" OR AI) (policy OR mission OR \"task force\" OR \"centre of excellence\") after:2026-09-01 before:2026-10-01": 54,
+    "google_news|\"Gujarat\" (\"artificial intelligence\" OR AI) (MoU OR partnership OR budget OR crore OR tender OR contract) after:2026-01-01 before:2026-02-01": 43,
+    "google_news|\"Gujarat\" (\"artificial intelligence\" OR AI) (MoU OR partnership OR budget OR crore OR tender OR contract) after:2026-02-01 before:2026-03-01": 48,
+    "google_news|\"Gujarat\" (\"artificial intelligence\" OR AI) (MoU OR partnership OR budget OR crore OR tender OR contract) after:2026-03-01 before:2026-04-01": 40,
+    "google_news|\"Gujarat\" (\"artificial intelligence\" OR AI) (MoU OR partnership OR budget OR crore OR tender OR contract) after:2026-04-01 before:2026-05-01": 49,
+    "google_news|\"Gujarat\" (\"artificial intelligence\" OR AI) (MoU OR partnership OR budget OR crore OR tender OR contract) after:2026-05-01 before:2026-06-01": 45,
+    "google_news|\"Gujarat\" (\"artificial intelligence\" OR AI) (MoU OR partnership OR budget OR crore OR tender OR contract) after:2026-06-01 before:2026-07-01": 42,
+    "google_news|\"Gujarat\" (\"artificial intelligence\" OR AI) (MoU OR partnership OR budget OR crore OR tender OR contract) after:2026-07-01 before:2026-08-01": 49,
+    "google_news|\"Gujarat\" (\"artificial intelligence\" OR AI) (MoU OR partnership OR budget OR crore OR tender OR contract) after:2026-08-01 before:2026-09-01": 57,
+    "google_news|\"Gujarat\" (\"artificial intelligence\" OR AI) (MoU OR partnership OR budget OR crore OR tender OR contract) after:2026-09-01 before:2026-10-01": 63,
+    "google_news|\"Gujarat\" government AI (health OR agriculture OR police OR education OR schools) after:2026-01-01 before:2026-02-01": 41,
+    "google_news|\"Gujarat\" government AI (health OR agriculture OR police OR education OR schools) after:2026-02-01 before:2026-03-01": 44,
+    "google_news|\"Gujarat\" government AI (health OR agriculture OR police OR education OR schools) after:2026-03-01 before:2026-04-01": 34,
+    "google_news|\"Gujarat\" government AI (health OR agriculture OR police OR education OR schools) after:2026-04-01 before:2026-05-01": 46,
+    "google_news|\"Gujarat\" government AI (health OR agriculture OR police OR education OR schools) after:2026-05-01 before:2026-06-01": 41,
+    "google_news|\"Gujarat\" government AI (health OR agriculture OR police OR education OR schools) after:2026-06-01 before:2026-07-01": 35,
+    "google_news|\"Gujarat\" government AI (health OR agriculture OR police OR education OR schools) after:2026-07-01 before:2026-08-01": 48,
+    "google_news|\"Gujarat\" government AI (health OR agriculture OR police OR education OR schools) after:2026-08-01 before:2026-09-01": 53,
+    "google_news|\"Gujarat\" government AI (health OR agriculture OR police OR education OR schools) after:2026-09-01 before:2026-10-01": 54,
+    "google_news|Ahmedabad AI government after:2026-01-01 before:2026-02-01": 44,
+    "google_news|Ahmedabad AI government after:2026-02-01 before:2026-03-01": 45,
+    "google_news|Ahmedabad AI government after:2026-03-01 before:2026-04-01": 43,
+    "google_news|Ahmedabad AI government after:2026-04-01 before:2026-05-01": 49,
+    "google_news|Ahmedabad AI government after:2026-05-01 before:2026-06-01": 44,
+    "google_news|Ahmedabad AI government after:2026-06-01 before:2026-07-01": 45,
+    "google_news|Ahmedabad AI government after:2026-07-01 before:2026-08-01": 47,
+    "google_news|Ahmedabad AI government after:2026-08-01 before:2026-09-01": 59,
+    "google_news|Ahmedabad AI government after:2026-09-01 before:2026-10-01": 68,
+    "google_news|\"Bhupendra Patel\" AI after:2026-01-01 before:2026-02-01": 12,
+    "google_news|\"Bhupendra Patel\" AI after:2026-02-01 before:2026-03-01": 11,
+    "google_news|\"Bhupendra Patel\" AI after:2026-03-01 before:2026-04-01": 17,
+    "google_news|\"Bhupendra Patel\" AI after:2026-04-01 before:2026-05-01": 16,
+    "google_news|\"Bhupendra Patel\" AI after:2026-05-01 before:2026-06-01": 19,
+    "google_news|\"Bhupendra Patel\" AI after:2026-06-01 before:2026-07-01": 21,
+    "google_news|\"Bhupendra Patel\" AI after:2026-07-01 before:2026-08-01": 42,
+    "google_news|\"Bhupendra Patel\" AI after:2026-08-01 before:2026-09-01": 21,
+    "google_news|\"Bhupendra Patel\" AI after:2026-09-01 before:2026-10-01": 51,
+    "google_news|\"GIFT City\" AI after:2026-01-01 before:2026-02-01": 41,
+    "google_news|\"GIFT City\" AI after:2026-02-01 before:2026-03-01": 43,
+    "google_news|\"GIFT City\" AI after:2026-03-01 before:2026-04-01": 37,
+    "google_news|\"GIFT City\" AI after:2026-04-01 before:2026-05-01": 46,
+    "google_news|\"GIFT City\" AI after:2026-05-01 before:2026-06-01": 45,
+    "google_news|\"GIFT City\" AI after:2026-06-01 before:2026-07-01": 47,
+    "google_news|\"GIFT City\" AI after:2026-07-01 before:2026-08-01": 47,
+    "google_news|\"GIFT City\" AI after:2026-08-01 before:2026-09-01": 47,
+    "google_news|\"GIFT City\" AI after:2026-09-01 before:2026-10-01": 44,
+    "google_news|Gandhinagar AI after:2026-01-01 before:2026-02-01": 46,
+    "google_news|Gandhinagar AI after:2026-02-01 before:2026-03-01": 44,
+    "google_news|Gandhinagar AI after:2026-03-01 before:2026-04-01": 41,
+    "google_news|Gandhinagar AI after:2026-04-01 before:2026-05-01": 34,
+    "google_news|Gandhinagar AI after:2026-05-01 before:2026-06-01": 46,
+    "google_news|Gandhinagar AI after:2026-06-01 before:2026-07-01": 48,
+    "google_news|Gandhinagar AI after:2026-07-01 before:2026-08-01": 47,
+    "google_news|Gandhinagar AI after:2026-08-01 before:2026-09-01": 43,
+    "google_news|Gandhinagar AI after:2026-09-01 before:2026-10-01": 47,
+    "google_news|\"iHub\" Gujarat AI after:2026-01-01 before:2026-02-01": 0,
+    "google_news|\"iHub\" Gujarat AI after:2026-02-01 before:2026-03-01": 0,
+    "google_news|\"iHub\" Gujarat AI after:2026-03-01 before:2026-04-01": 0,
+    "google_news|\"iHub\" Gujarat AI after:2026-04-01 before:2026-05-01": 0,
+    "google_news|\"iHub\" Gujarat AI after:2026-05-01 before:2026-06-01": 0,
+    "google_news|\"iHub\" Gujarat AI after:2026-06-01 before:2026-07-01": 0,
+    "google_news|\"iHub\" Gujarat AI after:2026-07-01 before:2026-08-01": 1,
+    "google_news|\"iHub\" Gujarat AI after:2026-08-01 before:2026-09-01": 1,
+    "google_news|\"iHub\" Gujarat AI after:2026-09-01 before:2026-10-01": 0,
+    "google_news|\"Gujarat\" \"AI policy\" after:2026-01-01 before:2026-02-01": 2,
+    "google_news|\"Gujarat\" \"AI policy\" after:2026-02-01 before:2026-03-01": 8,
+    "google_news|\"Gujarat\" \"AI policy\" after:2026-03-01 before:2026-04-01": 1,
+    "google_news|\"Gujarat\" \"AI policy\" after:2026-04-01 before:2026-05-01": 8,
+    "google_news|\"Gujarat\" \"AI policy\" after:2026-05-01 before:2026-06-01": 7,
+    "google_news|\"Gujarat\" \"AI policy\" after:2026-06-01 before:2026-07-01": 6,
+    "google_news|\"Gujarat\" \"AI policy\" after:2026-07-01 before:2026-08-01": 6,
+    "google_news|\"Gujarat\" \"AI policy\" after:2026-08-01 before:2026-09-01": 1,
+    "google_news|\"Gujarat\" \"AI policy\" after:2026-09-01 before:2026-10-01": 2,
+    "google_news|\"Gujarat\" (AI OR \"artificial intelligence\") (site:deshgujarat.com OR site:ahmedabadmirror.com OR site:indianexpress.com OR site:timesofindia.indiatimes.com OR site:gujaratinformation.gujarat.gov.in) after:2026-01-01 before:2026-02-01": 100,
+    "google_news|\"Gujarat\" (AI OR \"artificial intelligence\") (site:deshgujarat.com OR site:ahmedabadmirror.com OR site:indianexpress.com OR site:timesofindia.indiatimes.com OR site:gujaratinformation.gujarat.gov.in) after:2026-02-01 before:2026-03-01": 100,
+    "google_news|\"Gujarat\" (AI OR \"artificial intelligence\") (site:deshgujarat.com OR site:ahmedabadmirror.com OR site:indianexpress.com OR site:timesofindia.indiatimes.com OR site:gujaratinformation.gujarat.gov.in) after:2026-03-01 before:2026-04-01": 100,
+    "google_news|\"Gujarat\" (AI OR \"artificial intelligence\") (site:deshgujarat.com OR site:ahmedabadmirror.com OR site:indianexpress.com OR site:timesofindia.indiatimes.com OR site:gujaratinformation.gujarat.gov.in) after:2026-04-01 before:2026-05-01": 100,
+    "google_news|\"Gujarat\" (AI OR \"artificial intelligence\") (site:deshgujarat.com OR site:ahmedabadmirror.com OR site:indianexpress.com OR site:timesofindia.indiatimes.com OR site:gujaratinformation.gujarat.gov.in) after:2026-05-01 before:2026-06-01": 100,
+    "google_news|\"Gujarat\" (AI OR \"artificial intelligence\") (site:deshgujarat.com OR site:ahmedabadmirror.com OR site:indianexpress.com OR site:timesofindia.indiatimes.com OR site:gujaratinformation.gujarat.gov.in) after:2026-06-01 before:2026-07-01": 100,
+    "google_news|\"Gujarat\" (AI OR \"artificial intelligence\") (site:deshgujarat.com OR site:ahmedabadmirror.com OR site:indianexpress.com OR site:timesofindia.indiatimes.com OR site:gujaratinformation.gujarat.gov.in) after:2026-07-01 before:2026-08-01": 100,
+    "google_news|\"Gujarat\" (AI OR \"artificial intelligence\") (site:deshgujarat.com OR site:ahmedabadmirror.com OR site:indianexpress.com OR site:timesofindia.indiatimes.com OR site:gujaratinformation.gujarat.gov.in) after:2026-08-01 before:2026-09-01": 100,
+    "google_news|\"Gujarat\" (AI OR \"artificial intelligence\") (site:deshgujarat.com OR site:ahmedabadmirror.com OR site:indianexpress.com OR site:timesofindia.indiatimes.com OR site:gujaratinformation.gujarat.gov.in) after:2026-09-01 before:2026-10-01": 100,
+    "google_news|\"Maharashtra\" (\"artificial intelligence\" OR AI) (policy OR mission OR \"task force\" OR \"centre of excellence\") after:2026-01-01 before:2026-02-01": 43,
+    "google_news|\"Maharashtra\" (\"artificial intelligence\" OR AI) (policy OR mission OR \"task force\" OR \"centre of excellence\") after:2026-02-01 before:2026-03-01": 37,
+    "google_news|\"Maharashtra\" (\"artificial intelligence\" OR AI) (policy OR mission OR \"task force\" OR \"centre of excellence\") after:2026-03-01 before:2026-04-01": 38,
+    "google_news|\"Maharashtra\" (\"artificial intelligence\" OR AI) (policy OR mission OR \"task force\" OR \"centre of excellence\") after:2026-04-01 before:2026-05-01": 44,
+    "google_news|\"Maharashtra\" (\"artificial intelligence\" OR AI) (policy OR mission OR \"task force\" OR \"centre of excellence\") after:2026-05-01 before:2026-06-01": 46,
+    "google_news|\"Maharashtra\" (\"artificial intelligence\" OR AI) (policy OR mission OR \"task force\" OR \"centre of excellence\") after:2026-06-01 before:2026-07-01": 39,
+    "google_news|\"Maharashtra\" (\"artificial intelligence\" OR AI) (policy OR mission OR \"task force\" OR \"centre of excellence\") after:2026-07-01 before:2026-08-01": 52,
+    "google_news|\"Maharashtra\" (\"artificial intelligence\" OR AI) (policy OR mission OR \"task force\" OR \"centre of excellence\") after:2026-08-01 before:2026-09-01": 61,
+    "google_news|\"Maharashtra\" (\"artificial intelligence\" OR AI) (policy OR mission OR \"task force\" OR \"centre of excellence\") after:2026-09-01 before:2026-10-01": 57,
+    "google_news|\"Maharashtra\" (\"artificial intelligence\" OR AI) (MoU OR partnership OR budget OR crore OR tender OR contract) after:2026-01-01 before:2026-02-01": 46,
+    "google_news|\"Maharashtra\" (\"artificial intelligence\" OR AI) (MoU OR partnership OR budget OR crore OR tender OR contract) after:2026-02-01 before:2026-03-01": 41,
+    "google_news|\"Maharashtra\" (\"artificial intelligence\" OR AI) (MoU OR partnership OR budget OR crore OR tender OR contract) after:2026-03-01 before:2026-04-01": 37,
+    "google_news|\"Maharashtra\" (\"artificial intelligence\" OR AI) (MoU OR partnership OR budget OR crore OR tender OR contract) after:2026-04-01 before:2026-05-01": 46,
+    "google_news|\"Maharashtra\" (\"artificial intelligence\" OR AI) (MoU OR partnership OR budget OR crore OR tender OR contract) after:2026-05-01 before:2026-06-01": 42,
+    "google_news|\"Maharashtra\" (\"artificial intelligence\" OR AI) (MoU OR partnership OR budget OR crore OR tender OR contract) after:2026-06-01 before:2026-07-01": 41,
+    "google_news|\"Maharashtra\" (\"artificial intelligence\" OR AI) (MoU OR partnership OR budget OR crore OR tender OR contract) after:2026-07-01 before:2026-08-01": 52,
+    "google_news|\"Maharashtra\" (\"artificial intelligence\" OR AI) (MoU OR partnership OR budget OR crore OR tender OR contract) after:2026-08-01 before:2026-09-01": 55,
+    "google_news|\"Maharashtra\" (\"artificial intelligence\" OR AI) (MoU OR partnership OR budget OR crore OR tender OR contract) after:2026-09-01 before:2026-10-01": 66,
+    "google_news|\"Maharashtra\" government AI (health OR agriculture OR police OR education OR schools) after:2026-01-01 before:2026-02-01": 45,
+    "google_news|\"Maharashtra\" government AI (health OR agriculture OR police OR education OR schools) after:2026-02-01 before:2026-03-01": 41,
+    "google_news|\"Maharashtra\" government AI (health OR agriculture OR police OR education OR schools) after:2026-03-01 before:2026-04-01": 32,
+    "google_news|\"Maharashtra\" government AI (health OR agriculture OR police OR education OR schools) after:2026-04-01 before:2026-05-01": 42,
+    "google_news|\"Maharashtra\" government AI (health OR agriculture OR police OR education OR schools) after:2026-05-01 before:2026-06-01": 46,
+    "google_news|\"Maharashtra\" government AI (health OR agriculture OR police OR education OR schools) after:2026-06-01 before:2026-07-01": 38,
+    "google_news|\"Maharashtra\" government AI (health OR agriculture OR police OR education OR schools) after:2026-07-01 before:2026-08-01": 47,
+    "google_news|\"Maharashtra\" government AI (health OR agriculture OR police OR education OR schools) after:2026-08-01 before:2026-09-01": 51,
+    "google_news|\"Maharashtra\" government AI (health OR agriculture OR police OR education OR schools) after:2026-09-01 before:2026-10-01": 53,
+    "google_news|Mumbai AI government after:2026-01-01 before:2026-02-01": 47,
+    "google_news|Mumbai AI government after:2026-02-01 before:2026-03-01": 43,
+    "google_news|Mumbai AI government after:2026-03-01 before:2026-04-01": 46,
+    "google_news|Mumbai AI government after:2026-04-01 before:2026-05-01": 49,
+    "google_news|Mumbai AI government after:2026-05-01 before:2026-06-01": 45,
+    "google_news|Mumbai AI government after:2026-06-01 before:2026-07-01": 52,
+    "google_news|Mumbai AI government after:2026-07-01 before:2026-08-01": 76,
+    "google_news|Mumbai AI government after:2026-08-01 before:2026-09-01": 66,
+    "google_news|Mumbai AI government after:2026-09-01 before:2026-10-01": 65,
+    "google_news|Pune AI government after:2026-01-01 before:2026-02-01": 46,
+    "google_news|Pune AI government after:2026-02-01 before:2026-03-01": 45,
+    "google_news|Pune AI government after:2026-03-01 before:2026-04-01": 42,
+    "google_news|Pune AI government after:2026-04-01 before:2026-05-01": 49,
+    "google_news|Pune AI government after:2026-05-01 before:2026-06-01": 50,
+    "google_news|Pune AI government after:2026-06-01 before:2026-07-01": 47,
+    "google_news|Pune AI government after:2026-07-01 before:2026-08-01": 71,
+    "google_news|Pune AI government after:2026-08-01 before:2026-09-01": 71,
+    "google_news|Pune AI government after:2026-09-01 before:2026-10-01": 67,
+    "google_news|Fadnavis AI after:2026-01-01 before:2026-02-01": 48,
+    "google_news|Fadnavis AI after:2026-02-01 before:2026-03-01": 44,
+    "google_news|Fadnavis AI after:2026-03-01 before:2026-04-01": 42,
+    "google_news|Fadnavis AI after:2026-04-01 before:2026-05-01": 47,
+    "google_news|Fadnavis AI after:2026-05-01 before:2026-06-01": 41,
+    "google_news|Fadnavis AI after:2026-06-01 before:2026-07-01": 43,
+    "google_news|Fadnavis AI after:2026-07-01 before:2026-08-01": 50,
+    "google_news|Fadnavis AI after:2026-08-01 before:2026-09-01": 43,
+    "google_news|Fadnavis AI after:2026-09-01 before:2026-10-01": 58,
+    "google_news|MahaIT AI after:2026-01-01 before:2026-02-01": 0,
+    "google_news|MahaIT AI after:2026-02-01 before:2026-03-01": 2,
+    "google_news|MahaIT AI after:2026-03-01 before:2026-04-01": 0,
+    "google_news|MahaIT AI after:2026-04-01 before:2026-05-01": 0,
+    "google_news|MahaIT AI after:2026-05-01 before:2026-06-01": 3,
+    "google_news|MahaIT AI after:2026-06-01 before:2026-07-01": 1,
+    "google_news|MahaIT AI after:2026-07-01 before:2026-08-01": 1,
+    "google_news|MahaIT AI after:2026-08-01 before:2026-09-01": 0,
+    "google_news|MahaIT AI after:2026-09-01 before:2026-10-01": 1,
+    "google_news|\"Maharashtra\" \"AI policy\" after:2026-01-01 before:2026-02-01": 4,
+    "google_news|\"Maharashtra\" \"AI policy\" after:2026-02-01 before:2026-03-01": 21,
+    "google_news|\"Maharashtra\" \"AI policy\" after:2026-03-01 before:2026-04-01": 8,
+    "google_news|\"Maharashtra\" \"AI policy\" after:2026-04-01 before:2026-05-01": 20,
+    "google_news|\"Maharashtra\" \"AI policy\" after:2026-05-01 before:2026-06-01": 14,
+    "google_news|\"Maharashtra\" \"AI policy\" after:2026-06-01 before:2026-07-01": 10,
+    "google_news|\"Maharashtra\" \"AI policy\" after:2026-07-01 before:2026-08-01": 10,
+    "google_news|\"Maharashtra\" \"AI policy\" after:2026-08-01 before:2026-09-01": 8,
+    "google_news|\"Maharashtra\" \"AI policy\" after:2026-09-01 before:2026-10-01": 7,
+    "google_news|\"Maharashtra\" (AI OR \"artificial intelligence\") (site:freepressjournal.in OR site:mid-day.com OR site:hindustantimes.com) after:2026-01-01 before:2026-02-01": 100,
+    "google_news|\"Maharashtra\" (AI OR \"artificial intelligence\") (site:freepressjournal.in OR site:mid-day.com OR site:hindustantimes.com) after:2026-02-01 before:2026-03-01": 100,
+    "google_news|\"Maharashtra\" (AI OR \"artificial intelligence\") (site:freepressjournal.in OR site:mid-day.com OR site:hindustantimes.com) after:2026-03-01 before:2026-04-01": 100,
+    "google_news|\"Maharashtra\" (AI OR \"artificial intelligence\") (site:freepressjournal.in OR site:mid-day.com OR site:hindustantimes.com) after:2026-04-01 before:2026-05-01": 100,
+    "google_news|\"Maharashtra\" (AI OR \"artificial intelligence\") (site:freepressjournal.in OR site:mid-day.com OR site:hindustantimes.com) after:2026-05-01 before:2026-06-01": 100,
+    "google_news|\"Maharashtra\" (AI OR \"artificial intelligence\") (site:freepressjournal.in OR site:mid-day.com OR site:hindustantimes.com) after:2026-06-01 before:2026-07-01": 100,
+    "google_news|\"Maharashtra\" (AI OR \"artificial intelligence\") (site:freepressjournal.in OR site:mid-day.com OR site:hindustantimes.com) after:2026-07-01 before:2026-08-01": 100,
+    "google_news|\"Maharashtra\" (AI OR \"artificial intelligence\") (site:freepressjournal.in OR site:mid-day.com OR site:hindustantimes.com) after:2026-08-01 before:2026-09-01": 100,
+    "google_news|\"Maharashtra\" (AI OR \"artificial intelligence\") (site:freepressjournal.in OR site:mid-day.com OR site:hindustantimes.com) after:2026-09-01 before:2026-10-01": 100
+   },
+   "gdelt": {
+    "gdelt|IN-TN": 250,
+    "gdelt|IN-KA": 250,
+    "gdelt|IN-DL": 250,
+    "gdelt|IN-GJ": 250,
+    "gdelt|IN-MH": 250
+   },
+   "gnews": {
+    "gnews|IN-TN|\"Tamil Nadu\" AND (\"artificial intelligence\" OR AI) AND (government OR policy OR MoU OR minister)": 5,
+    "gnews|IN-KA|\"Karnataka\" AND (\"artificial intelligence\" OR AI) AND (government OR policy OR MoU OR minister)": 10,
+    "gnews|IN-TG|\"Telangana\" AND (\"artificial intelligence\" OR AI) AND (government OR policy OR MoU OR minister)": 9,
+    "gnews|IN-DL|\"Delhi\" AND (\"artificial intelligence\" OR AI) AND (government OR policy OR MoU OR minister)": 10,
+    "gnews|IN-GJ|\"Gujarat\" AND (\"artificial intelligence\" OR AI) AND (government OR policy OR MoU OR minister)": 10,
+    "gnews|IN-MH|\"Maharashtra\" AND (\"artificial intelligence\" OR AI) AND (government OR policy OR MoU OR minister)": 10
+   },
+   "newsapi": {
+    "newsapi|IN-TN|\"Tamil Nadu\" AND (AI OR \"artificial intelligence\")": 0,
+    "newsapi|IN-KA|\"Karnataka\" AND (AI OR \"artificial intelligence\")": 1,
+    "newsapi|IN-TG|\"Telangana\" AND (AI OR \"artificial intelligence\")": 2,
+    "newsapi|IN-DL|\"Delhi\" AND (AI OR \"artificial intelligence\")": 7,
+    "newsapi|IN-GJ|\"Gujarat\" AND (AI OR \"artificial intelligence\")": 1,
+    "newsapi|IN-MH|\"Maharashtra\" AND (AI OR \"artificial intelligence\")": 2
+   },
+   "newsdata": {
+    "newsdata|IN-TN|\"Tamil Nadu\" AND (AI OR \"artificial intelligence\")": 10,
+    "newsdata|IN-KA|\"Karnataka\" AND (AI OR \"artificial intelligence\")": 10,
+    "newsdata|IN-TG|\"Telangana\" AND (AI OR \"artificial intelligence\")": 10,
+    "newsdata|IN-DL|\"Delhi\" AND (AI OR \"artificial intelligence\")": 10,
+    "newsdata|IN-GJ|\"Gujarat\" AND (AI OR \"artificial intelligence\")": 10,
+    "newsdata|IN-MH|\"Maharashtra\" AND (AI OR \"artificial intelligence\")": 10
+   },
+   "outlets": {
+    "outlets|rss|https://www.thehindu.com/news/national/tamil-nadu/feeder/default.rss": 60,
+    "outlets|rss|https://www.thehindu.com/news/cities/chennai/feeder/default.rss": 60,
+    "outlets|rss|https://www.thehindu.com/news/national/karnataka/feeder/default.rss": 60,
+    "outlets|rss|https://www.thehindu.com/news/cities/bangalore/feeder/default.rss": 60,
+    "outlets|rss|https://www.thehindu.com/news/national/telangana/feeder/default.rss": 60,
+    "outlets|wp_feed|https://telanganatoday.com/tag/artificial-intelligence/feed": 15000,
+    "outlets|tt_tag_scrape|https://telanganatoday.com/tag/artificial-intelligence/page/{page}": 100,
+    "outlets|rss|https://www.thehindu.com/news/cities/Delhi/feeder/default.rss": 60,
+    "outlets|rss|https://www.thehindu.com/news/cities/mumbai/feeder/default.rss": 60
+   }
+  }
+ }
+}

@@ -1,49 +1,52 @@
 {
-  "generated_at": "2026-09-25T07:48:38+00:00",
+  "generated_at": "2026-09-25T08:23:19+00:00",
   "since": "2026-01-01",
-  "classifier": "rules",
-  "raw_records": 11034,
+  "classifier": "rules+semantic",
+  "raw_records": 38416,
   "raw_by_source": {
-    "gdelt": 500,
-    "gnews": 15,
-    "google_news_rss": 10258,
-    "newsapi": 1,
-    "newsdata": 20,
-    "outlet_rss": 240
+    "gdelt": 1250,
+    "gnews": 54,
+    "google_news_rss": 21519,
+    "newsapi": 13,
+    "newsdata": 60,
+    "outlet_rss": 15420,
+    "outlet_scrape": 100
   },
-  "events": 639,
-  "articles_kept": 1076,
-  "rejected": 6712,
+  "events": 1266,
+  "articles_kept": 2389,
+  "rejected": 13971,
   "events_by_state": {
-    "IN-TG": 200,
-    "IN-DL": 16,
-    "IN-TN": 114,
-    "IN-KA": 255,
-    "IN-MH": 19,
-    "IN-GJ": 10,
-    "IN-CENTRAL": 25
+    "IN-DL": 190,
+    "IN-TG": 242,
+    "IN-MH": 206,
+    "IN-GJ": 144,
+    "IN-KA": 262,
+    "IN-TN": 123,
+    "IN-CENTRAL": 99
   },
   "events_by_category": {
-    "partnership": 47,
-    "governance_deployment": 222,
-    "statement_intent": 125,
-    "budget_funding": 105,
-    "regulation_ethics": 37,
-    "policy_mission": 35,
-    "institution": 65,
-    "procurement": 3
+    "regulation_ethics": 106,
+    "partnership": 112,
+    "governance_deployment": 416,
+    "statement_intent": 131,
+    "policy_mission": 106,
+    "budget_funding": 232,
+    "procurement": 27,
+    "institution": 136
   },
   "articles_by_classifier": {
-    "rules": 1076
+    "rules+semantic": 2199,
+    "semantic": 190
   },
   "rejected_by_reason": {
-    "excluded_topic": 87,
-    "before_2026-01-01": 43,
-    "not_ai": 4644,
-    "no_gov_signal": 1581,
-    "no_state": 297,
-    "non_focus_state": 60
+    "excluded_topic": 352,
+    "before_2026-01-01": 390,
+    "not_ai": 9216,
+    "no_gov_signal": 1919,
+    "no_state": 1750,
+    "non_focus_state": 194,
+    "semantic_low": 150
   },
   "events_date_unknown": 0,
-  "events_url_unresolved": 610
+  "events_url_unresolved": 1108
 }
