@@ -1,0 +1,56 @@
+{
+  "_doc": "Per-state source matrix. APIs (google_news, gdelt, gnews) run for every focus state using the query terms below; direct outlet sources are listed per state. `verified` = format checked against the live site on 2026-09-25.",
+  "query_terms": {
+    "ai": ["\"artificial intelligence\"", "AI"],
+    "policy": ["policy", "mission", "government", "govt", "MoU", "task force", "centre of excellence", "budget", "minister", "department"]
+  },
+  "google_news": {
+    "verified": true,
+    "base": "https://news.google.com/rss/search",
+    "params": {"hl": "en-IN", "gl": "IN", "ceid": "IN:en"},
+    "window": "when:1y",
+    "queries_per_state": [
+      "{state} (\"artificial intelligence\" OR AI) (policy OR mission OR \"task force\" OR \"centre of excellence\")",
+      "{state} (\"artificial intelligence\" OR AI) (MoU OR partnership OR budget OR crore)",
+      "{state} government AI (health OR agriculture OR police OR education OR schools)",
+      "{metro} AI government"
+    ]
+  },
+  "gdelt": {
+    "verified": true,
+    "base": "https://api.gdeltproject.org/api/v2/doc/doc",
+    "min_interval_s": 6,
+    "timespan": "12months",
+    "query": "{state} (\"artificial intelligence\" OR \"AI policy\" OR \"AI mission\") sourcelang:english"
+  },
+  "gnews": {
+    "verified": false,
+    "base": "https://gnews.io/api/v4/search",
+    "env_key": "GNEWS_API_KEY",
+    "query": "{state} AND (\"artificial intelligence\" OR AI) AND (government OR policy OR MoU)"
+  },
+  "outlets": {
+    "IN-TN": [
+      {"kind": "rss", "name": "The Hindu", "url": "https://www.thehindu.com/news/national/tamil-nadu/feeder/default.rss", "verified": true},
+      {"kind": "rss", "name": "The Hindu", "url": "https://www.thehindu.com/news/cities/chennai/feeder/default.rss", "verified": false}
+    ],
+    "IN-KA": [
+      {"kind": "rss", "name": "The Hindu", "url": "https://www.thehindu.com/news/national/karnataka/feeder/default.rss", "verified": true},
+      {"kind": "rss", "name": "The Hindu", "url": "https://www.thehindu.com/news/cities/bangalore/feeder/default.rss", "verified": false}
+    ],
+    "IN-TG": [
+      {"kind": "rss", "name": "The Hindu", "url": "https://www.thehindu.com/news/national/telangana/feeder/default.rss", "verified": true},
+      {"kind": "rss", "name": "Telangana Today", "url": "https://telanganatoday.com/tag/artificial-intelligence/feed", "verified": true},
+      {"kind": "tt_tag_scrape", "name": "Telangana Today", "url": "https://telanganatoday.com/tag/artificial-intelligence/page/{page}", "pages": 5, "verified": true}
+    ],
+    "IN-DL": [
+      {"kind": "rss", "name": "The Hindu", "url": "https://www.thehindu.com/news/cities/Delhi/feeder/default.rss", "verified": false}
+    ],
+    "IN-GJ": [
+      {"kind": "rss", "name": "DeshGujarat", "url": "https://www.deshgujarat.com/feed/", "verified": false}
+    ],
+    "IN-MH": [
+      {"kind": "rss", "name": "The Hindu", "url": "https://www.thehindu.com/news/cities/mumbai/feeder/default.rss", "verified": false}
+    ]
+  }
+}
