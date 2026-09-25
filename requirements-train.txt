@@ -1,0 +1,4 @@
+# Only for: python scripts/train_classifier.py --method setfit
+-r requirements.txt
+setfit>=1.1
+datasets>=2.14

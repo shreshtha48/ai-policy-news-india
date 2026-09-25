@@ -1,0 +1,94 @@
+{
+  "_doc": [
+    "Example headlines the semantic classifier compares each article against (nearest-neighbour).",
+    "Positive examples are grouped by category; negatives are near-misses we want rejected.",
+    "Add real headlines from rejected.csv / events.csv here to teach it - no code change needed.",
+    "Thresholds are starting points; tune them with scripts/eval_labels.py after hand-labelling a sample."
+  ],
+  "model": "sentence-transformers/all-MiniLM-L6-v2",
+  "thresholds": {"keep": 0.45, "margin": 0.03, "strong": 0.55, "rule_floor": 0.30, "dedupe": 0.78},
+  "positive": {
+    "policy_mission": [
+      "State government unveils artificial intelligence policy to attract investment",
+      "Cabinet approves state AI mission with focus on public services",
+      "State releases draft AI strategy and roadmap for 2030",
+      "Government notifies new policy for AI and emerging technologies",
+      "State launches AI mission to train one lakh youth",
+      "IT minister announces AI framework for the state"
+    ],
+    "institution": [
+      "State sets up AI task force headed by chief secretary",
+      "Centre of excellence for artificial intelligence inaugurated by chief minister",
+      "State to build AI city with dedicated data centres",
+      "Government forms expert committee on artificial intelligence",
+      "State opens AI research lab at government engineering college",
+      "AI university to come up in the state capital"
+    ],
+    "partnership": [
+      "State government signs MoU with Google for AI skilling",
+      "State inks pact with IIT to set up AI research centre",
+      "Government partners with Microsoft to use AI in governance",
+      "State and university sign agreement on artificial intelligence research",
+      "State ties up with Nvidia for AI compute infrastructure",
+      "Government signs letter of intent with startup for AI tools"
+    ],
+    "procurement": [
+      "State floats tender for AI-based traffic management system",
+      "Government invites bids for AI surveillance cameras",
+      "Contract awarded to firm for AI crop monitoring platform",
+      "State issues RFP for AI chatbot for citizen services",
+      "Police department procures AI facial recognition software"
+    ],
+    "governance_deployment": [
+      "State rolls out AI tool to detect tuberculosis in government hospitals",
+      "Police deploy AI cameras to catch traffic violations",
+      "Government launches AI chatbot for farmers in local language",
+      "AI-based attendance system introduced in government schools",
+      "Civic body uses artificial intelligence to fix potholes",
+      "State pilots AI to speed up land record verification",
+      "AI-powered weather forecasts help farmers in the state"
+    ],
+    "budget_funding": [
+      "State budget allocates Rs 500 crore for artificial intelligence",
+      "Government earmarks funds for AI startups in the budget",
+      "State announces AI fund of funds for deep tech startups",
+      "Company to invest Rs 10,000 crore in AI data centre in the state",
+      "State sanctions grant for AI research at universities"
+    ],
+    "regulation_ethics": [
+      "State issues guidelines on use of AI by government departments",
+      "Police issue advisory on deepfake videos ahead of elections",
+      "Government bans use of generative AI tools for official files",
+      "State drafts rules for responsible and ethical use of AI",
+      "Assembly passes bill to curb deepfake misuse"
+    ],
+    "statement_intent": [
+      "Chief minister praises Google Gemini infrastructure, says state wants a similar hub",
+      "CM says state will become India's AI capital",
+      "Minister urges industry to invest in artificial intelligence in the state",
+      "Chief minister meets tech leaders to woo AI investment",
+      "State plans to use AI across all departments, says IT minister",
+      "Deputy CM calls for AI adoption in governance"
+    ]
+  },
+  "negative": [
+    "Tech company launches new AI smartphone with better camera",
+    "AI stocks rally as Nifty hits record high",
+    "Startup raises Series B funding to build AI chips",
+    "OpenAI releases new model with better reasoning",
+    "How to use ChatGPT to write a resume",
+    "Air India flight AI-171 diverted after technical snag",
+    "Bollywood film uses AI to de-age actor",
+    "AI will replace jobs, warns global CEO",
+    "Company reports quarterly results, cites AI demand",
+    "Student builds AI app to detect plant disease",
+    "Global summit discusses AI safety in London",
+    "State government announces new bus routes",
+    "Chief minister inaugurates new flyover in the city",
+    "Opposition criticises government over water shortage",
+    "Private hospital adopts AI for surgery",
+    "IT firm opens new office in Bengaluru, to hire 500",
+    "AI-generated song goes viral on social media",
+    "Cricket team uses data analytics to plan strategy"
+  ]
+}
