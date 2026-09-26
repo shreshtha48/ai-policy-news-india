@@ -1,52 +1,52 @@
 {
-  "generated_at": "2026-09-25T08:23:19+00:00",
+  "generated_at": "2026-09-26T05:29:14+00:00",
   "since": "2026-01-01",
   "classifier": "rules+semantic",
-  "raw_records": 38416,
+  "raw_records": 58127,
   "raw_by_source": {
-    "gdelt": 1250,
-    "gnews": 54,
-    "google_news_rss": 21519,
-    "newsapi": 13,
-    "newsdata": 60,
-    "outlet_rss": 15420,
-    "outlet_scrape": 100
+    "gdelt": 2500,
+    "gnews": 108,
+    "google_news_rss": 24331,
+    "newsapi": 28,
+    "newsdata": 120,
+    "outlet_rss": 30840,
+    "outlet_scrape": 200
   },
-  "events": 1266,
-  "articles_kept": 2389,
-  "rejected": 13971,
+  "events": 1283,
+  "articles_kept": 2483,
+  "rejected": 14692,
   "events_by_state": {
-    "IN-DL": 190,
-    "IN-TG": 242,
-    "IN-MH": 206,
-    "IN-GJ": 144,
-    "IN-KA": 262,
-    "IN-TN": 123,
+    "IN-TN": 125,
+    "IN-TG": 249,
+    "IN-DL": 193,
+    "IN-MH": 209,
+    "IN-KA": 263,
+    "IN-GJ": 145,
     "IN-CENTRAL": 99
   },
   "events_by_category": {
+    "institution": 141,
+    "budget_funding": 235,
+    "partnership": 113,
+    "governance_deployment": 422,
+    "statement_intent": 132,
+    "policy_mission": 108,
     "regulation_ethics": 106,
-    "partnership": 112,
-    "governance_deployment": 416,
-    "statement_intent": 131,
-    "policy_mission": 106,
-    "budget_funding": 232,
-    "procurement": 27,
-    "institution": 136
+    "procurement": 26
   },
   "articles_by_classifier": {
-    "rules+semantic": 2199,
-    "semantic": 190
+    "rules+semantic": 2290,
+    "semantic": 193
   },
   "rejected_by_reason": {
-    "excluded_topic": 352,
+    "excluded_topic": 359,
     "before_2026-01-01": 390,
-    "not_ai": 9216,
-    "no_gov_signal": 1919,
-    "no_state": 1750,
-    "non_focus_state": 194,
-    "semantic_low": 150
+    "not_ai": 9796,
+    "no_gov_signal": 1995,
+    "no_state": 1801,
+    "non_focus_state": 199,
+    "semantic_low": 152
   },
   "events_date_unknown": 0,
-  "events_url_unresolved": 1108
+  "events_url_unresolved": 1110
 }
