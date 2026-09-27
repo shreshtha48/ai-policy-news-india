@@ -1,52 +1,52 @@
 {
-  "generated_at": "2026-09-26T05:29:14+00:00",
+  "generated_at": "2026-09-27T05:52:06+00:00",
   "since": "2026-01-01",
   "classifier": "rules+semantic",
-  "raw_records": 58127,
+  "raw_records": 77364,
   "raw_by_source": {
-    "gdelt": 2500,
-    "gnews": 108,
-    "google_news_rss": 24331,
-    "newsapi": 28,
-    "newsdata": 120,
-    "outlet_rss": 30840,
-    "outlet_scrape": 200
+    "gdelt": 3250,
+    "gnews": 162,
+    "google_news_rss": 27169,
+    "newsapi": 43,
+    "newsdata": 180,
+    "outlet_rss": 46260,
+    "outlet_scrape": 300
   },
-  "events": 1283,
-  "articles_kept": 2483,
-  "rejected": 14692,
+  "events": 1301,
+  "articles_kept": 2513,
+  "rejected": 15253,
   "events_by_state": {
-    "IN-TN": 125,
-    "IN-TG": 249,
+    "IN-TG": 254,
+    "IN-MH": 213,
+    "IN-CENTRAL": 101,
     "IN-DL": 193,
-    "IN-MH": 209,
-    "IN-KA": 263,
-    "IN-GJ": 145,
-    "IN-CENTRAL": 99
+    "IN-TN": 126,
+    "IN-KA": 268,
+    "IN-GJ": 146
   },
   "events_by_category": {
-    "institution": 141,
-    "budget_funding": 235,
-    "partnership": 113,
-    "governance_deployment": 422,
-    "statement_intent": 132,
-    "policy_mission": 108,
-    "regulation_ethics": 106,
+    "budget_funding": 241,
+    "statement_intent": 135,
+    "policy_mission": 110,
+    "governance_deployment": 425,
+    "institution": 143,
+    "regulation_ethics": 107,
+    "partnership": 114,
     "procurement": 26
   },
   "articles_by_classifier": {
-    "rules+semantic": 2290,
-    "semantic": 193
+    "rules+semantic": 2315,
+    "semantic": 198
   },
   "rejected_by_reason": {
-    "excluded_topic": 359,
+    "excluded_topic": 372,
     "before_2026-01-01": 390,
-    "not_ai": 9796,
-    "no_gov_signal": 1995,
-    "no_state": 1801,
-    "non_focus_state": 199,
-    "semantic_low": 152
+    "not_ai": 10236,
+    "no_gov_signal": 2051,
+    "no_state": 1837,
+    "non_focus_state": 202,
+    "semantic_low": 165
   },
   "events_date_unknown": 0,
-  "events_url_unresolved": 1110
+  "events_url_unresolved": 1116
 }
