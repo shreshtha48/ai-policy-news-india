@@ -1,52 +1,52 @@
 {
-  "generated_at": "2026-09-27T05:52:06+00:00",
+  "generated_at": "2026-09-28T05:53:10+00:00",
   "since": "2026-01-01",
   "classifier": "rules+semantic",
-  "raw_records": 77364,
+  "raw_records": 96640,
   "raw_by_source": {
-    "gdelt": 3250,
-    "gnews": 162,
-    "google_news_rss": 27169,
-    "newsapi": 43,
-    "newsdata": 180,
-    "outlet_rss": 46260,
-    "outlet_scrape": 300
+    "gdelt": 4000,
+    "gnews": 215,
+    "google_news_rss": 30047,
+    "newsapi": 58,
+    "newsdata": 240,
+    "outlet_rss": 61680,
+    "outlet_scrape": 400
   },
-  "events": 1301,
-  "articles_kept": 2513,
-  "rejected": 15253,
+  "events": 1314,
+  "articles_kept": 2535,
+  "rejected": 15742,
   "events_by_state": {
-    "IN-TG": 254,
-    "IN-MH": 213,
-    "IN-CENTRAL": 101,
-    "IN-DL": 193,
-    "IN-TN": 126,
-    "IN-KA": 268,
-    "IN-GJ": 146
+    "IN-CENTRAL": 103,
+    "IN-MH": 217,
+    "IN-TG": 258,
+    "IN-DL": 194,
+    "IN-GJ": 147,
+    "IN-KA": 269,
+    "IN-TN": 126
   },
   "events_by_category": {
-    "budget_funding": 241,
-    "statement_intent": 135,
-    "policy_mission": 110,
-    "governance_deployment": 425,
-    "institution": 143,
-    "regulation_ethics": 107,
+    "regulation_ethics": 109,
+    "budget_funding": 244,
+    "statement_intent": 136,
+    "policy_mission": 113,
+    "governance_deployment": 428,
+    "institution": 144,
     "partnership": 114,
     "procurement": 26
   },
   "articles_by_classifier": {
-    "rules+semantic": 2315,
-    "semantic": 198
+    "rules+semantic": 2335,
+    "semantic": 200
   },
   "rejected_by_reason": {
-    "excluded_topic": 372,
+    "excluded_topic": 377,
     "before_2026-01-01": 390,
-    "not_ai": 10236,
-    "no_gov_signal": 2051,
-    "no_state": 1837,
-    "non_focus_state": 202,
-    "semantic_low": 165
+    "not_ai": 10618,
+    "no_gov_signal": 2102,
+    "no_state": 1877,
+    "non_focus_state": 207,
+    "semantic_low": 171
   },
   "events_date_unknown": 0,
-  "events_url_unresolved": 1116
+  "events_url_unresolved": 1123
 }
