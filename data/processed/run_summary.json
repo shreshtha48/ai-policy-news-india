@@ -1,52 +1,52 @@
 {
-  "generated_at": "2026-10-10T06:26:52+00:00",
+  "generated_at": "2026-10-11T06:19:51+00:00",
   "since": "2026-01-01",
   "classifier": "rules+semantic",
-  "raw_records": 327211,
+  "raw_records": 346167,
   "raw_by_source": {
-    "gdelt": 10750,
-    "gnews": 831,
-    "google_news_rss": 66106,
-    "newsapi": 244,
-    "newsdata": 960,
-    "outlet_rss": 246720,
-    "outlet_scrape": 1600
+    "gdelt": 11500,
+    "gnews": 881,
+    "google_news_rss": 68668,
+    "newsapi": 258,
+    "newsdata": 1020,
+    "outlet_rss": 262140,
+    "outlet_scrape": 1700
   },
-  "events": 1497,
-  "articles_kept": 3061,
-  "rejected": 24585,
+  "events": 1507,
+  "articles_kept": 3085,
+  "rejected": 25139,
   "events_by_state": {
-    "IN-GJ": 158,
+    "IN-DL": 247,
+    "IN-GJ": 160,
+    "IN-TG": 286,
+    "IN-TN": 134,
     "IN-MH": 252,
-    "IN-DL": 240,
-    "IN-TG": 285,
     "IN-CENTRAL": 121,
-    "IN-KA": 308,
-    "IN-TN": 133
+    "IN-KA": 307
   },
   "events_by_category": {
-    "budget_funding": 277,
-    "partnership": 129,
+    "governance_deployment": 483,
+    "partnership": 130,
+    "policy_mission": 133,
+    "statement_intent": 160,
+    "regulation_ethics": 136,
+    "budget_funding": 275,
     "procurement": 33,
-    "institution": 158,
-    "statement_intent": 156,
-    "regulation_ethics": 134,
-    "governance_deployment": 478,
-    "policy_mission": 132
+    "institution": 157
   },
   "articles_by_classifier": {
-    "rules+semantic": 2828,
-    "semantic": 233
+    "rules+semantic": 2851,
+    "semantic": 234
   },
   "rejected_by_reason": {
-    "excluded_topic": 515,
+    "excluded_topic": 525,
     "before_2026-01-01": 406,
-    "not_ai": 17934,
-    "no_gov_signal": 2870,
-    "no_state": 2395,
-    "non_focus_state": 241,
-    "semantic_low": 224
+    "not_ai": 18431,
+    "no_gov_signal": 2888,
+    "no_state": 2420,
+    "non_focus_state": 242,
+    "semantic_low": 227
   },
   "events_date_unknown": 0,
-  "events_url_unresolved": 1201
+  "events_url_unresolved": 1206
 }
