@@ -1,52 +1,52 @@
 {
-  "generated_at": "2026-10-12T06:27:51+00:00",
+  "generated_at": "2026-10-13T07:11:23+00:00",
   "since": "2026-01-01",
   "classifier": "rules+semantic",
-  "raw_records": 365419,
+  "raw_records": 384691,
   "raw_by_source": {
-    "gdelt": 12500,
-    "gnews": 931,
-    "google_news_rss": 71273,
-    "newsapi": 275,
-    "newsdata": 1080,
-    "outlet_rss": 277560,
-    "outlet_scrape": 1800
+    "gdelt": 13500,
+    "gnews": 980,
+    "google_news_rss": 73903,
+    "newsapi": 288,
+    "newsdata": 1140,
+    "outlet_rss": 292980,
+    "outlet_scrape": 1900
   },
-  "events": 1519,
-  "articles_kept": 3110,
-  "rejected": 25632,
+  "events": 1539,
+  "articles_kept": 3140,
+  "rejected": 26250,
   "events_by_state": {
-    "IN-TN": 140,
-    "IN-TG": 288,
-    "IN-DL": 250,
-    "IN-GJ": 161,
-    "IN-KA": 308,
-    "IN-MH": 252,
+    "IN-TN": 145,
+    "IN-TG": 289,
+    "IN-MH": 257,
+    "IN-DL": 255,
+    "IN-KA": 310,
+    "IN-GJ": 163,
     "IN-CENTRAL": 120
   },
   "events_by_category": {
-    "governance_deployment": 486,
-    "regulation_ethics": 137,
-    "institution": 160,
-    "policy_mission": 135,
-    "budget_funding": 278,
-    "statement_intent": 161,
-    "partnership": 129,
+    "statement_intent": 164,
+    "governance_deployment": 491,
+    "partnership": 133,
+    "budget_funding": 281,
+    "regulation_ethics": 138,
+    "policy_mission": 136,
+    "institution": 163,
     "procurement": 33
   },
   "articles_by_classifier": {
-    "rules+semantic": 2874,
-    "semantic": 236
+    "rules+semantic": 2901,
+    "semantic": 239
   },
   "rejected_by_reason": {
-    "excluded_topic": 529,
+    "excluded_topic": 532,
     "before_2026-01-01": 406,
-    "not_ai": 18844,
-    "no_gov_signal": 2922,
-    "no_state": 2454,
-    "non_focus_state": 244,
+    "not_ai": 19366,
+    "no_gov_signal": 2971,
+    "no_state": 2496,
+    "non_focus_state": 246,
     "semantic_low": 233
   },
   "events_date_unknown": 0,
-  "events_url_unresolved": 1210
+  "events_url_unresolved": 1221
 }
