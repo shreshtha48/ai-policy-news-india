@@ -1,52 +1,52 @@
 {
-  "generated_at": "2026-10-13T07:11:23+00:00",
+  "generated_at": "2026-10-14T05:24:02+00:00",
   "since": "2026-01-01",
   "classifier": "rules+semantic",
-  "raw_records": 384691,
+  "raw_records": 404046,
   "raw_by_source": {
-    "gdelt": 13500,
-    "gnews": 980,
-    "google_news_rss": 73903,
-    "newsapi": 288,
-    "newsdata": 1140,
-    "outlet_rss": 292980,
-    "outlet_scrape": 1900
+    "gdelt": 14500,
+    "gnews": 1028,
+    "google_news_rss": 76616,
+    "newsapi": 302,
+    "newsdata": 1200,
+    "outlet_rss": 308400,
+    "outlet_scrape": 2000
   },
-  "events": 1539,
-  "articles_kept": 3140,
-  "rejected": 26250,
+  "events": 1558,
+  "articles_kept": 3173,
+  "rejected": 26810,
   "events_by_state": {
-    "IN-TN": 145,
-    "IN-TG": 289,
-    "IN-MH": 257,
-    "IN-DL": 255,
-    "IN-KA": 310,
-    "IN-GJ": 163,
+    "IN-KA": 313,
+    "IN-DL": 262,
+    "IN-MH": 258,
+    "IN-TN": 148,
+    "IN-GJ": 166,
+    "IN-TG": 291,
     "IN-CENTRAL": 120
   },
   "events_by_category": {
-    "statement_intent": 164,
-    "governance_deployment": 491,
-    "partnership": 133,
-    "budget_funding": 281,
-    "regulation_ethics": 138,
-    "policy_mission": 136,
-    "institution": 163,
-    "procurement": 33
+    "statement_intent": 167,
+    "governance_deployment": 493,
+    "budget_funding": 286,
+    "partnership": 136,
+    "procurement": 35,
+    "policy_mission": 137,
+    "regulation_ethics": 140,
+    "institution": 164
   },
   "articles_by_classifier": {
-    "rules+semantic": 2901,
-    "semantic": 239
+    "rules+semantic": 2931,
+    "semantic": 242
   },
   "rejected_by_reason": {
-    "excluded_topic": 532,
+    "excluded_topic": 535,
     "before_2026-01-01": 406,
-    "not_ai": 19366,
-    "no_gov_signal": 2971,
-    "no_state": 2496,
+    "not_ai": 19819,
+    "no_gov_signal": 3027,
+    "no_state": 2540,
     "non_focus_state": 246,
-    "semantic_low": 233
+    "semantic_low": 237
   },
   "events_date_unknown": 0,
-  "events_url_unresolved": 1221
+  "events_url_unresolved": 1230
 }
