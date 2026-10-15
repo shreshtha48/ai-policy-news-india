@@ -1,52 +1,52 @@
 {
-  "generated_at": "2026-10-14T05:24:02+00:00",
+  "generated_at": "2026-10-15T05:08:50+00:00",
   "since": "2026-01-01",
   "classifier": "rules+semantic",
-  "raw_records": 404046,
+  "raw_records": 423663,
   "raw_by_source": {
-    "gdelt": 14500,
-    "gnews": 1028,
-    "google_news_rss": 76616,
-    "newsapi": 302,
-    "newsdata": 1200,
-    "outlet_rss": 308400,
-    "outlet_scrape": 2000
+    "gdelt": 15750,
+    "gnews": 1076,
+    "google_news_rss": 79341,
+    "newsapi": 316,
+    "newsdata": 1260,
+    "outlet_rss": 323820,
+    "outlet_scrape": 2100
   },
-  "events": 1558,
-  "articles_kept": 3173,
-  "rejected": 26810,
+  "events": 1573,
+  "articles_kept": 3197,
+  "rejected": 27421,
   "events_by_state": {
+    "IN-TN": 150,
+    "IN-CENTRAL": 122,
+    "IN-MH": 263,
     "IN-KA": 313,
-    "IN-DL": 262,
-    "IN-MH": 258,
-    "IN-TN": 148,
-    "IN-GJ": 166,
-    "IN-TG": 291,
-    "IN-CENTRAL": 120
+    "IN-DL": 266,
+    "IN-TG": 292,
+    "IN-GJ": 167
   },
   "events_by_category": {
-    "statement_intent": 167,
-    "governance_deployment": 493,
-    "budget_funding": 286,
+    "governance_deployment": 503,
+    "budget_funding": 290,
+    "statement_intent": 169,
+    "procurement": 36,
     "partnership": 136,
-    "procurement": 35,
     "policy_mission": 137,
-    "regulation_ethics": 140,
-    "institution": 164
+    "regulation_ethics": 139,
+    "institution": 163
   },
   "articles_by_classifier": {
-    "rules+semantic": 2931,
-    "semantic": 242
+    "rules+semantic": 2954,
+    "semantic": 243
   },
   "rejected_by_reason": {
-    "excluded_topic": 535,
+    "excluded_topic": 558,
     "before_2026-01-01": 406,
-    "not_ai": 19819,
-    "no_gov_signal": 3027,
-    "no_state": 2540,
-    "non_focus_state": 246,
-    "semantic_low": 237
+    "not_ai": 20322,
+    "no_gov_signal": 3068,
+    "no_state": 2579,
+    "non_focus_state": 248,
+    "semantic_low": 240
   },
   "events_date_unknown": 0,
-  "events_url_unresolved": 1230
+  "events_url_unresolved": 1234
 }
