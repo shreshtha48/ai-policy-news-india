@@ -1,52 +1,52 @@
 {
-  "generated_at": "2026-10-15T05:08:50+00:00",
+  "generated_at": "2026-10-16T04:59:10+00:00",
   "since": "2026-01-01",
   "classifier": "rules+semantic",
-  "raw_records": 423663,
+  "raw_records": 443027,
   "raw_by_source": {
-    "gdelt": 15750,
-    "gnews": 1076,
-    "google_news_rss": 79341,
-    "newsapi": 316,
-    "newsdata": 1260,
-    "outlet_rss": 323820,
-    "outlet_scrape": 2100
+    "gdelt": 16750,
+    "gnews": 1124,
+    "google_news_rss": 82063,
+    "newsapi": 330,
+    "newsdata": 1320,
+    "outlet_rss": 339240,
+    "outlet_scrape": 2200
   },
-  "events": 1573,
-  "articles_kept": 3197,
-  "rejected": 27421,
+  "events": 1588,
+  "articles_kept": 3220,
+  "rejected": 28031,
   "events_by_state": {
-    "IN-TN": 150,
-    "IN-CENTRAL": 122,
-    "IN-MH": 263,
-    "IN-KA": 313,
-    "IN-DL": 266,
-    "IN-TG": 292,
-    "IN-GJ": 167
+    "IN-KA": 318,
+    "IN-GJ": 169,
+    "IN-TN": 152,
+    "IN-DL": 269,
+    "IN-TG": 294,
+    "IN-CENTRAL": 123,
+    "IN-MH": 263
   },
   "events_by_category": {
-    "governance_deployment": 503,
-    "budget_funding": 290,
+    "governance_deployment": 508,
+    "budget_funding": 294,
+    "policy_mission": 138,
+    "partnership": 138,
+    "institution": 166,
     "statement_intent": 169,
     "procurement": 36,
-    "partnership": 136,
-    "policy_mission": 137,
-    "regulation_ethics": 139,
-    "institution": 163
+    "regulation_ethics": 139
   },
   "articles_by_classifier": {
-    "rules+semantic": 2954,
+    "rules+semantic": 2977,
     "semantic": 243
   },
   "rejected_by_reason": {
-    "excluded_topic": 558,
+    "excluded_topic": 573,
     "before_2026-01-01": 406,
-    "not_ai": 20322,
-    "no_gov_signal": 3068,
-    "no_state": 2579,
-    "non_focus_state": 248,
-    "semantic_low": 240
+    "not_ai": 20794,
+    "no_gov_signal": 3139,
+    "no_state": 2625,
+    "non_focus_state": 249,
+    "semantic_low": 245
   },
   "events_date_unknown": 0,
-  "events_url_unresolved": 1234
+  "events_url_unresolved": 1243
 }
