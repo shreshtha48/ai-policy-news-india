@@ -1,52 +1,52 @@
 {
-  "generated_at": "2026-10-28T06:16:40+00:00",
+  "generated_at": "2026-10-29T06:24:54+00:00",
   "since": "2026-01-01",
   "classifier": "rules+semantic",
-  "raw_records": 672346,
+  "raw_records": 691034,
   "raw_by_source": {
-    "gdelt": 25694,
-    "gnews": 1663,
-    "google_news_rss": 114787,
-    "newsapi": 482,
-    "newsdata": 2040,
-    "outlet_rss": 524280,
-    "outlet_scrape": 3400
+    "gdelt": 26194,
+    "gnews": 1707,
+    "google_news_rss": 117340,
+    "newsapi": 493,
+    "newsdata": 2100,
+    "outlet_rss": 539700,
+    "outlet_scrape": 3500
   },
-  "events": 1740,
-  "articles_kept": 3538,
-  "rejected": 34697,
+  "events": 1758,
+  "articles_kept": 3573,
+  "rejected": 35379,
   "events_by_state": {
-    "IN-CENTRAL": 133,
-    "IN-DL": 303,
-    "IN-TG": 315,
-    "IN-KA": 355,
-    "IN-MH": 286,
-    "IN-TN": 166,
-    "IN-GJ": 182
+    "IN-TN": 170,
+    "IN-KA": 360,
+    "IN-MH": 289,
+    "IN-DL": 307,
+    "IN-TG": 317,
+    "IN-GJ": 183,
+    "IN-CENTRAL": 132
   },
   "events_by_category": {
-    "policy_mission": 153,
+    "governance_deployment": 559,
+    "budget_funding": 331,
+    "partnership": 149,
+    "policy_mission": 154,
     "institution": 178,
-    "budget_funding": 325,
-    "statement_intent": 191,
-    "partnership": 147,
+    "statement_intent": 192,
     "regulation_ethics": 154,
-    "governance_deployment": 551,
     "procurement": 41
   },
   "articles_by_classifier": {
-    "rules+semantic": 3273,
-    "semantic": 265
+    "rules+semantic": 3305,
+    "semantic": 268
   },
   "rejected_by_reason": {
-    "excluded_topic": 675,
+    "excluded_topic": 687,
     "before_2026-01-01": 406,
-    "not_ai": 26237,
-    "no_gov_signal": 3704,
-    "no_state": 3094,
-    "non_focus_state": 286,
-    "semantic_low": 295
+    "not_ai": 26845,
+    "no_gov_signal": 3733,
+    "no_state": 3115,
+    "non_focus_state": 292,
+    "semantic_low": 301
   },
   "events_date_unknown": 0,
-  "events_url_unresolved": 1295
+  "events_url_unresolved": 1303
 }
