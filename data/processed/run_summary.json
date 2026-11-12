@@ -1,52 +1,52 @@
 {
-  "generated_at": "2026-11-11T07:11:46+00:00",
+  "generated_at": "2026-11-12T07:48:05+00:00",
   "since": "2026-01-01",
   "classifier": "rules+semantic",
-  "raw_records": 936580,
+  "raw_records": 954903,
   "raw_by_source": {
-    "gdelt": 35309,
-    "gnews": 2311,
-    "google_news_rss": 148906,
-    "newsapi": 598,
-    "newsdata": 2879,
-    "outlet_rss": 741777,
-    "outlet_scrape": 4800
+    "gdelt": 36094,
+    "gnews": 2363,
+    "google_news_rss": 150580,
+    "newsapi": 599,
+    "newsdata": 2939,
+    "outlet_rss": 757428,
+    "outlet_scrape": 4900
   },
-  "events": 1950,
-  "articles_kept": 3992,
-  "rejected": 44115,
+  "events": 1962,
+  "articles_kept": 4018,
+  "rejected": 44707,
   "events_by_state": {
-    "IN-KA": 385,
-    "IN-DL": 346,
+    "IN-TG": 349,
+    "IN-DL": 352,
+    "IN-MH": 323,
     "IN-TN": 200,
-    "IN-TG": 347,
-    "IN-MH": 321,
+    "IN-KA": 387,
     "IN-GJ": 210,
     "IN-CENTRAL": 141
   },
   "events_by_category": {
+    "governance_deployment": 634,
+    "statement_intent": 216,
+    "budget_funding": 358,
     "procurement": 45,
-    "governance_deployment": 631,
-    "budget_funding": 357,
     "regulation_ethics": 181,
+    "policy_mission": 165,
     "partnership": 165,
-    "statement_intent": 209,
-    "policy_mission": 164,
     "institution": 198
   },
   "articles_by_classifier": {
-    "rules+semantic": 3701,
-    "semantic": 291
+    "rules+semantic": 3724,
+    "semantic": 294
   },
   "rejected_by_reason": {
-    "excluded_topic": 844,
+    "excluded_topic": 855,
     "before_2026-01-01": 418,
-    "not_ai": 34288,
-    "no_gov_signal": 4380,
-    "no_state": 3486,
-    "non_focus_state": 324,
-    "semantic_low": 375
+    "not_ai": 34805,
+    "no_gov_signal": 4418,
+    "no_state": 3504,
+    "non_focus_state": 326,
+    "semantic_low": 381
   },
   "events_date_unknown": 0,
-  "events_url_unresolved": 1373
+  "events_url_unresolved": 1377
 }
