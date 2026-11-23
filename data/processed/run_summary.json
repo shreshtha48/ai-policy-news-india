@@ -1,52 +1,52 @@
 {
-  "generated_at": "2026-11-21T07:46:49+00:00",
+  "generated_at": "2026-11-23T08:14:08+00:00",
   "since": "2026-01-01",
   "classifier": "rules+semantic",
-  "raw_records": 1118325,
+  "raw_records": 1136855,
   "raw_by_source": {
-    "gdelt": 41656,
-    "gnews": 2835,
-    "google_news_rss": 166112,
-    "newsapi": 618,
-    "newsdata": 3479,
-    "outlet_rss": 897825,
-    "outlet_scrape": 5800
+    "gdelt": 42516,
+    "gnews": 2883,
+    "google_news_rss": 167918,
+    "newsapi": 623,
+    "newsdata": 3539,
+    "outlet_rss": 913476,
+    "outlet_scrape": 5900
   },
-  "events": 2090,
-  "articles_kept": 4299,
-  "rejected": 49676,
+  "events": 2113,
+  "articles_kept": 4335,
+  "rejected": 50462,
   "events_by_state": {
-    "IN-DL": 375,
-    "IN-MH": 330,
-    "IN-GJ": 216,
-    "IN-TN": 219,
-    "IN-KA": 432,
-    "IN-TG": 370,
-    "IN-CENTRAL": 148
+    "IN-TN": 223,
+    "IN-DL": 379,
+    "IN-GJ": 218,
+    "IN-MH": 335,
+    "IN-KA": 436,
+    "IN-TG": 373,
+    "IN-CENTRAL": 149
   },
   "events_by_category": {
-    "regulation_ethics": 193,
-    "budget_funding": 378,
-    "governance_deployment": 669,
-    "procurement": 51,
-    "institution": 209,
-    "partnership": 179,
+    "budget_funding": 384,
+    "governance_deployment": 677,
+    "policy_mission": 178,
+    "partnership": 181,
+    "institution": 212,
     "statement_intent": 235,
-    "policy_mission": 176
+    "regulation_ethics": 194,
+    "procurement": 52
   },
   "articles_by_classifier": {
-    "rules+semantic": 3977,
-    "semantic": 322
+    "rules+semantic": 4009,
+    "semantic": 326
   },
   "rejected_by_reason": {
-    "excluded_topic": 963,
+    "excluded_topic": 970,
     "before_2026-01-01": 419,
-    "not_ai": 39066,
-    "no_gov_signal": 4760,
-    "no_state": 3712,
-    "non_focus_state": 356,
-    "semantic_low": 400
+    "not_ai": 39740,
+    "no_gov_signal": 4812,
+    "no_state": 3753,
+    "non_focus_state": 363,
+    "semantic_low": 405
   },
   "events_date_unknown": 0,
-  "events_url_unresolved": 1436
+  "events_url_unresolved": 1446
 }
